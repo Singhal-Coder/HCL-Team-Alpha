@@ -4,25 +4,6 @@ A modular, production-style data pipeline for hospital health monitoring. It ing
 
 **Built for the HCL Hackathon — Team Alpha**
 
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites & Installation](#prerequisites--installation)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Pipeline Stages](#pipeline-stages)
-- [Data Cleaning](#data-cleaning)
-- [Joins & Patient Master](#joins--patient-master)
-- [Anomaly Detection](#anomaly-detection)
-- [Visualizations](#visualizations)
-- [Input Data](#input-data)
-- [Architecture](#architecture)
-- [Judging Criteria](#judging-criteria)
-
----
-
 ## Overview
 
 | Aspect | Description |
