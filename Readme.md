@@ -1,24 +1,24 @@
-# 🏥 Hospital Health Monitoring Mini-Pipeline
+# Hospital Health Monitoring Mini-Pipeline
 
 A Python-based data processing pipeline that reads hospital data from multiple sources, cleans and combines it, detects anomalies in patient vitals, and visualizes key health trends — built using a **Bronze → Silver → Gold** lakehouse architecture.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
-├── bronze/                  # Raw, unprocessed data (Task 1)
+├── bronze/                  # Raw, unprocessed data 
 │   ├── vitals.csv
 │   ├── ehr.csv
 │   └── labs.csv
-├── silver/                  # Cleaned & standardized data (Tasks 2–3)
+├── silver/                  # Cleaned & standardized data 
 │   ├── clean_vitals.csv
 │   ├── clean_labs.csv
 │   └── patient_master.csv
-├── gold/                    # Analytical outputs (Task 4)
+├── gold/                    # Analytical outputs 
 │   └── anomalies.csv
-├── visualizations/          # Charts & graphs (Task 5)
+├── visualizations/          # Charts & graphs 
 │   ├── hr_trend.png
 │   ├── oxygen_distribution.png
 │   └── anomaly_counts.png
@@ -28,7 +28,7 @@ project/
 
 ---
 
-## 🔧 Tools & Dependencies
+## Tools & Dependencies
 
 | Library      | Purpose                              |
 | ------------ | ------------------------------------ |
@@ -46,7 +46,7 @@ pip install pandas numpy matplotlib seaborn
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 python main.py
@@ -56,7 +56,7 @@ This single command executes the entire pipeline end-to-end, from raw ingestion 
 
 ---
 
-## 📝 Pipeline Tasks — Detailed Breakdown
+## Pipeline Tasks — Detailed Breakdown
 
 ---
 
@@ -188,7 +188,7 @@ All visualizations are saved to the `visualizations/` directory.
 
 ---
 
-## 🧪 Input Data Summary
+## Input Data Summary
 
 | File           | Format     | Records | Key Fields                                              |
 | -------------- | ---------- | ------- | ------------------------------------------------------- |
@@ -202,7 +202,7 @@ All visualizations are saved to the `visualizations/` directory.
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -228,7 +228,7 @@ This follows the **Medallion Architecture** pattern:
 
 ---
 
-## 📊 Judging Criteria
+## Judging Criteria
 
 | Category                        | Weight | Coverage                             |
 | ------------------------------- | ------ | ------------------------------------ |
@@ -246,6 +246,6 @@ This follows the **Medallion Architecture** pattern:
 
 ---
 
-## 📜 License
+## License
 
 This project was built as part of the **HCL Hackathon** challenge.
