@@ -18,7 +18,7 @@ Re-run anytime to refresh.
 import os
 import pandas as pd
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(_file_))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 MASTER_PATH = os.path.join(ROOT_DIR, "silver", "patient_master.csv")
 
