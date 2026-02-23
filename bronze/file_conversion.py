@@ -1,39 +1,75 @@
-from docx import Document
+"""
+Bronze Layer - Convert INPUT_DATA files to CSV
+===============================================
+Reads from INPUT_DATA/ and writes CSVs to bronze/.
+Just re-run this script whenever INPUT_DATA files are updated.
+
+Usage:  python bronze/file_conversion.py
+"""
+
+import os
 import json
 import csv
 import pandas as pd
 
-def docx_jsonarray_to_csv(input_docx, output_csv):
-    doc = Document(input_docx)
-    full_text = "\n".join(p.text for p in doc.paragraphs)
 
-    start = full_text.find("[")
-    end = full_text.rfind("]") + 1
+# --- Paths ---
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
+INPUT_DIR = os.path.join(ROOT_DIR, "INPUT_DATA")
+OUTPUT_DIR = SCRIPT_DIR  # bronze/
 
-    if start == -1 or end == -1:
-        print(f"No JSON array found in {input_docx}")
-        return
 
-    data = json.loads(full_text[start:end])
-    headers = data[0].keys()
+def json_to_csv(input_json, output_csv):
+    """Convert a JSON file (array of objects) to CSV."""
+    with open(input_json, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    with open(output_csv, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=headers)
+    with open(output_csv, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
         writer.writeheader()
         writer.writerows(data)
+    return len(data)
 
-    print(f" Created {output_csv}")
 
-
-def excel_to_csv(input_xlsx, output_csv):
-    df = pd.read_excel(input_xlsx)
-    df.to_csv(output_csv, index=False)
-    print(f" Created {output_csv}")
+def csv_to_csv(input_csv, output_csv):
+    """Copy/normalize a CSV file."""
+    df = pd.read_csv(input_csv)
+    df.to_csv(output_csv, index=False, encoding="utf-8")
+    return len(df)
 
 
 if __name__ == "__main__":
-    docx_jsonarray_to_csv("vitals.docx", "vitals.csv")
-    docx_jsonarray_to_csv("labs- Ajay kumar.docx", "labs.csv")
-    excel_to_csv("ehr.xlsx", "ehr.csv")
+    print("=" * 50)
+    print("Converting INPUT_DATA -> bronze/ (CSV)")
+    print("=" * 50)
 
-    print("\n All files converted successfully!")
+    # INPUT file -> OUTPUT csv name
+    conversions = [
+        ("ehr.csv",     "ehr.csv"),
+        ("labs.json",   "labs.csv"),
+        ("vitals.json", "vitals.csv"),
+    ]
+
+    for src_name, dst_name in conversions:
+        src = os.path.join(INPUT_DIR, src_name)
+        dst = os.path.join(OUTPUT_DIR, dst_name)
+        ext = os.path.splitext(src_name)[1].lower()
+
+        try:
+            if ext == ".json":
+                rows = json_to_csv(src, dst)
+            elif ext == ".csv":
+                rows = csv_to_csv(src, dst)
+            elif ext in (".xlsx", ".xls"):
+                df = pd.read_excel(src)
+                df.to_csv(dst, index=False, encoding="utf-8")
+                rows = len(df)
+            else:
+                print(f"  [SKIP] Unsupported: {src_name}")
+                continue
+            print(f"  ✓ {src_name} -> {dst_name}  ({rows} rows)")
+        except Exception as e:
+            print(f"  ✗ {src_name} FAILED: {e}")
+
+    print("\nDone!")

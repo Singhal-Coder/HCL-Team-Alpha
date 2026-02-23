@@ -1,0 +1,12002 @@
+[
+  {
+    "patientId": 2001,
+    "timestamp": 1705003913,
+    "hr": 86.6,
+    "ox": 94.6,
+    "sys": 98,
+    "dia": 67
+  },
+  {
+    "patientId": 2001,
+    "timestamp": 1705010633,
+    "hr": 86.6,
+    "ox": 95.6,
+    "sys": 121,
+    "dia": 90
+  },
+  {
+    "patientId": 2001,
+    "timestamp": 1705014593,
+    "hr": 75.1,
+    "ox": 96.5,
+    "sys": 125,
+    "dia": 89
+  },
+  {
+    "patientId": 2001,
+    "timestamp": 1705020233,
+    "hr": 88.2,
+    "ox": 95.4,
+    "sys": 129,
+    "dia": 78
+  },
+  {
+    "patientId": 2001,
+    "timestamp": 1705027793,
+    "hr": 102.9,
+    "ox": 98.1,
+    "sys": 98,
+    "dia": 75
+  },
+  {
+    "patientId": 2002,
+    "timestamp": 1705230545,
+    "hr": 93.9,
+    "ox": 97.6,
+    "sys": 134,
+    "dia": 86
+  },
+  {
+    "patientId": 2002,
+    "timestamp": 1705230425,
+    "hr": 71.6,
+    "ox": 96.0,
+    "sys": 93,
+    "dia": 97
+  },
+  {
+    "patientId": 2002,
+    "timestamp": 1705242965,
+    "hr": 70.1,
+    "ox": 95.4,
+    "sys": 131,
+    "dia": 74
+  },
+  {
+    "patientId": 2002,
+    "timestamp": 1705242605,
+    "hr": 74.8,
+    "ox": 96.4,
+    "sys": 133,
+    "dia": 88
+  },
+  {
+    "patientId": 2002,
+    "timestamp": 1705233305,
+    "hr": 62.6,
+    "ox": 93.2,
+    "sys": 114,
+    "dia": 77
+  },
+  {
+    "patientId": 2003,
+    "timestamp": 1704893542,
+    "hr": 55.6,
+    "ox": 99.1,
+    "sys": 120,
+    "dia": 79
+  },
+  {
+    "patientId": 2003,
+    "timestamp": 1704894862,
+    "hr": 83.9,
+    "ox": 94.3,
+    "sys": 132,
+    "dia": 95
+  },
+  {
+    "patientId": 2003,
+    "timestamp": 1704904822,
+    "hr": 62.7,
+    "ox": 94.3,
+    "sys": 119,
+    "dia": 84
+  },
+  {
+    "patientId": 2003,
+    "timestamp": 1704910102,
+    "hr": 82.7,
+    "ox": 96.0,
+    "sys": 126,
+    "dia": 72
+  },
+  {
+    "patientId": 2003,
+    "timestamp": 1704915442,
+    "hr": 107.3,
+    "ox": 96.8,
+    "sys": 118,
+    "dia": 98
+  },
+  {
+    "patientId": 2004,
+    "timestamp": 1705142151,
+    "hr": 90.5,
+    "ox": 96.4,
+    "sys": 157,
+    "dia": 71
+  },
+  {
+    "patientId": 2004,
+    "timestamp": 1705142391,
+    "hr": 78.1,
+    "ox": 93.3,
+    "sys": 140,
+    "dia": 61
+  },
+  {
+    "patientId": 2004,
+    "timestamp": 1705141431,
+    "hr": 84.1,
+    "ox": 99.8,
+    "sys": 139,
+    "dia": 74
+  },
+  {
+    "patientId": 2004,
+    "timestamp": 1705154091,
+    "hr": 88.9,
+    "ox": 99.0,
+    "sys": 135,
+    "dia": 78
+  },
+  {
+    "patientId": 2004,
+    "timestamp": 1705162311,
+    "hr": 94.2,
+    "ox": 95.1,
+    "sys": 99,
+    "dia": 93
+  },
+  {
+    "patientId": 2005,
+    "timestamp": 1704994394,
+    "hr": 83.3,
+    "ox": 96.6,
+    "sys": 90,
+    "dia": 70
+  },
+  {
+    "patientId": 2005,
+    "timestamp": 1704992954,
+    "hr": 80.1,
+    "ox": 96.1,
+    "sys": 118,
+    "dia": 86
+  },
+  {
+    "patientId": 2005,
+    "timestamp": 1704997454,
+    "hr": 63.6,
+    "ox": 97.1,
+    "sys": 140,
+    "dia": 95
+  },
+  {
+    "patientId": 2005,
+    "timestamp": 1704998414,
+    "hr": 84.0,
+    "ox": 94.5,
+    "sys": 148,
+    "dia": 81
+  },
+  {
+    "patientId": 2005,
+    "timestamp": 1705004654,
+    "hr": 82.0,
+    "ox": 98.3,
+    "sys": 140,
+    "dia": 81
+  },
+  {
+    "patientId": 2006,
+    "timestamp": 1705273953,
+    "hr": 87.7,
+    "ox": 98.7,
+    "sys": 110,
+    "dia": 86
+  },
+  {
+    "patientId": 2006,
+    "timestamp": 1705273893,
+    "hr": 59.2,
+    "ox": 98.9,
+    "sys": 138,
+    "dia": 78
+  },
+  {
+    "patientId": 2006,
+    "timestamp": 1705278213,
+    "hr": 98.0,
+    "ox": 96.1,
+    "sys": 149,
+    "dia": 66
+  },
+  {
+    "patientId": 2006,
+    "timestamp": 1705290333,
+    "hr": 79.8,
+    "ox": 97.6,
+    "sys": 120,
+    "dia": 63
+  },
+  {
+    "patientId": 2006,
+    "timestamp": 1705297953,
+    "hr": 55.2,
+    "ox": 95.8,
+    "sys": 105,
+    "dia": 86
+  },
+  {
+    "patientId": 2007,
+    "timestamp": 1705020244,
+    "hr": 66.8,
+    "ox": 97.0,
+    "sys": 136,
+    "dia": 77
+  },
+  {
+    "patientId": 2007,
+    "timestamp": 1705024984,
+    "hr": 68.2,
+    "ox": 97.0,
+    "sys": 117,
+    "dia": 72
+  },
+  {
+    "patientId": 2007,
+    "timestamp": 1705023604,
+    "hr": 62.8,
+    "ox": 95.6,
+    "sys": 125,
+    "dia": 57
+  },
+  {
+    "patientId": 2007,
+    "timestamp": 1705034884,
+    "hr": 71.6,
+    "ox": 96.4,
+    "sys": 123,
+    "dia": 77
+  },
+  {
+    "patientId": 2007,
+    "timestamp": 1705041604,
+    "hr": 71.2,
+    "ox": 97.2,
+    "sys": 116,
+    "dia": 67
+  },
+  {
+    "patientId": 2008,
+    "timestamp": 1704930067,
+    "hr": 61.8,
+    "ox": 98.7,
+    "sys": 149,
+    "dia": 77
+  },
+  {
+    "patientId": 2008,
+    "timestamp": 1704928687,
+    "hr": 90.2,
+    "ox": 94.0,
+    "sys": 125,
+    "dia": 89
+  },
+  {
+    "patientId": 2008,
+    "timestamp": 1704936607,
+    "hr": 78.5,
+    "ox": 94.1,
+    "sys": 100,
+    "dia": 82
+  },
+  {
+    "patientId": 2008,
+    "timestamp": 1704934747,
+    "hr": 77.8,
+    "ox": 95.9,
+    "sys": 109,
+    "dia": 73
+  },
+  {
+    "patientId": 2008,
+    "timestamp": 1704937987,
+    "hr": 100.2,
+    "ox": 97.8,
+    "sys": 124,
+    "dia": 94
+  },
+  {
+    "patientId": 2009,
+    "timestamp": 1705062768,
+    "hr": 108.5,
+    "ox": 98.0,
+    "sys": 118,
+    "dia": 95
+  },
+  {
+    "patientId": 2009,
+    "timestamp": 1705064208,
+    "hr": 69.5,
+    "ox": 93.2,
+    "sys": 138,
+    "dia": 99
+  },
+  {
+    "patientId": 2009,
+    "timestamp": 1705068708,
+    "hr": 80.3,
+    "ox": 96.3,
+    "sys": 119,
+    "dia": 77
+  },
+  {
+    "patientId": 2009,
+    "timestamp": 1705067088,
+    "hr": 72.2,
+    "ox": 95.0,
+    "sys": 116,
+    "dia": 71
+  },
+  {
+    "patientId": 2009,
+    "timestamp": 1705068948,
+    "hr": 50.0,
+    "ox": 97.4,
+    "sys": 130,
+    "dia": 79
+  },
+  {
+    "patientId": 2010,
+    "timestamp": 1705260929,
+    "hr": 73.1,
+    "ox": 97.5,
+    "sys": 132,
+    "dia": 70
+  },
+  {
+    "patientId": 2010,
+    "timestamp": 1705266269,
+    "hr": 104.5,
+    "ox": 99.2,
+    "sys": 138,
+    "dia": 72
+  },
+  {
+    "patientId": 2010,
+    "timestamp": 1705260629,
+    "hr": 70.8,
+    "ox": 92.4,
+    "sys": 100,
+    "dia": 80
+  },
+  {
+    "patientId": 2010,
+    "timestamp": 1705260749,
+    "hr": 61.7,
+    "ox": 97.6,
+    "sys": 107,
+    "dia": 82
+  },
+  {
+    "patientId": 2010,
+    "timestamp": 1705270709,
+    "hr": 72.2,
+    "ox": 96.1,
+    "sys": 112,
+    "dia": 76
+  },
+  {
+    "patientId": 2011,
+    "timestamp": 1704915813,
+    "hr": 72.8,
+    "ox": 97.5,
+    "sys": 141,
+    "dia": 87
+  },
+  {
+    "patientId": 2011,
+    "timestamp": 1704921813,
+    "hr": 50.3,
+    "ox": 94.4,
+    "sys": 133,
+    "dia": 77
+  },
+  {
+    "patientId": 2011,
+    "timestamp": 1704928653,
+    "hr": 82.0,
+    "ox": 96.2,
+    "sys": 132,
+    "dia": 95
+  },
+  {
+    "patientId": 2011,
+    "timestamp": 1704933453,
+    "hr": 84.1,
+    "ox": 95.2,
+    "sys": 117,
+    "dia": 75
+  },
+  {
+    "patientId": 2011,
+    "timestamp": 1704921813,
+    "hr": 86.5,
+    "ox": 98.1,
+    "sys": 91,
+    "dia": 83
+  },
+  {
+    "patientId": 2012,
+    "timestamp": 1705247798,
+    "hr": 94.4,
+    "ox": 95.2,
+    "sys": 94,
+    "dia": 69
+  },
+  {
+    "patientId": 2012,
+    "timestamp": 1705248638,
+    "hr": 92.6,
+    "ox": 94.3,
+    "sys": 101,
+    "dia": 80
+  },
+  {
+    "patientId": 2012,
+    "timestamp": 1705257698,
+    "hr": 90.0,
+    "ox": 91.6,
+    "sys": 128,
+    "dia": 87
+  },
+  {
+    "patientId": 2012,
+    "timestamp": 1705247618,
+    "hr": 82.0,
+    "ox": 97.1,
+    "sys": 111,
+    "dia": 75
+  },
+  {
+    "patientId": 2012,
+    "timestamp": 1705265018,
+    "hr": 87.6,
+    "ox": 100.0,
+    "sys": 127,
+    "dia": 82
+  },
+  {
+    "patientId": 2013,
+    "timestamp": 1705280230,
+    "hr": 66.9,
+    "ox": 94.4,
+    "sys": 147,
+    "dia": 84
+  },
+  {
+    "patientId": 2013,
+    "timestamp": 1705288510,
+    "hr": 92.5,
+    "ox": 95.0,
+    "sys": 120,
+    "dia": 70
+  },
+  {
+    "patientId": 2013,
+    "timestamp": 1705292170,
+    "hr": 74.9,
+    "ox": 94.9,
+    "sys": 139,
+    "dia": 89
+  },
+  {
+    "patientId": 2013,
+    "timestamp": 1705293610,
+    "hr": 85.0,
+    "ox": 99.8,
+    "sys": 113,
+    "dia": 67
+  },
+  {
+    "patientId": 2013,
+    "timestamp": 1705286230,
+    "hr": 82.0,
+    "ox": 97.7,
+    "sys": 111,
+    "dia": 56
+  },
+  {
+    "patientId": 2014,
+    "timestamp": 1705332986,
+    "hr": 83.4,
+    "ox": 93.7,
+    "sys": 161,
+    "dia": 81
+  },
+  {
+    "patientId": 2014,
+    "timestamp": 1705329206,
+    "hr": 101.4,
+    "ox": 97.2,
+    "sys": 128,
+    "dia": 84
+  },
+  {
+    "patientId": 2014,
+    "timestamp": 1705331846,
+    "hr": 102.6,
+    "ox": 98.7,
+    "sys": 148,
+    "dia": 74
+  },
+  {
+    "patientId": 2014,
+    "timestamp": 1705348166,
+    "hr": 78.9,
+    "ox": 97.6,
+    "sys": 163,
+    "dia": 85
+  },
+  {
+    "patientId": 2014,
+    "timestamp": 1705340426,
+    "hr": 78.1,
+    "ox": 95.1,
+    "sys": 109,
+    "dia": 63
+  },
+  {
+    "patientId": 2015,
+    "timestamp": 1705114437,
+    "hr": 77.2,
+    "ox": 97.3,
+    "sys": 144,
+    "dia": 71
+  },
+  {
+    "patientId": 2015,
+    "timestamp": 1705116837,
+    "hr": 76.9,
+    "ox": 93.0,
+    "sys": 121,
+    "dia": 77
+  },
+  {
+    "patientId": 2015,
+    "timestamp": 1705120257,
+    "hr": 89.7,
+    "ox": 95.7,
+    "sys": 141,
+    "dia": 61
+  },
+  {
+    "patientId": 2015,
+    "timestamp": 1705125837,
+    "hr": 76.8,
+    "ox": 93.8,
+    "sys": 163,
+    "dia": 80
+  },
+  {
+    "patientId": 2015,
+    "timestamp": 1705115877,
+    "hr": 70.6,
+    "ox": 97.3,
+    "sys": 123,
+    "dia": 81
+  },
+  {
+    "patientId": 2016,
+    "timestamp": 1705061364,
+    "hr": 79.6,
+    "ox": 94.9,
+    "sys": 114,
+    "dia": 81
+  },
+  {
+    "patientId": 2016,
+    "timestamp": 1705068504,
+    "hr": 96.7,
+    "ox": 90.7,
+    "sys": 93,
+    "dia": 67
+  },
+  {
+    "patientId": 2016,
+    "timestamp": 1705069704,
+    "hr": 75.9,
+    "ox": 95.3,
+    "sys": 103,
+    "dia": 72
+  },
+  {
+    "patientId": 2016,
+    "timestamp": 1705074624,
+    "hr": 75.7,
+    "ox": 95.9,
+    "sys": 132,
+    "dia": 72
+  },
+  {
+    "patientId": 2016,
+    "timestamp": 1705078644,
+    "hr": 88.7,
+    "ox": 93.7,
+    "sys": 117,
+    "dia": 84
+  },
+  {
+    "patientId": 2017,
+    "timestamp": 1705196680,
+    "hr": 75.8,
+    "ox": 95.5,
+    "sys": 137,
+    "dia": 70
+  },
+  {
+    "patientId": 2017,
+    "timestamp": 1705202320,
+    "hr": 75.7,
+    "ox": 98.3,
+    "sys": 108,
+    "dia": 86
+  },
+  {
+    "patientId": 2017,
+    "timestamp": 1705198960,
+    "hr": 60.0,
+    "ox": 99.5,
+    "sys": 106,
+    "dia": 71
+  },
+  {
+    "patientId": 2017,
+    "timestamp": 1705202620,
+    "hr": 61.3,
+    "ox": 97.2,
+    "sys": 105,
+    "dia": 97
+  },
+  {
+    "patientId": 2017,
+    "timestamp": 1705209160,
+    "hr": 59.0,
+    "ox": 94.9,
+    "sys": 139,
+    "dia": 79
+  },
+  {
+    "patientId": 2018,
+    "timestamp": 1705120337,
+    "hr": 75.6,
+    "ox": 95.9,
+    "sys": 129,
+    "dia": 62
+  },
+  {
+    "patientId": 2018,
+    "timestamp": 1705123217,
+    "hr": 72.5,
+    "ox": 95.2,
+    "sys": 105,
+    "dia": 81
+  },
+  {
+    "patientId": 2018,
+    "timestamp": 1705121657,
+    "hr": 82.4,
+    "ox": 94.0,
+    "sys": 131,
+    "dia": 62
+  },
+  {
+    "patientId": 2018,
+    "timestamp": 1705130837,
+    "hr": 74.4,
+    "ox": 97.1,
+    "sys": 149,
+    "dia": 95
+  },
+  {
+    "patientId": 2018,
+    "timestamp": 1705134917,
+    "hr": 57.9,
+    "ox": 93.4,
+    "sys": 115,
+    "dia": 80
+  },
+  {
+    "patientId": 2019,
+    "timestamp": 1705233915,
+    "hr": 75.8,
+    "ox": 96.4,
+    "sys": 103,
+    "dia": 85
+  },
+  {
+    "patientId": 2019,
+    "timestamp": 1705237455,
+    "hr": 68.9,
+    "ox": 93.3,
+    "sys": 110,
+    "dia": 90
+  },
+  {
+    "patientId": 2019,
+    "timestamp": 1705242435,
+    "hr": 105.0,
+    "ox": 95.4,
+    "sys": 126,
+    "dia": 81
+  },
+  {
+    "patientId": 2019,
+    "timestamp": 1705239015,
+    "hr": 73.1,
+    "ox": 96.2,
+    "sys": 163,
+    "dia": 79
+  },
+  {
+    "patientId": 2019,
+    "timestamp": 1705243515,
+    "hr": 75.8,
+    "ox": 96.5,
+    "sys": 127,
+    "dia": 76
+  },
+  {
+    "patientId": 2020,
+    "timestamp": 1705307401,
+    "hr": 72.5,
+    "ox": 99.6,
+    "sys": 135,
+    "dia": 74
+  },
+  {
+    "patientId": 2020,
+    "timestamp": 1705313281,
+    "hr": 66.9,
+    "ox": 97.9,
+    "sys": 98,
+    "dia": 91
+  },
+  {
+    "patientId": 2020,
+    "timestamp": 1705307521,
+    "hr": 79.1,
+    "ox": 97.2,
+    "sys": 127,
+    "dia": 66
+  },
+  {
+    "patientId": 2020,
+    "timestamp": 1705323601,
+    "hr": 89.8,
+    "ox": 97.2,
+    "sys": 144,
+    "dia": 90
+  },
+  {
+    "patientId": 2020,
+    "timestamp": 1705327801,
+    "hr": 79.2,
+    "ox": 92.7,
+    "sys": 131,
+    "dia": 82
+  },
+  {
+    "patientId": 2021,
+    "timestamp": 1705015413,
+    "hr": 89.8,
+    "ox": 96.3,
+    "sys": 131,
+    "dia": 77
+  },
+  {
+    "patientId": 2021,
+    "timestamp": 1705024473,
+    "hr": 79.5,
+    "ox": 97.4,
+    "sys": 125,
+    "dia": 80
+  },
+  {
+    "patientId": 2021,
+    "timestamp": 1705020333,
+    "hr": 63.1,
+    "ox": 97.0,
+    "sys": 109,
+    "dia": 92
+  },
+  {
+    "patientId": 2021,
+    "timestamp": 1705030233,
+    "hr": 77.8,
+    "ox": 95.1,
+    "sys": 146,
+    "dia": 81
+  },
+  {
+    "patientId": 2021,
+    "timestamp": 1705024593,
+    "hr": 90.4,
+    "ox": 96.6,
+    "sys": 104,
+    "dia": 85
+  },
+  {
+    "patientId": 2022,
+    "timestamp": 1704985737,
+    "hr": 81.0,
+    "ox": 98.1,
+    "sys": 117,
+    "dia": 94
+  },
+  {
+    "patientId": 2022,
+    "timestamp": 1704990837,
+    "hr": 91.0,
+    "ox": 96.6,
+    "sys": 99,
+    "dia": 62
+  },
+  {
+    "patientId": 2022,
+    "timestamp": 1704997497,
+    "hr": 75.0,
+    "ox": 95.4,
+    "sys": 104,
+    "dia": 70
+  },
+  {
+    "patientId": 2022,
+    "timestamp": 1704993117,
+    "hr": 56.8,
+    "ox": 93.6,
+    "sys": 108,
+    "dia": 86
+  },
+  {
+    "patientId": 2022,
+    "timestamp": 1705010817,
+    "hr": 91.8,
+    "ox": 95.6,
+    "sys": 124,
+    "dia": 86
+  },
+  {
+    "patientId": 2023,
+    "timestamp": 1704952045,
+    "hr": 94.0,
+    "ox": 99.2,
+    "sys": 101,
+    "dia": 80
+  },
+  {
+    "patientId": 2023,
+    "timestamp": 1704951385,
+    "hr": 72.5,
+    "ox": 94.9,
+    "sys": 115,
+    "dia": 91
+  },
+  {
+    "patientId": 2023,
+    "timestamp": 1704951085,
+    "hr": 75.5,
+    "ox": 93.7,
+    "sys": 136,
+    "dia": 90
+  },
+  {
+    "patientId": 2023,
+    "timestamp": 1704953845,
+    "hr": 73.4,
+    "ox": 97.3,
+    "sys": 128,
+    "dia": 64
+  },
+  {
+    "patientId": 2023,
+    "timestamp": 1704965725,
+    "hr": 69.9,
+    "ox": 96.3,
+    "sys": 119,
+    "dia": 85
+  },
+  {
+    "patientId": 2024,
+    "timestamp": 1705265388,
+    "hr": 83.4,
+    "ox": 96.7,
+    "sys": 134,
+    "dia": 100
+  },
+  {
+    "patientId": 2024,
+    "timestamp": 1705266168,
+    "hr": 59.0,
+    "ox": 93.5,
+    "sys": 138,
+    "dia": 70
+  },
+  {
+    "patientId": 2024,
+    "timestamp": 1705273128,
+    "hr": 73.8,
+    "ox": 96.4,
+    "sys": 124,
+    "dia": 91
+  },
+  {
+    "patientId": 2024,
+    "timestamp": 1705275768,
+    "hr": 94.5,
+    "ox": 96.7,
+    "sys": 144,
+    "dia": 68
+  },
+  {
+    "patientId": 2024,
+    "timestamp": 1705280748,
+    "hr": 87.0,
+    "ox": 95.3,
+    "sys": 133,
+    "dia": 91
+  },
+  {
+    "patientId": 2025,
+    "timestamp": 1705068070,
+    "hr": 84.9,
+    "ox": 97.4,
+    "sys": 132,
+    "dia": 88
+  },
+  {
+    "patientId": 2025,
+    "timestamp": 1705071070,
+    "hr": 96.6,
+    "ox": 97.3,
+    "sys": 122,
+    "dia": 81
+  },
+  {
+    "patientId": 2025,
+    "timestamp": 1705069990,
+    "hr": 71.7,
+    "ox": 97.0,
+    "sys": 131,
+    "dia": 84
+  },
+  {
+    "patientId": 2025,
+    "timestamp": 1705075510,
+    "hr": 82.3,
+    "ox": 96.1,
+    "sys": 104,
+    "dia": 87
+  },
+  {
+    "patientId": 2025,
+    "timestamp": 1705081570,
+    "hr": 97.9,
+    "ox": 96.4,
+    "sys": 128,
+    "dia": 75
+  },
+  {
+    "patientId": 2026,
+    "timestamp": 1704924442,
+    "hr": 78.9,
+    "ox": 96.6,
+    "sys": 134,
+    "dia": 81
+  },
+  {
+    "patientId": 2026,
+    "timestamp": 1704923422,
+    "hr": 82.1,
+    "ox": 96.8,
+    "sys": 122,
+    "dia": 75
+  },
+  {
+    "patientId": 2026,
+    "timestamp": 1704933202,
+    "hr": 81.6,
+    "ox": 94.6,
+    "sys": 142,
+    "dia": 64
+  },
+  {
+    "patientId": 2026,
+    "timestamp": 1704924502,
+    "hr": 84.4,
+    "ox": 94.9,
+    "sys": 123,
+    "dia": 59
+  },
+  {
+    "patientId": 2026,
+    "timestamp": 1704942742,
+    "hr": 73.3,
+    "ox": 99.8,
+    "sys": 103,
+    "dia": 58
+  },
+  {
+    "patientId": 2027,
+    "timestamp": 1705203942,
+    "hr": 87.8,
+    "ox": 98.0,
+    "sys": 141,
+    "dia": 93
+  },
+  {
+    "patientId": 2027,
+    "timestamp": 1705206342,
+    "hr": 87.8,
+    "ox": 95.8,
+    "sys": 152,
+    "dia": 69
+  },
+  {
+    "patientId": 2027,
+    "timestamp": 1705210062,
+    "hr": 90.8,
+    "ox": 95.6,
+    "sys": 114,
+    "dia": 73
+  },
+  {
+    "patientId": 2027,
+    "timestamp": 1705205502,
+    "hr": 65.0,
+    "ox": 98.9,
+    "sys": 123,
+    "dia": 91
+  },
+  {
+    "patientId": 2027,
+    "timestamp": 1705228782,
+    "hr": 83.2,
+    "ox": 95.5,
+    "sys": 135,
+    "dia": 87
+  },
+  {
+    "patientId": 2028,
+    "timestamp": 1705079948,
+    "hr": 87.7,
+    "ox": 98.7,
+    "sys": 127,
+    "dia": 87
+  },
+  {
+    "patientId": 2028,
+    "timestamp": 1705084148,
+    "hr": 67.6,
+    "ox": 95.9,
+    "sys": 130,
+    "dia": 72
+  },
+  {
+    "patientId": 2028,
+    "timestamp": 1705083308,
+    "hr": 79.5,
+    "ox": 93.1,
+    "sys": 126,
+    "dia": 73
+  },
+  {
+    "patientId": 2028,
+    "timestamp": 1705082888,
+    "hr": 72.4,
+    "ox": 98.0,
+    "sys": 120,
+    "dia": 79
+  },
+  {
+    "patientId": 2028,
+    "timestamp": 1705080008,
+    "hr": 74.6,
+    "ox": 91.2,
+    "sys": 101,
+    "dia": 87
+  },
+  {
+    "patientId": 2029,
+    "timestamp": 1705167549,
+    "hr": 84.5,
+    "ox": 97.0,
+    "sys": 124,
+    "dia": 74
+  },
+  {
+    "patientId": 2029,
+    "timestamp": 1705165809,
+    "hr": 80.0,
+    "ox": 93.7,
+    "sys": 147,
+    "dia": 88
+  },
+  {
+    "patientId": 2029,
+    "timestamp": 1705173489,
+    "hr": 69.5,
+    "ox": 96.1,
+    "sys": 120,
+    "dia": 79
+  },
+  {
+    "patientId": 2029,
+    "timestamp": 1705167549,
+    "hr": 68.0,
+    "ox": 95.4,
+    "sys": 151,
+    "dia": 86
+  },
+  {
+    "patientId": 2029,
+    "timestamp": 1705185849,
+    "hr": 74.1,
+    "ox": 95.1,
+    "sys": 129,
+    "dia": 72
+  },
+  {
+    "patientId": 2030,
+    "timestamp": 1705280527,
+    "hr": 80.7,
+    "ox": 94.7,
+    "sys": 135,
+    "dia": 83
+  },
+  {
+    "patientId": 2030,
+    "timestamp": 1705284607,
+    "hr": 73.0,
+    "ox": 98.2,
+    "sys": 126,
+    "dia": 89
+  },
+  {
+    "patientId": 2030,
+    "timestamp": 1705290127,
+    "hr": 104.9,
+    "ox": 94.6,
+    "sys": 151,
+    "dia": 81
+  },
+  {
+    "patientId": 2030,
+    "timestamp": 1705280527,
+    "hr": 67.6,
+    "ox": 94.9,
+    "sys": 134,
+    "dia": 91
+  },
+  {
+    "patientId": 2030,
+    "timestamp": 1705291507,
+    "hr": 100.7,
+    "ox": 96.9,
+    "sys": 125,
+    "dia": 81
+  },
+  {
+    "patientId": 2031,
+    "timestamp": 1705103042,
+    "hr": 74.0,
+    "ox": 96.4,
+    "sys": 141,
+    "dia": 78
+  },
+  {
+    "patientId": 2031,
+    "timestamp": 1705109702,
+    "hr": 74.2,
+    "ox": 99.1,
+    "sys": 106,
+    "dia": 65
+  },
+  {
+    "patientId": 2031,
+    "timestamp": 1705117562,
+    "hr": 61.3,
+    "ox": 100.0,
+    "sys": 123,
+    "dia": 97
+  },
+  {
+    "patientId": 2031,
+    "timestamp": 1705120682,
+    "hr": 77.9,
+    "ox": 97.8,
+    "sys": 134,
+    "dia": 64
+  },
+  {
+    "patientId": 2031,
+    "timestamp": 1705126382,
+    "hr": 86.4,
+    "ox": 93.5,
+    "sys": 145,
+    "dia": 87
+  },
+  {
+    "patientId": 2032,
+    "timestamp": 1705253384,
+    "hr": 85.9,
+    "ox": 96.5,
+    "sys": 116,
+    "dia": 73
+  },
+  {
+    "patientId": 2032,
+    "timestamp": 1705262684,
+    "hr": 83.9,
+    "ox": 95.4,
+    "sys": 100,
+    "dia": 79
+  },
+  {
+    "patientId": 2032,
+    "timestamp": 1705266464,
+    "hr": 89.3,
+    "ox": 90.3,
+    "sys": 142,
+    "dia": 62
+  },
+  {
+    "patientId": 2032,
+    "timestamp": 1705257704,
+    "hr": 84.5,
+    "ox": 95.8,
+    "sys": 137,
+    "dia": 67
+  },
+  {
+    "patientId": 2032,
+    "timestamp": 1705262984,
+    "hr": 74.4,
+    "ox": 96.7,
+    "sys": 124,
+    "dia": 84
+  },
+  {
+    "patientId": 2033,
+    "timestamp": 1705331682,
+    "hr": 54.9,
+    "ox": 96.5,
+    "sys": 121,
+    "dia": 92
+  },
+  {
+    "patientId": 2033,
+    "timestamp": 1705333542,
+    "hr": 98.0,
+    "ox": 97.7,
+    "sys": 119,
+    "dia": 76
+  },
+  {
+    "patientId": 2033,
+    "timestamp": 1705332282,
+    "hr": 90.2,
+    "ox": 98.4,
+    "sys": 143,
+    "dia": 79
+  },
+  {
+    "patientId": 2033,
+    "timestamp": 1705347822,
+    "hr": 92.4,
+    "ox": 96.5,
+    "sys": 121,
+    "dia": 78
+  },
+  {
+    "patientId": 2033,
+    "timestamp": 1705339422,
+    "hr": 80.6,
+    "ox": 94.6,
+    "sys": 123,
+    "dia": 69
+  },
+  {
+    "patientId": 2034,
+    "timestamp": 1705074678,
+    "hr": 80.9,
+    "ox": 92.0,
+    "sys": 138,
+    "dia": 83
+  },
+  {
+    "patientId": 2034,
+    "timestamp": 1705075158,
+    "hr": 54.8,
+    "ox": 100.0,
+    "sys": 111,
+    "dia": 84
+  },
+  {
+    "patientId": 2034,
+    "timestamp": 1705071858,
+    "hr": 93.3,
+    "ox": 93.9,
+    "sys": 134,
+    "dia": 69
+  },
+  {
+    "patientId": 2034,
+    "timestamp": 1705090638,
+    "hr": 83.3,
+    "ox": 94.7,
+    "sys": 141,
+    "dia": 78
+  },
+  {
+    "patientId": 2034,
+    "timestamp": 1705076838,
+    "hr": 90.4,
+    "ox": 97.0,
+    "sys": 127,
+    "dia": 83
+  },
+  {
+    "patientId": 2035,
+    "timestamp": 1705132710,
+    "hr": 91.6,
+    "ox": 96.6,
+    "sys": 118,
+    "dia": 80
+  },
+  {
+    "patientId": 2035,
+    "timestamp": 1705139850,
+    "hr": 93.3,
+    "ox": 98.4,
+    "sys": 134,
+    "dia": 68
+  },
+  {
+    "patientId": 2035,
+    "timestamp": 1705137210,
+    "hr": 70.7,
+    "ox": 96.6,
+    "sys": 140,
+    "dia": 77
+  },
+  {
+    "patientId": 2035,
+    "timestamp": 1705147170,
+    "hr": 99.4,
+    "ox": 96.9,
+    "sys": 121,
+    "dia": 89
+  },
+  {
+    "patientId": 2035,
+    "timestamp": 1705140570,
+    "hr": 92.6,
+    "ox": 97.1,
+    "sys": 135,
+    "dia": 86
+  },
+  {
+    "patientId": 2036,
+    "timestamp": 1705336943,
+    "hr": 78.2,
+    "ox": 96.3,
+    "sys": 122,
+    "dia": 80
+  },
+  {
+    "patientId": 2036,
+    "timestamp": 1705338563,
+    "hr": 64.7,
+    "ox": 92.7,
+    "sys": 111,
+    "dia": 95
+  },
+  {
+    "patientId": 2036,
+    "timestamp": 1705342523,
+    "hr": 72.3,
+    "ox": 93.4,
+    "sys": 149,
+    "dia": 90
+  },
+  {
+    "patientId": 2036,
+    "timestamp": 1705348583,
+    "hr": 53.0,
+    "ox": 94.6,
+    "sys": 125,
+    "dia": 91
+  },
+  {
+    "patientId": 2036,
+    "timestamp": 1705348763,
+    "hr": 63.3,
+    "ox": 92.7,
+    "sys": 140,
+    "dia": 104
+  },
+  {
+    "patientId": 2037,
+    "timestamp": 1705003366,
+    "hr": 88.2,
+    "ox": 97.2,
+    "sys": 121,
+    "dia": 83
+  },
+  {
+    "patientId": 2037,
+    "timestamp": 1705009966,
+    "hr": 71.0,
+    "ox": 95.4,
+    "sys": 99,
+    "dia": 79
+  },
+  {
+    "patientId": 2037,
+    "timestamp": 1705005766,
+    "hr": 91.7,
+    "ox": 94.8,
+    "sys": 96,
+    "dia": 83
+  },
+  {
+    "patientId": 2037,
+    "timestamp": 1705013986,
+    "hr": 68.1,
+    "ox": 97.9,
+    "sys": 110,
+    "dia": 77
+  },
+  {
+    "patientId": 2037,
+    "timestamp": 1705007206,
+    "hr": 68.4,
+    "ox": 97.1,
+    "sys": 152,
+    "dia": 82
+  },
+  {
+    "patientId": 2038,
+    "timestamp": 1705302511,
+    "hr": 60.9,
+    "ox": 96.9,
+    "sys": 124,
+    "dia": 85
+  },
+  {
+    "patientId": 2038,
+    "timestamp": 1705310311,
+    "hr": 73.1,
+    "ox": 96.1,
+    "sys": 132,
+    "dia": 81
+  },
+  {
+    "patientId": 2038,
+    "timestamp": 1705311871,
+    "hr": 80.6,
+    "ox": 96.1,
+    "sys": 114,
+    "dia": 73
+  },
+  {
+    "patientId": 2038,
+    "timestamp": 1705315531,
+    "hr": 93.8,
+    "ox": 95.4,
+    "sys": 120,
+    "dia": 87
+  },
+  {
+    "patientId": 2038,
+    "timestamp": 1705310071,
+    "hr": 71.4,
+    "ox": 97.8,
+    "sys": 120,
+    "dia": 92
+  },
+  {
+    "patientId": 2039,
+    "timestamp": 1705223279,
+    "hr": 82.9,
+    "ox": 94.4,
+    "sys": 158,
+    "dia": 67
+  },
+  {
+    "patientId": 2039,
+    "timestamp": 1705222259,
+    "hr": 87.6,
+    "ox": 96.8,
+    "sys": 122,
+    "dia": 78
+  },
+  {
+    "patientId": 2039,
+    "timestamp": 1705221599,
+    "hr": 94.7,
+    "ox": 99.2,
+    "sys": 101,
+    "dia": 82
+  },
+  {
+    "patientId": 2039,
+    "timestamp": 1705229399,
+    "hr": 78.9,
+    "ox": 100.0,
+    "sys": 112,
+    "dia": 96
+  },
+  {
+    "patientId": 2039,
+    "timestamp": 1705232759,
+    "hr": 91.7,
+    "ox": 98.2,
+    "sys": 129,
+    "dia": 74
+  },
+  {
+    "patientId": 2040,
+    "timestamp": 1705153613,
+    "hr": 75.5,
+    "ox": 95.6,
+    "sys": 116,
+    "dia": 69
+  },
+  {
+    "patientId": 2040,
+    "timestamp": 1705153613,
+    "hr": 73.0,
+    "ox": 95.6,
+    "sys": 113,
+    "dia": 80
+  },
+  {
+    "patientId": 2040,
+    "timestamp": 1705163573,
+    "hr": 82.8,
+    "ox": 92.9,
+    "sys": 129,
+    "dia": 88
+  },
+  {
+    "patientId": 2040,
+    "timestamp": 1705162853,
+    "hr": 65.9,
+    "ox": 93.5,
+    "sys": 135,
+    "dia": 99
+  },
+  {
+    "patientId": 2040,
+    "timestamp": 1705170773,
+    "hr": 71.5,
+    "ox": 95.9,
+    "sys": 133,
+    "dia": 80
+  },
+  {
+    "patientId": 2041,
+    "timestamp": 1705248830,
+    "hr": 68.1,
+    "ox": 97.3,
+    "sys": 111,
+    "dia": 80
+  },
+  {
+    "patientId": 2041,
+    "timestamp": 1705252910,
+    "hr": 71.2,
+    "ox": 98.5,
+    "sys": 141,
+    "dia": 86
+  },
+  {
+    "patientId": 2041,
+    "timestamp": 1705262510,
+    "hr": 73.6,
+    "ox": 93.2,
+    "sys": 126,
+    "dia": 87
+  },
+  {
+    "patientId": 2041,
+    "timestamp": 1705265930,
+    "hr": 107.8,
+    "ox": 96.8,
+    "sys": 127,
+    "dia": 76
+  },
+  {
+    "patientId": 2041,
+    "timestamp": 1705253450,
+    "hr": 86.0,
+    "ox": 97.2,
+    "sys": 108,
+    "dia": 71
+  },
+  {
+    "patientId": 2042,
+    "timestamp": 1705105570,
+    "hr": 58.0,
+    "ox": 97.0,
+    "sys": 108,
+    "dia": 58
+  },
+  {
+    "patientId": 2042,
+    "timestamp": 1705110250,
+    "hr": 90.0,
+    "ox": 96.1,
+    "sys": 128,
+    "dia": 79
+  },
+  {
+    "patientId": 2042,
+    "timestamp": 1705117330,
+    "hr": 81.0,
+    "ox": 95.8,
+    "sys": 138,
+    "dia": 77
+  },
+  {
+    "patientId": 2042,
+    "timestamp": 1705122310,
+    "hr": 86.8,
+    "ox": 97.2,
+    "sys": 117,
+    "dia": 77
+  },
+  {
+    "patientId": 2042,
+    "timestamp": 1705115950,
+    "hr": 86.4,
+    "ox": 94.2,
+    "sys": 125,
+    "dia": 79
+  },
+  {
+    "patientId": 2043,
+    "timestamp": 1704995066,
+    "hr": 77.3,
+    "ox": 96.4,
+    "sys": 161,
+    "dia": 76
+  },
+  {
+    "patientId": 2043,
+    "timestamp": 1704999926,
+    "hr": 80.1,
+    "ox": 93.4,
+    "sys": 109,
+    "dia": 76
+  },
+  {
+    "patientId": 2043,
+    "timestamp": 1704998486,
+    "hr": 86.1,
+    "ox": 96.1,
+    "sys": 97,
+    "dia": 73
+  },
+  {
+    "patientId": 2043,
+    "timestamp": 1705003466,
+    "hr": 68.7,
+    "ox": 95.7,
+    "sys": 106,
+    "dia": 85
+  },
+  {
+    "patientId": 2043,
+    "timestamp": 1705009226,
+    "hr": 68.4,
+    "ox": 96.8,
+    "sys": 114,
+    "dia": 79
+  },
+  {
+    "patientId": 2044,
+    "timestamp": 1705187383,
+    "hr": 81.8,
+    "ox": 95.3,
+    "sys": 115,
+    "dia": 76
+  },
+  {
+    "patientId": 2044,
+    "timestamp": 1705189843,
+    "hr": 80.2,
+    "ox": 94.5,
+    "sys": 101,
+    "dia": 89
+  },
+  {
+    "patientId": 2044,
+    "timestamp": 1705192783,
+    "hr": 49.4,
+    "ox": 97.9,
+    "sys": 104,
+    "dia": 77
+  },
+  {
+    "patientId": 2044,
+    "timestamp": 1705191463,
+    "hr": 94.5,
+    "ox": 95.4,
+    "sys": 138,
+    "dia": 87
+  },
+  {
+    "patientId": 2044,
+    "timestamp": 1705185283,
+    "hr": 73.1,
+    "ox": 90.8,
+    "sys": 116,
+    "dia": 83
+  },
+  {
+    "patientId": 2045,
+    "timestamp": 1704913940,
+    "hr": 68.1,
+    "ox": 95.9,
+    "sys": 95,
+    "dia": 100
+  },
+  {
+    "patientId": 2045,
+    "timestamp": 1704920120,
+    "hr": 79.7,
+    "ox": 94.1,
+    "sys": 118,
+    "dia": 71
+  },
+  {
+    "patientId": 2045,
+    "timestamp": 1704923180,
+    "hr": 52.4,
+    "ox": 95.1,
+    "sys": 111,
+    "dia": 57
+  },
+  {
+    "patientId": 2045,
+    "timestamp": 1704928280,
+    "hr": 72.0,
+    "ox": 98.1,
+    "sys": 115,
+    "dia": 98
+  },
+  {
+    "patientId": 2045,
+    "timestamp": 1704919880,
+    "hr": 78.9,
+    "ox": 97.8,
+    "sys": 146,
+    "dia": 92
+  },
+  {
+    "patientId": 2046,
+    "timestamp": 1705353160,
+    "hr": 95.6,
+    "ox": 99.1,
+    "sys": 125,
+    "dia": 72
+  },
+  {
+    "patientId": 2046,
+    "timestamp": 1705350940,
+    "hr": 81.1,
+    "ox": 99.4,
+    "sys": 121,
+    "dia": 80
+  },
+  {
+    "patientId": 2046,
+    "timestamp": 1705351300,
+    "hr": 75.6,
+    "ox": 96.4,
+    "sys": 104,
+    "dia": 70
+  },
+  {
+    "patientId": 2046,
+    "timestamp": 1705357360,
+    "hr": 88.2,
+    "ox": 98.3,
+    "sys": 118,
+    "dia": 75
+  },
+  {
+    "patientId": 2046,
+    "timestamp": 1705353640,
+    "hr": 94.2,
+    "ox": 97.4,
+    "sys": 139,
+    "dia": 72
+  },
+  {
+    "patientId": 2047,
+    "timestamp": 1705146705,
+    "hr": 65.0,
+    "ox": 95.0,
+    "sys": 129,
+    "dia": 70
+  },
+  {
+    "patientId": 2047,
+    "timestamp": 1705151745,
+    "hr": 85.5,
+    "ox": 100.0,
+    "sys": 115,
+    "dia": 89
+  },
+  {
+    "patientId": 2047,
+    "timestamp": 1705159065,
+    "hr": 97.5,
+    "ox": 99.6,
+    "sys": 136,
+    "dia": 85
+  },
+  {
+    "patientId": 2047,
+    "timestamp": 1705158165,
+    "hr": 75.6,
+    "ox": 94.3,
+    "sys": 109,
+    "dia": 60
+  },
+  {
+    "patientId": 2047,
+    "timestamp": 1705156665,
+    "hr": 87.0,
+    "ox": 96.3,
+    "sys": 117,
+    "dia": 76
+  },
+  {
+    "patientId": 2048,
+    "timestamp": 1704987421,
+    "hr": 83.7,
+    "ox": 97.6,
+    "sys": 137,
+    "dia": 74
+  },
+  {
+    "patientId": 2048,
+    "timestamp": 1704995341,
+    "hr": 90.1,
+    "ox": 94.4,
+    "sys": 143,
+    "dia": 78
+  },
+  {
+    "patientId": 2048,
+    "timestamp": 1704998161,
+    "hr": 88.0,
+    "ox": 98.3,
+    "sys": 127,
+    "dia": 67
+  },
+  {
+    "patientId": 2048,
+    "timestamp": 1705007221,
+    "hr": 78.9,
+    "ox": 95.8,
+    "sys": 137,
+    "dia": 85
+  },
+  {
+    "patientId": 2048,
+    "timestamp": 1704994021,
+    "hr": 94.9,
+    "ox": 96.0,
+    "sys": 129,
+    "dia": 97
+  },
+  {
+    "patientId": 2049,
+    "timestamp": 1705288386,
+    "hr": 57.2,
+    "ox": 96.2,
+    "sys": 152,
+    "dia": 86
+  },
+  {
+    "patientId": 2049,
+    "timestamp": 1705294506,
+    "hr": 95.5,
+    "ox": 97.3,
+    "sys": 122,
+    "dia": 67
+  },
+  {
+    "patientId": 2049,
+    "timestamp": 1705286886,
+    "hr": 89.9,
+    "ox": 94.1,
+    "sys": 144,
+    "dia": 75
+  },
+  {
+    "patientId": 2049,
+    "timestamp": 1705291266,
+    "hr": 100.0,
+    "ox": 96.8,
+    "sys": 107,
+    "dia": 84
+  },
+  {
+    "patientId": 2049,
+    "timestamp": 1705296486,
+    "hr": 83.3,
+    "ox": 98.9,
+    "sys": 103,
+    "dia": 68
+  },
+  {
+    "patientId": 2050,
+    "timestamp": 1704924313,
+    "hr": 88.7,
+    "ox": 95.3,
+    "sys": 150,
+    "dia": 76
+  },
+  {
+    "patientId": 2050,
+    "timestamp": 1704932713,
+    "hr": 59.6,
+    "ox": 98.9,
+    "sys": 150,
+    "dia": 72
+  },
+  {
+    "patientId": 2050,
+    "timestamp": 1704924853,
+    "hr": 61.7,
+    "ox": 98.5,
+    "sys": 116,
+    "dia": 105
+  },
+  {
+    "patientId": 2050,
+    "timestamp": 1704937753,
+    "hr": 81.5,
+    "ox": 94.6,
+    "sys": 152,
+    "dia": 98
+  },
+  {
+    "patientId": 2050,
+    "timestamp": 1704940513,
+    "hr": 92.3,
+    "ox": 97.2,
+    "sys": 136,
+    "dia": 74
+  },
+  {
+    "patientId": 2051,
+    "timestamp": 1705098617,
+    "hr": 93.4,
+    "ox": 94.7,
+    "sys": 139,
+    "dia": 86
+  },
+  {
+    "patientId": 2051,
+    "timestamp": 1705101797,
+    "hr": 66.3,
+    "ox": 95.6,
+    "sys": 114,
+    "dia": 61
+  },
+  {
+    "patientId": 2051,
+    "timestamp": 1705098737,
+    "hr": 85.8,
+    "ox": 93.3,
+    "sys": 127,
+    "dia": 85
+  },
+  {
+    "patientId": 2051,
+    "timestamp": 1705106117,
+    "hr": 94.7,
+    "ox": 97.2,
+    "sys": 121,
+    "dia": 70
+  },
+  {
+    "patientId": 2051,
+    "timestamp": 1705118777,
+    "hr": 94.4,
+    "ox": 92.1,
+    "sys": 106,
+    "dia": 83
+  },
+  {
+    "patientId": 2052,
+    "timestamp": 1705228916,
+    "hr": 81.7,
+    "ox": 92.5,
+    "sys": 129,
+    "dia": 78
+  },
+  {
+    "patientId": 2052,
+    "timestamp": 1705230296,
+    "hr": 92.4,
+    "ox": 95.6,
+    "sys": 119,
+    "dia": 84
+  },
+  {
+    "patientId": 2052,
+    "timestamp": 1705239956,
+    "hr": 66.0,
+    "ox": 90.3,
+    "sys": 124,
+    "dia": 97
+  },
+  {
+    "patientId": 2052,
+    "timestamp": 1705237376,
+    "hr": 90.8,
+    "ox": 97.6,
+    "sys": 130,
+    "dia": 69
+  },
+  {
+    "patientId": 2052,
+    "timestamp": 1705232876,
+    "hr": 89.2,
+    "ox": 98.5,
+    "sys": 123,
+    "dia": 77
+  },
+  {
+    "patientId": 2053,
+    "timestamp": 1705257193,
+    "hr": 84.3,
+    "ox": 95.6,
+    "sys": 112,
+    "dia": 70
+  },
+  {
+    "patientId": 2053,
+    "timestamp": 1705263853,
+    "hr": 97.9,
+    "ox": 95.5,
+    "sys": 124,
+    "dia": 72
+  },
+  {
+    "patientId": 2053,
+    "timestamp": 1705257673,
+    "hr": 81.2,
+    "ox": 93.7,
+    "sys": 98,
+    "dia": 69
+  },
+  {
+    "patientId": 2053,
+    "timestamp": 1705275013,
+    "hr": 80.8,
+    "ox": 97.0,
+    "sys": 101,
+    "dia": 74
+  },
+  {
+    "patientId": 2053,
+    "timestamp": 1705275913,
+    "hr": 66.7,
+    "ox": 97.1,
+    "sys": 105,
+    "dia": 104
+  },
+  {
+    "patientId": 2054,
+    "timestamp": 1704979268,
+    "hr": 60.6,
+    "ox": 98.3,
+    "sys": 113,
+    "dia": 71
+  },
+  {
+    "patientId": 2054,
+    "timestamp": 1704983408,
+    "hr": 92.2,
+    "ox": 100.0,
+    "sys": 120,
+    "dia": 81
+  },
+  {
+    "patientId": 2054,
+    "timestamp": 1704985988,
+    "hr": 70.1,
+    "ox": 96.2,
+    "sys": 108,
+    "dia": 55
+  },
+  {
+    "patientId": 2054,
+    "timestamp": 1704979628,
+    "hr": 74.6,
+    "ox": 100.0,
+    "sys": 151,
+    "dia": 69
+  },
+  {
+    "patientId": 2054,
+    "timestamp": 1704990128,
+    "hr": 80.2,
+    "ox": 94.5,
+    "sys": 122,
+    "dia": 93
+  },
+  {
+    "patientId": 2055,
+    "timestamp": 1705095627,
+    "hr": 72.5,
+    "ox": 97.2,
+    "sys": 114,
+    "dia": 74
+  },
+  {
+    "patientId": 2055,
+    "timestamp": 1705099107,
+    "hr": 81.5,
+    "ox": 99.2,
+    "sys": 129,
+    "dia": 77
+  },
+  {
+    "patientId": 2055,
+    "timestamp": 1705109247,
+    "hr": 75.7,
+    "ox": 97.0,
+    "sys": 129,
+    "dia": 79
+  },
+  {
+    "patientId": 2055,
+    "timestamp": 1705112007,
+    "hr": 90.6,
+    "ox": 95.8,
+    "sys": 122,
+    "dia": 111
+  },
+  {
+    "patientId": 2055,
+    "timestamp": 1705100307,
+    "hr": 92.5,
+    "ox": 97.0,
+    "sys": 144,
+    "dia": 74
+  },
+  {
+    "patientId": 2056,
+    "timestamp": 1705009790,
+    "hr": 81.4,
+    "ox": 93.1,
+    "sys": 138,
+    "dia": 73
+  },
+  {
+    "patientId": 2056,
+    "timestamp": 1705011290,
+    "hr": 94.3,
+    "ox": 97.1,
+    "sys": 136,
+    "dia": 78
+  },
+  {
+    "patientId": 2056,
+    "timestamp": 1705013990,
+    "hr": 85.8,
+    "ox": 94.3,
+    "sys": 115,
+    "dia": 90
+  },
+  {
+    "patientId": 2056,
+    "timestamp": 1705023410,
+    "hr": 76.8,
+    "ox": 97.0,
+    "sys": 116,
+    "dia": 74
+  },
+  {
+    "patientId": 2056,
+    "timestamp": 1705028990,
+    "hr": 68.5,
+    "ox": 96.8,
+    "sys": 155,
+    "dia": 69
+  },
+  {
+    "patientId": 2057,
+    "timestamp": 1704901082,
+    "hr": 82.3,
+    "ox": 96.5,
+    "sys": 132,
+    "dia": 80
+  },
+  {
+    "patientId": 2057,
+    "timestamp": 1704905282,
+    "hr": 67.3,
+    "ox": 96.9,
+    "sys": 122,
+    "dia": 89
+  },
+  {
+    "patientId": 2057,
+    "timestamp": 1704904202,
+    "hr": 80.4,
+    "ox": 95.5,
+    "sys": 151,
+    "dia": 82
+  },
+  {
+    "patientId": 2057,
+    "timestamp": 1704919562,
+    "hr": 82.3,
+    "ox": 95.3,
+    "sys": 130,
+    "dia": 77
+  },
+  {
+    "patientId": 2057,
+    "timestamp": 1704922742,
+    "hr": 101.7,
+    "ox": 96.7,
+    "sys": 120,
+    "dia": 60
+  },
+  {
+    "patientId": 2058,
+    "timestamp": 1704965294,
+    "hr": 54.5,
+    "ox": 94.8,
+    "sys": 144,
+    "dia": 79
+  },
+  {
+    "patientId": 2058,
+    "timestamp": 1704965174,
+    "hr": 86.5,
+    "ox": 94.3,
+    "sys": 116,
+    "dia": 75
+  },
+  {
+    "patientId": 2058,
+    "timestamp": 1704967574,
+    "hr": 99.4,
+    "ox": 95.4,
+    "sys": 143,
+    "dia": 95
+  },
+  {
+    "patientId": 2058,
+    "timestamp": 1704969914,
+    "hr": 78.8,
+    "ox": 98.5,
+    "sys": 125,
+    "dia": 81
+  },
+  {
+    "patientId": 2058,
+    "timestamp": 1704966794,
+    "hr": 65.9,
+    "ox": 98.4,
+    "sys": 118,
+    "dia": 82
+  },
+  {
+    "patientId": 2059,
+    "timestamp": 1704987045,
+    "hr": 75.2,
+    "ox": 97.0,
+    "sys": 117,
+    "dia": 87
+  },
+  {
+    "patientId": 2059,
+    "timestamp": 1704992985,
+    "hr": 81.5,
+    "ox": 99.9,
+    "sys": 109,
+    "dia": 73
+  },
+  {
+    "patientId": 2059,
+    "timestamp": 1704987885,
+    "hr": 92.3,
+    "ox": 93.4,
+    "sys": 135,
+    "dia": 86
+  },
+  {
+    "patientId": 2059,
+    "timestamp": 1705000785,
+    "hr": 84.9,
+    "ox": 95.5,
+    "sys": 135,
+    "dia": 98
+  },
+  {
+    "patientId": 2059,
+    "timestamp": 1704991305,
+    "hr": 59.5,
+    "ox": 91.4,
+    "sys": 127,
+    "dia": 91
+  },
+  {
+    "patientId": 2060,
+    "timestamp": 1705074691,
+    "hr": 73.6,
+    "ox": 95.8,
+    "sys": 129,
+    "dia": 81
+  },
+  {
+    "patientId": 2060,
+    "timestamp": 1705076131,
+    "hr": 74.8,
+    "ox": 97.5,
+    "sys": 127,
+    "dia": 83
+  },
+  {
+    "patientId": 2060,
+    "timestamp": 1705085671,
+    "hr": 68.8,
+    "ox": 98.2,
+    "sys": 116,
+    "dia": 88
+  },
+  {
+    "patientId": 2060,
+    "timestamp": 1705091431,
+    "hr": 84.1,
+    "ox": 94.7,
+    "sys": 111,
+    "dia": 80
+  },
+  {
+    "patientId": 2060,
+    "timestamp": 1705081051,
+    "hr": 79.8,
+    "ox": 95.4,
+    "sys": 136,
+    "dia": 63
+  },
+  {
+    "patientId": 2061,
+    "timestamp": 1705286658,
+    "hr": 92.6,
+    "ox": 94.3,
+    "sys": 131,
+    "dia": 88
+  },
+  {
+    "patientId": 2061,
+    "timestamp": 1705291518,
+    "hr": 78.7,
+    "ox": 95.7,
+    "sys": 126,
+    "dia": 91
+  },
+  {
+    "patientId": 2061,
+    "timestamp": 1705287378,
+    "hr": 84.2,
+    "ox": 98.3,
+    "sys": 128,
+    "dia": 86
+  },
+  {
+    "patientId": 2061,
+    "timestamp": 1705302978,
+    "hr": 82.3,
+    "ox": 98.0,
+    "sys": 90,
+    "dia": 86
+  },
+  {
+    "patientId": 2061,
+    "timestamp": 1705295238,
+    "hr": 97.7,
+    "ox": 95.3,
+    "sys": 138,
+    "dia": 82
+  },
+  {
+    "patientId": 2062,
+    "timestamp": 1705241514,
+    "hr": 99.3,
+    "ox": 98.6,
+    "sys": 149,
+    "dia": 87
+  },
+  {
+    "patientId": 2062,
+    "timestamp": 1705242234,
+    "hr": 68.4,
+    "ox": 96.1,
+    "sys": 121,
+    "dia": 55
+  },
+  {
+    "patientId": 2062,
+    "timestamp": 1705249974,
+    "hr": 81.5,
+    "ox": 97.1,
+    "sys": 125,
+    "dia": 96
+  },
+  {
+    "patientId": 2062,
+    "timestamp": 1705253334,
+    "hr": 78.7,
+    "ox": 95.6,
+    "sys": 118,
+    "dia": 57
+  },
+  {
+    "patientId": 2062,
+    "timestamp": 1705242894,
+    "hr": 74.8,
+    "ox": 94.6,
+    "sys": 103,
+    "dia": 79
+  },
+  {
+    "patientId": 2063,
+    "timestamp": 1705032640,
+    "hr": 69.3,
+    "ox": 94.7,
+    "sys": 121,
+    "dia": 80
+  },
+  {
+    "patientId": 2063,
+    "timestamp": 1705030420,
+    "hr": 76.3,
+    "ox": 94.5,
+    "sys": 129,
+    "dia": 93
+  },
+  {
+    "patientId": 2063,
+    "timestamp": 1705038340,
+    "hr": 84.5,
+    "ox": 95.6,
+    "sys": 113,
+    "dia": 78
+  },
+  {
+    "patientId": 2063,
+    "timestamp": 1705043380,
+    "hr": 76.2,
+    "ox": 94.4,
+    "sys": 141,
+    "dia": 80
+  },
+  {
+    "patientId": 2063,
+    "timestamp": 1705043980,
+    "hr": 75.2,
+    "ox": 94.7,
+    "sys": 104,
+    "dia": 61
+  },
+  {
+    "patientId": 2064,
+    "timestamp": 1705268274,
+    "hr": 83.2,
+    "ox": 97.0,
+    "sys": 101,
+    "dia": 88
+  },
+  {
+    "patientId": 2064,
+    "timestamp": 1705274814,
+    "hr": 81.7,
+    "ox": 94.8,
+    "sys": 114,
+    "dia": 83
+  },
+  {
+    "patientId": 2064,
+    "timestamp": 1705273074,
+    "hr": 54.2,
+    "ox": 94.6,
+    "sys": 121,
+    "dia": 70
+  },
+  {
+    "patientId": 2064,
+    "timestamp": 1705282554,
+    "hr": 86.1,
+    "ox": 95.7,
+    "sys": 143,
+    "dia": 91
+  },
+  {
+    "patientId": 2064,
+    "timestamp": 1705277394,
+    "hr": 78.8,
+    "ox": 96.0,
+    "sys": 135,
+    "dia": 82
+  },
+  {
+    "patientId": 2065,
+    "timestamp": 1705183417,
+    "hr": 84.6,
+    "ox": 97.3,
+    "sys": 125,
+    "dia": 72
+  },
+  {
+    "patientId": 2065,
+    "timestamp": 1705182397,
+    "hr": 79.6,
+    "ox": 95.6,
+    "sys": 123,
+    "dia": 61
+  },
+  {
+    "patientId": 2065,
+    "timestamp": 1705189957,
+    "hr": 56.5,
+    "ox": 97.5,
+    "sys": 137,
+    "dia": 92
+  },
+  {
+    "patientId": 2065,
+    "timestamp": 1705198477,
+    "hr": 72.2,
+    "ox": 99.6,
+    "sys": 107,
+    "dia": 89
+  },
+  {
+    "patientId": 2065,
+    "timestamp": 1705190197,
+    "hr": 76.8,
+    "ox": 98.9,
+    "sys": 132,
+    "dia": 84
+  },
+  {
+    "patientId": 2066,
+    "timestamp": 1705144528,
+    "hr": 78.4,
+    "ox": 97.6,
+    "sys": 136,
+    "dia": 62
+  },
+  {
+    "patientId": 2066,
+    "timestamp": 1705144588,
+    "hr": 99.0,
+    "ox": 97.6,
+    "sys": 110,
+    "dia": 94
+  },
+  {
+    "patientId": 2066,
+    "timestamp": 1705144048,
+    "hr": 66.7,
+    "ox": 95.6,
+    "sys": 120,
+    "dia": 87
+  },
+  {
+    "patientId": 2066,
+    "timestamp": 1705145188,
+    "hr": 80.6,
+    "ox": 95.7,
+    "sys": 103,
+    "dia": 92
+  },
+  {
+    "patientId": 2066,
+    "timestamp": 1705144528,
+    "hr": 59.8,
+    "ox": 94.4,
+    "sys": 139,
+    "dia": 96
+  },
+  {
+    "patientId": 2067,
+    "timestamp": 1705187909,
+    "hr": 102.7,
+    "ox": 95.1,
+    "sys": 124,
+    "dia": 68
+  },
+  {
+    "patientId": 2067,
+    "timestamp": 1705187009,
+    "hr": 86.6,
+    "ox": 96.0,
+    "sys": 118,
+    "dia": 78
+  },
+  {
+    "patientId": 2067,
+    "timestamp": 1705187789,
+    "hr": 66.8,
+    "ox": 95.3,
+    "sys": 97,
+    "dia": 76
+  },
+  {
+    "patientId": 2067,
+    "timestamp": 1705205249,
+    "hr": 88.4,
+    "ox": 95.3,
+    "sys": 142,
+    "dia": 83
+  },
+  {
+    "patientId": 2067,
+    "timestamp": 1705212149,
+    "hr": 61.5,
+    "ox": 93.0,
+    "sys": 132,
+    "dia": 59
+  },
+  {
+    "patientId": 2068,
+    "timestamp": 1704937775,
+    "hr": 100.8,
+    "ox": 100.0,
+    "sys": 134,
+    "dia": 85
+  },
+  {
+    "patientId": 2068,
+    "timestamp": 1704941855,
+    "hr": 67.2,
+    "ox": 94.3,
+    "sys": 106,
+    "dia": 71
+  },
+  {
+    "patientId": 2068,
+    "timestamp": 1704952115,
+    "hr": 56.2,
+    "ox": 97.5,
+    "sys": 108,
+    "dia": 82
+  },
+  {
+    "patientId": 2068,
+    "timestamp": 1704947375,
+    "hr": 77.5,
+    "ox": 100.0,
+    "sys": 129,
+    "dia": 88
+  },
+  {
+    "patientId": 2068,
+    "timestamp": 1704953075,
+    "hr": 65.2,
+    "ox": 97.0,
+    "sys": 118,
+    "dia": 78
+  },
+  {
+    "patientId": 2069,
+    "timestamp": 1705096274,
+    "hr": 61.7,
+    "ox": 96.5,
+    "sys": 128,
+    "dia": 97
+  },
+  {
+    "patientId": 2069,
+    "timestamp": 1705102934,
+    "hr": 83.7,
+    "ox": 95.2,
+    "sys": 129,
+    "dia": 76
+  },
+  {
+    "patientId": 2069,
+    "timestamp": 1705099154,
+    "hr": 78.5,
+    "ox": 93.7,
+    "sys": 124,
+    "dia": 83
+  },
+  {
+    "patientId": 2069,
+    "timestamp": 1705112354,
+    "hr": 58.7,
+    "ox": 98.5,
+    "sys": 111,
+    "dia": 73
+  },
+  {
+    "patientId": 2069,
+    "timestamp": 1705114634,
+    "hr": 82.9,
+    "ox": 91.2,
+    "sys": 165,
+    "dia": 77
+  },
+  {
+    "patientId": 2070,
+    "timestamp": 1705229469,
+    "hr": 79.3,
+    "ox": 96.6,
+    "sys": 132,
+    "dia": 86
+  },
+  {
+    "patientId": 2070,
+    "timestamp": 1705231389,
+    "hr": 94.0,
+    "ox": 95.6,
+    "sys": 122,
+    "dia": 90
+  },
+  {
+    "patientId": 2070,
+    "timestamp": 1705233849,
+    "hr": 87.9,
+    "ox": 96.4,
+    "sys": 124,
+    "dia": 76
+  },
+  {
+    "patientId": 2070,
+    "timestamp": 1705240329,
+    "hr": 91.4,
+    "ox": 98.2,
+    "sys": 118,
+    "dia": 72
+  },
+  {
+    "patientId": 2070,
+    "timestamp": 1705236309,
+    "hr": 72.5,
+    "ox": 97.7,
+    "sys": 139,
+    "dia": 85
+  },
+  {
+    "patientId": 2071,
+    "timestamp": 1705083085,
+    "hr": 86.2,
+    "ox": 97.4,
+    "sys": 131,
+    "dia": 74
+  },
+  {
+    "patientId": 2071,
+    "timestamp": 1705089685,
+    "hr": 94.3,
+    "ox": 97.4,
+    "sys": 130,
+    "dia": 90
+  },
+  {
+    "patientId": 2071,
+    "timestamp": 1705084165,
+    "hr": 70.2,
+    "ox": 96.0,
+    "sys": 100,
+    "dia": 63
+  },
+  {
+    "patientId": 2071,
+    "timestamp": 1705084765,
+    "hr": 70.5,
+    "ox": 95.4,
+    "sys": 96,
+    "dia": 82
+  },
+  {
+    "patientId": 2071,
+    "timestamp": 1705085905,
+    "hr": 97.5,
+    "ox": 96.0,
+    "sys": 122,
+    "dia": 80
+  },
+  {
+    "patientId": 2072,
+    "timestamp": 1705040267,
+    "hr": 60.7,
+    "ox": 94.5,
+    "sys": 113,
+    "dia": 70
+  },
+  {
+    "patientId": 2072,
+    "timestamp": 1705048247,
+    "hr": 78.1,
+    "ox": 97.4,
+    "sys": 120,
+    "dia": 86
+  },
+  {
+    "patientId": 2072,
+    "timestamp": 1705048007,
+    "hr": 87.6,
+    "ox": 93.5,
+    "sys": 125,
+    "dia": 82
+  },
+  {
+    "patientId": 2072,
+    "timestamp": 1705048607,
+    "hr": 69.7,
+    "ox": 96.7,
+    "sys": 125,
+    "dia": 90
+  },
+  {
+    "patientId": 2072,
+    "timestamp": 1705053107,
+    "hr": 101.6,
+    "ox": 98.5,
+    "sys": 128,
+    "dia": 75
+  },
+  {
+    "patientId": 2073,
+    "timestamp": 1705201006,
+    "hr": 90.1,
+    "ox": 97.1,
+    "sys": 128,
+    "dia": 93
+  },
+  {
+    "patientId": 2073,
+    "timestamp": 1705205446,
+    "hr": 84.7,
+    "ox": 95.0,
+    "sys": 124,
+    "dia": 62
+  },
+  {
+    "patientId": 2073,
+    "timestamp": 1705205146,
+    "hr": 84.0,
+    "ox": 94.1,
+    "sys": 115,
+    "dia": 80
+  },
+  {
+    "patientId": 2073,
+    "timestamp": 1705206946,
+    "hr": 76.1,
+    "ox": 96.3,
+    "sys": 137,
+    "dia": 71
+  },
+  {
+    "patientId": 2073,
+    "timestamp": 1705209826,
+    "hr": 76.7,
+    "ox": 94.4,
+    "sys": 135,
+    "dia": 75
+  },
+  {
+    "patientId": 2074,
+    "timestamp": 1705140929,
+    "hr": 83.2,
+    "ox": 96.4,
+    "sys": 137,
+    "dia": 78
+  },
+  {
+    "patientId": 2074,
+    "timestamp": 1705143629,
+    "hr": 79.2,
+    "ox": 100.0,
+    "sys": 148,
+    "dia": 66
+  },
+  {
+    "patientId": 2074,
+    "timestamp": 1705150709,
+    "hr": 91.6,
+    "ox": 98.5,
+    "sys": 126,
+    "dia": 81
+  },
+  {
+    "patientId": 2074,
+    "timestamp": 1705146929,
+    "hr": 82.4,
+    "ox": 95.4,
+    "sys": 118,
+    "dia": 81
+  },
+  {
+    "patientId": 2074,
+    "timestamp": 1705150469,
+    "hr": 80.0,
+    "ox": 97.2,
+    "sys": 103,
+    "dia": 57
+  },
+  {
+    "patientId": 2075,
+    "timestamp": 1705336986,
+    "hr": 63.1,
+    "ox": 93.2,
+    "sys": 143,
+    "dia": 76
+  },
+  {
+    "patientId": 2075,
+    "timestamp": 1705344786,
+    "hr": 87.5,
+    "ox": 93.7,
+    "sys": 140,
+    "dia": 79
+  },
+  {
+    "patientId": 2075,
+    "timestamp": 1705340286,
+    "hr": 91.7,
+    "ox": 99.2,
+    "sys": 113,
+    "dia": 75
+  },
+  {
+    "patientId": 2075,
+    "timestamp": 1705350306,
+    "hr": 69.6,
+    "ox": 98.3,
+    "sys": 107,
+    "dia": 96
+  },
+  {
+    "patientId": 2075,
+    "timestamp": 1705355526,
+    "hr": 82.3,
+    "ox": 95.7,
+    "sys": 111,
+    "dia": 65
+  },
+  {
+    "patientId": 2076,
+    "timestamp": 1705023855,
+    "hr": 80.5,
+    "ox": 94.0,
+    "sys": 136,
+    "dia": 74
+  },
+  {
+    "patientId": 2076,
+    "timestamp": 1705024335,
+    "hr": 61.7,
+    "ox": 93.7,
+    "sys": 121,
+    "dia": 55
+  },
+  {
+    "patientId": 2076,
+    "timestamp": 1705030635,
+    "hr": 109.0,
+    "ox": 97.6,
+    "sys": 124,
+    "dia": 77
+  },
+  {
+    "patientId": 2076,
+    "timestamp": 1705043895,
+    "hr": 104.2,
+    "ox": 96.4,
+    "sys": 140,
+    "dia": 72
+  },
+  {
+    "patientId": 2076,
+    "timestamp": 1705044555,
+    "hr": 85.3,
+    "ox": 96.0,
+    "sys": 135,
+    "dia": 85
+  },
+  {
+    "patientId": 2077,
+    "timestamp": 1705195435,
+    "hr": 91.8,
+    "ox": 94.5,
+    "sys": 92,
+    "dia": 82
+  },
+  {
+    "patientId": 2077,
+    "timestamp": 1705199035,
+    "hr": 82.0,
+    "ox": 96.1,
+    "sys": 127,
+    "dia": 82
+  },
+  {
+    "patientId": 2077,
+    "timestamp": 1705207315,
+    "hr": 52.7,
+    "ox": 94.1,
+    "sys": 119,
+    "dia": 78
+  },
+  {
+    "patientId": 2077,
+    "timestamp": 1705201075,
+    "hr": 78.8,
+    "ox": 92.7,
+    "sys": 122,
+    "dia": 96
+  },
+  {
+    "patientId": 2077,
+    "timestamp": 1705198675,
+    "hr": 86.4,
+    "ox": 96.1,
+    "sys": 121,
+    "dia": 73
+  },
+  {
+    "patientId": 2078,
+    "timestamp": 1705335671,
+    "hr": 75.5,
+    "ox": 95.4,
+    "sys": 144,
+    "dia": 85
+  },
+  {
+    "patientId": 2078,
+    "timestamp": 1705340711,
+    "hr": 83.9,
+    "ox": 95.3,
+    "sys": 105,
+    "dia": 95
+  },
+  {
+    "patientId": 2078,
+    "timestamp": 1705345451,
+    "hr": 70.3,
+    "ox": 93.5,
+    "sys": 121,
+    "dia": 84
+  },
+  {
+    "patientId": 2078,
+    "timestamp": 1705345391,
+    "hr": 84.0,
+    "ox": 97.2,
+    "sys": 108,
+    "dia": 78
+  },
+  {
+    "patientId": 2078,
+    "timestamp": 1705359971,
+    "hr": 60.7,
+    "ox": 96.4,
+    "sys": 155,
+    "dia": 80
+  },
+  {
+    "patientId": 2079,
+    "timestamp": 1705341025,
+    "hr": 90.1,
+    "ox": 94.8,
+    "sys": 157,
+    "dia": 61
+  },
+  {
+    "patientId": 2079,
+    "timestamp": 1705345405,
+    "hr": 62.9,
+    "ox": 95.5,
+    "sys": 118,
+    "dia": 85
+  },
+  {
+    "patientId": 2079,
+    "timestamp": 1705355665,
+    "hr": 80.6,
+    "ox": 96.7,
+    "sys": 118,
+    "dia": 63
+  },
+  {
+    "patientId": 2079,
+    "timestamp": 1705353805,
+    "hr": 82.3,
+    "ox": 94.7,
+    "sys": 131,
+    "dia": 80
+  },
+  {
+    "patientId": 2079,
+    "timestamp": 1705361185,
+    "hr": 79.0,
+    "ox": 93.5,
+    "sys": 110,
+    "dia": 88
+  },
+  {
+    "patientId": 2080,
+    "timestamp": 1705024981,
+    "hr": 68.5,
+    "ox": 96.9,
+    "sys": 147,
+    "dia": 83
+  },
+  {
+    "patientId": 2080,
+    "timestamp": 1705027261,
+    "hr": 87.4,
+    "ox": 95.6,
+    "sys": 134,
+    "dia": 67
+  },
+  {
+    "patientId": 2080,
+    "timestamp": 1705026301,
+    "hr": 90.6,
+    "ox": 95.1,
+    "sys": 117,
+    "dia": 82
+  },
+  {
+    "patientId": 2080,
+    "timestamp": 1705031941,
+    "hr": 79.8,
+    "ox": 95.0,
+    "sys": 113,
+    "dia": 83
+  },
+  {
+    "patientId": 2080,
+    "timestamp": 1705031221,
+    "hr": 88.9,
+    "ox": 95.6,
+    "sys": 115,
+    "dia": 93
+  },
+  {
+    "patientId": 2081,
+    "timestamp": 1705236506,
+    "hr": 83.0,
+    "ox": 96.3,
+    "sys": 126,
+    "dia": 85
+  },
+  {
+    "patientId": 2081,
+    "timestamp": 1705238666,
+    "hr": 71.8,
+    "ox": 97.6,
+    "sys": 95,
+    "dia": 88
+  },
+  {
+    "patientId": 2081,
+    "timestamp": 1705245266,
+    "hr": 71.5,
+    "ox": 94.8,
+    "sys": 102,
+    "dia": 80
+  },
+  {
+    "patientId": 2081,
+    "timestamp": 1705237166,
+    "hr": 75.1,
+    "ox": 97.4,
+    "sys": 126,
+    "dia": 85
+  },
+  {
+    "patientId": 2081,
+    "timestamp": 1705247486,
+    "hr": 86.6,
+    "ox": 100.0,
+    "sys": 112,
+    "dia": 89
+  },
+  {
+    "patientId": 2082,
+    "timestamp": 1705350537,
+    "hr": 77.7,
+    "ox": 97.8,
+    "sys": 123,
+    "dia": 95
+  },
+  {
+    "patientId": 2082,
+    "timestamp": 1705354197,
+    "hr": 84.9,
+    "ox": 93.3,
+    "sys": 116,
+    "dia": 69
+  },
+  {
+    "patientId": 2082,
+    "timestamp": 1705362357,
+    "hr": 48.7,
+    "ox": 96.4,
+    "sys": 131,
+    "dia": 84
+  },
+  {
+    "patientId": 2082,
+    "timestamp": 1705357017,
+    "hr": 92.4,
+    "ox": 97.5,
+    "sys": 110,
+    "dia": 84
+  },
+  {
+    "patientId": 2082,
+    "timestamp": 1705372257,
+    "hr": 58.7,
+    "ox": 96.6,
+    "sys": 117,
+    "dia": 79
+  },
+  {
+    "patientId": 2083,
+    "timestamp": 1705309617,
+    "hr": 88.3,
+    "ox": 90.9,
+    "sys": 114,
+    "dia": 69
+  },
+  {
+    "patientId": 2083,
+    "timestamp": 1705312497,
+    "hr": 88.2,
+    "ox": 93.7,
+    "sys": 134,
+    "dia": 84
+  },
+  {
+    "patientId": 2083,
+    "timestamp": 1705316277,
+    "hr": 67.3,
+    "ox": 93.6,
+    "sys": 137,
+    "dia": 85
+  },
+  {
+    "patientId": 2083,
+    "timestamp": 1705314297,
+    "hr": 89.4,
+    "ox": 95.5,
+    "sys": 116,
+    "dia": 94
+  },
+  {
+    "patientId": 2083,
+    "timestamp": 1705325577,
+    "hr": 72.8,
+    "ox": 96.5,
+    "sys": 152,
+    "dia": 83
+  },
+  {
+    "patientId": 2084,
+    "timestamp": 1705049859,
+    "hr": 85.0,
+    "ox": 98.8,
+    "sys": 134,
+    "dia": 64
+  },
+  {
+    "patientId": 2084,
+    "timestamp": 1705052499,
+    "hr": 91.6,
+    "ox": 97.6,
+    "sys": 125,
+    "dia": 70
+  },
+  {
+    "patientId": 2084,
+    "timestamp": 1705057599,
+    "hr": 87.3,
+    "ox": 95.6,
+    "sys": 133,
+    "dia": 88
+  },
+  {
+    "patientId": 2084,
+    "timestamp": 1705064559,
+    "hr": 89.8,
+    "ox": 95.9,
+    "sys": 141,
+    "dia": 89
+  },
+  {
+    "patientId": 2084,
+    "timestamp": 1705072119,
+    "hr": 90.1,
+    "ox": 94.8,
+    "sys": 116,
+    "dia": 68
+  },
+  {
+    "patientId": 2085,
+    "timestamp": 1705264378,
+    "hr": 92.7,
+    "ox": 97.9,
+    "sys": 134,
+    "dia": 80
+  },
+  {
+    "patientId": 2085,
+    "timestamp": 1705268158,
+    "hr": 66.9,
+    "ox": 95.2,
+    "sys": 135,
+    "dia": 88
+  },
+  {
+    "patientId": 2085,
+    "timestamp": 1705269538,
+    "hr": 79.3,
+    "ox": 96.9,
+    "sys": 136,
+    "dia": 69
+  },
+  {
+    "patientId": 2085,
+    "timestamp": 1705280278,
+    "hr": 86.0,
+    "ox": 96.1,
+    "sys": 125,
+    "dia": 73
+  },
+  {
+    "patientId": 2085,
+    "timestamp": 1705282438,
+    "hr": 77.1,
+    "ox": 96.5,
+    "sys": 128,
+    "dia": 93
+  },
+  {
+    "patientId": 2086,
+    "timestamp": 1704934714,
+    "hr": 74.3,
+    "ox": 94.3,
+    "sys": 135,
+    "dia": 76
+  },
+  {
+    "patientId": 2086,
+    "timestamp": 1704939874,
+    "hr": 72.2,
+    "ox": 97.5,
+    "sys": 141,
+    "dia": 99
+  },
+  {
+    "patientId": 2086,
+    "timestamp": 1704945994,
+    "hr": 75.6,
+    "ox": 96.3,
+    "sys": 98,
+    "dia": 84
+  },
+  {
+    "patientId": 2086,
+    "timestamp": 1704940534,
+    "hr": 95.0,
+    "ox": 93.0,
+    "sys": 143,
+    "dia": 71
+  },
+  {
+    "patientId": 2086,
+    "timestamp": 1704944914,
+    "hr": 73.6,
+    "ox": 92.6,
+    "sys": 108,
+    "dia": 92
+  },
+  {
+    "patientId": 2087,
+    "timestamp": 1705312008,
+    "hr": 86.5,
+    "ox": 95.7,
+    "sys": 145,
+    "dia": 91
+  },
+  {
+    "patientId": 2087,
+    "timestamp": 1705318428,
+    "hr": 75.7,
+    "ox": 93.3,
+    "sys": 118,
+    "dia": 82
+  },
+  {
+    "patientId": 2087,
+    "timestamp": 1705316928,
+    "hr": 73.9,
+    "ox": 92.7,
+    "sys": 105,
+    "dia": 80
+  },
+  {
+    "patientId": 2087,
+    "timestamp": 1705332168,
+    "hr": 77.2,
+    "ox": 94.2,
+    "sys": 138,
+    "dia": 90
+  },
+  {
+    "patientId": 2087,
+    "timestamp": 1705324308,
+    "hr": 66.7,
+    "ox": 92.7,
+    "sys": 112,
+    "dia": 73
+  },
+  {
+    "patientId": 2088,
+    "timestamp": 1704943298,
+    "hr": 68.9,
+    "ox": 94.0,
+    "sys": 128,
+    "dia": 80
+  },
+  {
+    "patientId": 2088,
+    "timestamp": 1704947378,
+    "hr": 79.0,
+    "ox": 96.4,
+    "sys": 127,
+    "dia": 71
+  },
+  {
+    "patientId": 2088,
+    "timestamp": 1704951158,
+    "hr": 64.4,
+    "ox": 97.7,
+    "sys": 137,
+    "dia": 68
+  },
+  {
+    "patientId": 2088,
+    "timestamp": 1704956378,
+    "hr": 61.1,
+    "ox": 97.9,
+    "sys": 134,
+    "dia": 64
+  },
+  {
+    "patientId": 2088,
+    "timestamp": 1704964178,
+    "hr": 86.6,
+    "ox": 96.7,
+    "sys": 130,
+    "dia": 66
+  },
+  {
+    "patientId": 2089,
+    "timestamp": 1705348885,
+    "hr": 69.6,
+    "ox": 99.4,
+    "sys": 125,
+    "dia": 77
+  },
+  {
+    "patientId": 2089,
+    "timestamp": 1705348525,
+    "hr": 86.9,
+    "ox": 95.9,
+    "sys": 141,
+    "dia": 76
+  },
+  {
+    "patientId": 2089,
+    "timestamp": 1705349425,
+    "hr": 69.6,
+    "ox": 95.7,
+    "sys": 129,
+    "dia": 81
+  },
+  {
+    "patientId": 2089,
+    "timestamp": 1705355605,
+    "hr": 74.8,
+    "ox": 92.8,
+    "sys": 151,
+    "dia": 93
+  },
+  {
+    "patientId": 2089,
+    "timestamp": 1705363225,
+    "hr": 89.7,
+    "ox": 94.1,
+    "sys": 130,
+    "dia": 85
+  },
+  {
+    "patientId": 2090,
+    "timestamp": 1705231859,
+    "hr": 70.6,
+    "ox": 94.6,
+    "sys": 111,
+    "dia": 71
+  },
+  {
+    "patientId": 2090,
+    "timestamp": 1705232999,
+    "hr": 100.5,
+    "ox": 95.4,
+    "sys": 149,
+    "dia": 89
+  },
+  {
+    "patientId": 2090,
+    "timestamp": 1705234139,
+    "hr": 86.0,
+    "ox": 96.9,
+    "sys": 126,
+    "dia": 87
+  },
+  {
+    "patientId": 2090,
+    "timestamp": 1705237439,
+    "hr": 97.0,
+    "ox": 97.4,
+    "sys": 127,
+    "dia": 97
+  },
+  {
+    "patientId": 2090,
+    "timestamp": 1705235819,
+    "hr": 88.2,
+    "ox": 95.6,
+    "sys": 141,
+    "dia": 103
+  },
+  {
+    "patientId": 2091,
+    "timestamp": 1705284465,
+    "hr": 89.7,
+    "ox": 95.5,
+    "sys": 141,
+    "dia": 86
+  },
+  {
+    "patientId": 2091,
+    "timestamp": 1705288125,
+    "hr": 63.9,
+    "ox": 97.4,
+    "sys": 115,
+    "dia": 97
+  },
+  {
+    "patientId": 2091,
+    "timestamp": 1705290765,
+    "hr": 86.5,
+    "ox": 96.4,
+    "sys": 117,
+    "dia": 62
+  },
+  {
+    "patientId": 2091,
+    "timestamp": 1705285425,
+    "hr": 80.3,
+    "ox": 92.2,
+    "sys": 124,
+    "dia": 73
+  },
+  {
+    "patientId": 2091,
+    "timestamp": 1705307805,
+    "hr": 83.0,
+    "ox": 95.2,
+    "sys": 151,
+    "dia": 69
+  },
+  {
+    "patientId": 2092,
+    "timestamp": 1705328702,
+    "hr": 76.7,
+    "ox": 95.4,
+    "sys": 136,
+    "dia": 83
+  },
+  {
+    "patientId": 2092,
+    "timestamp": 1705335902,
+    "hr": 71.7,
+    "ox": 96.7,
+    "sys": 109,
+    "dia": 68
+  },
+  {
+    "patientId": 2092,
+    "timestamp": 1705332242,
+    "hr": 115.4,
+    "ox": 98.5,
+    "sys": 104,
+    "dia": 66
+  },
+  {
+    "patientId": 2092,
+    "timestamp": 1705345202,
+    "hr": 72.0,
+    "ox": 98.0,
+    "sys": 107,
+    "dia": 66
+  },
+  {
+    "patientId": 2092,
+    "timestamp": 1705342022,
+    "hr": 77.2,
+    "ox": 94.3,
+    "sys": 127,
+    "dia": 109
+  },
+  {
+    "patientId": 2093,
+    "timestamp": 1704888095,
+    "hr": 85.0,
+    "ox": 97.7,
+    "sys": 127,
+    "dia": 81
+  },
+  {
+    "patientId": 2093,
+    "timestamp": 1704894935,
+    "hr": 104.7,
+    "ox": 93.7,
+    "sys": 132,
+    "dia": 70
+  },
+  {
+    "patientId": 2093,
+    "timestamp": 1704890975,
+    "hr": 67.6,
+    "ox": 97.5,
+    "sys": 126,
+    "dia": 97
+  },
+  {
+    "patientId": 2093,
+    "timestamp": 1704892055,
+    "hr": 71.5,
+    "ox": 93.5,
+    "sys": 121,
+    "dia": 76
+  },
+  {
+    "patientId": 2093,
+    "timestamp": 1704902015,
+    "hr": 63.0,
+    "ox": 97.2,
+    "sys": 122,
+    "dia": 74
+  },
+  {
+    "patientId": 2094,
+    "timestamp": 1705295882,
+    "hr": 92.3,
+    "ox": 100.0,
+    "sys": 101,
+    "dia": 61
+  },
+  {
+    "patientId": 2094,
+    "timestamp": 1705300562,
+    "hr": 93.0,
+    "ox": 98.1,
+    "sys": 125,
+    "dia": 67
+  },
+  {
+    "patientId": 2094,
+    "timestamp": 1705301882,
+    "hr": 83.9,
+    "ox": 97.8,
+    "sys": 109,
+    "dia": 80
+  },
+  {
+    "patientId": 2094,
+    "timestamp": 1705308182,
+    "hr": 76.0,
+    "ox": 94.4,
+    "sys": 131,
+    "dia": 71
+  },
+  {
+    "patientId": 2094,
+    "timestamp": 1705302122,
+    "hr": 90.3,
+    "ox": 95.5,
+    "sys": 125,
+    "dia": 65
+  },
+  {
+    "patientId": 2095,
+    "timestamp": 1705288991,
+    "hr": 79.5,
+    "ox": 94.5,
+    "sys": 155,
+    "dia": 89
+  },
+  {
+    "patientId": 2095,
+    "timestamp": 1705294211,
+    "hr": 83.4,
+    "ox": 99.5,
+    "sys": 130,
+    "dia": 83
+  },
+  {
+    "patientId": 2095,
+    "timestamp": 1705300331,
+    "hr": 55.0,
+    "ox": 95.6,
+    "sys": 121,
+    "dia": 94
+  },
+  {
+    "patientId": 2095,
+    "timestamp": 1705292291,
+    "hr": 70.4,
+    "ox": 95.9,
+    "sys": 143,
+    "dia": 75
+  },
+  {
+    "patientId": 2095,
+    "timestamp": 1705311011,
+    "hr": 76.7,
+    "ox": 97.9,
+    "sys": 132,
+    "dia": 80
+  },
+  {
+    "patientId": 2096,
+    "timestamp": 1705324650,
+    "hr": 72.7,
+    "ox": 96.4,
+    "sys": 143,
+    "dia": 75
+  },
+  {
+    "patientId": 2096,
+    "timestamp": 1705329090,
+    "hr": 67.1,
+    "ox": 94.6,
+    "sys": 106,
+    "dia": 65
+  },
+  {
+    "patientId": 2096,
+    "timestamp": 1705326510,
+    "hr": 72.7,
+    "ox": 91.6,
+    "sys": 138,
+    "dia": 92
+  },
+  {
+    "patientId": 2096,
+    "timestamp": 1705339710,
+    "hr": 77.5,
+    "ox": 100.0,
+    "sys": 129,
+    "dia": 95
+  },
+  {
+    "patientId": 2096,
+    "timestamp": 1705328310,
+    "hr": 85.5,
+    "ox": 98.9,
+    "sys": 135,
+    "dia": 87
+  },
+  {
+    "patientId": 2097,
+    "timestamp": 1705306166,
+    "hr": 66.3,
+    "ox": 96.1,
+    "sys": 141,
+    "dia": 95
+  },
+  {
+    "patientId": 2097,
+    "timestamp": 1705310006,
+    "hr": 74.7,
+    "ox": 95.0,
+    "sys": 129,
+    "dia": 84
+  },
+  {
+    "patientId": 2097,
+    "timestamp": 1705316546,
+    "hr": 86.5,
+    "ox": 98.9,
+    "sys": 136,
+    "dia": 83
+  },
+  {
+    "patientId": 2097,
+    "timestamp": 1705315226,
+    "hr": 67.6,
+    "ox": 96.8,
+    "sys": 152,
+    "dia": 77
+  },
+  {
+    "patientId": 2097,
+    "timestamp": 1705311206,
+    "hr": 72.4,
+    "ox": 94.0,
+    "sys": 113,
+    "dia": 73
+  },
+  {
+    "patientId": 2098,
+    "timestamp": 1705306377,
+    "hr": 80.2,
+    "ox": 97.8,
+    "sys": 111,
+    "dia": 95
+  },
+  {
+    "patientId": 2098,
+    "timestamp": 1705312857,
+    "hr": 93.3,
+    "ox": 97.2,
+    "sys": 138,
+    "dia": 69
+  },
+  {
+    "patientId": 2098,
+    "timestamp": 1705309377,
+    "hr": 82.1,
+    "ox": 97.1,
+    "sys": 107,
+    "dia": 71
+  },
+  {
+    "patientId": 2098,
+    "timestamp": 1705309857,
+    "hr": 67.8,
+    "ox": 97.4,
+    "sys": 102,
+    "dia": 86
+  },
+  {
+    "patientId": 2098,
+    "timestamp": 1705322637,
+    "hr": 86.6,
+    "ox": 97.3,
+    "sys": 114,
+    "dia": 85
+  },
+  {
+    "patientId": 2099,
+    "timestamp": 1705220667,
+    "hr": 68.6,
+    "ox": 98.9,
+    "sys": 118,
+    "dia": 79
+  },
+  {
+    "patientId": 2099,
+    "timestamp": 1705223307,
+    "hr": 84.2,
+    "ox": 92.9,
+    "sys": 126,
+    "dia": 77
+  },
+  {
+    "patientId": 2099,
+    "timestamp": 1705226067,
+    "hr": 88.0,
+    "ox": 95.4,
+    "sys": 117,
+    "dia": 86
+  },
+  {
+    "patientId": 2099,
+    "timestamp": 1705233087,
+    "hr": 89.1,
+    "ox": 97.2,
+    "sys": 109,
+    "dia": 77
+  },
+  {
+    "patientId": 2099,
+    "timestamp": 1705223127,
+    "hr": 94.6,
+    "ox": 94.8,
+    "sys": 97,
+    "dia": 86
+  },
+  {
+    "patientId": 2100,
+    "timestamp": 1705023388,
+    "hr": 87.5,
+    "ox": 98.7,
+    "sys": 130,
+    "dia": 90
+  },
+  {
+    "patientId": 2100,
+    "timestamp": 1705026268,
+    "hr": 91.6,
+    "ox": 96.7,
+    "sys": 149,
+    "dia": 97
+  },
+  {
+    "patientId": 2100,
+    "timestamp": 1705035688,
+    "hr": 75.8,
+    "ox": 99.1,
+    "sys": 112,
+    "dia": 95
+  },
+  {
+    "patientId": 2100,
+    "timestamp": 1705026448,
+    "hr": 88.4,
+    "ox": 96.3,
+    "sys": 121,
+    "dia": 85
+  },
+  {
+    "patientId": 2100,
+    "timestamp": 1705035328,
+    "hr": 87.5,
+    "ox": 97.8,
+    "sys": 116,
+    "dia": 81
+  },
+  {
+    "patientId": 2101,
+    "timestamp": 1705212681,
+    "hr": 94.3,
+    "ox": 98.3,
+    "sys": 133,
+    "dia": 78
+  },
+  {
+    "patientId": 2101,
+    "timestamp": 1705212681,
+    "hr": 103.6,
+    "ox": 96.0,
+    "sys": 140,
+    "dia": 93
+  },
+  {
+    "patientId": 2101,
+    "timestamp": 1705215681,
+    "hr": 84.8,
+    "ox": 94.0,
+    "sys": 106,
+    "dia": 83
+  },
+  {
+    "patientId": 2101,
+    "timestamp": 1705225821,
+    "hr": 103.8,
+    "ox": 94.9,
+    "sys": 119,
+    "dia": 83
+  },
+  {
+    "patientId": 2101,
+    "timestamp": 1705213341,
+    "hr": 86.3,
+    "ox": 98.7,
+    "sys": 137,
+    "dia": 84
+  },
+  {
+    "patientId": 2102,
+    "timestamp": 1704938512,
+    "hr": 80.5,
+    "ox": 97.1,
+    "sys": 90,
+    "dia": 77
+  },
+  {
+    "patientId": 2102,
+    "timestamp": 1704936712,
+    "hr": 60.1,
+    "ox": 97.1,
+    "sys": 127,
+    "dia": 87
+  },
+  {
+    "patientId": 2102,
+    "timestamp": 1704944392,
+    "hr": 74.4,
+    "ox": 95.7,
+    "sys": 123,
+    "dia": 75
+  },
+  {
+    "patientId": 2102,
+    "timestamp": 1704938092,
+    "hr": 91.2,
+    "ox": 96.5,
+    "sys": 129,
+    "dia": 87
+  },
+  {
+    "patientId": 2102,
+    "timestamp": 1704942112,
+    "hr": 87.6,
+    "ox": 94.4,
+    "sys": 138,
+    "dia": 73
+  },
+  {
+    "patientId": 2103,
+    "timestamp": 1704898997,
+    "hr": 83.5,
+    "ox": 96.1,
+    "sys": 142,
+    "dia": 78
+  },
+  {
+    "patientId": 2103,
+    "timestamp": 1704895397,
+    "hr": 73.8,
+    "ox": 95.6,
+    "sys": 121,
+    "dia": 72
+  },
+  {
+    "patientId": 2103,
+    "timestamp": 1704896477,
+    "hr": 72.1,
+    "ox": 94.6,
+    "sys": 99,
+    "dia": 77
+  },
+  {
+    "patientId": 2103,
+    "timestamp": 1704897977,
+    "hr": 76.9,
+    "ox": 95.5,
+    "sys": 124,
+    "dia": 84
+  },
+  {
+    "patientId": 2103,
+    "timestamp": 1704903317,
+    "hr": 72.6,
+    "ox": 98.1,
+    "sys": 109,
+    "dia": 72
+  },
+  {
+    "patientId": 2104,
+    "timestamp": 1705256767,
+    "hr": 70.8,
+    "ox": 93.4,
+    "sys": 118,
+    "dia": 81
+  },
+  {
+    "patientId": 2104,
+    "timestamp": 1705258747,
+    "hr": 75.4,
+    "ox": 96.7,
+    "sys": 138,
+    "dia": 76
+  },
+  {
+    "patientId": 2104,
+    "timestamp": 1705259587,
+    "hr": 79.6,
+    "ox": 94.3,
+    "sys": 133,
+    "dia": 62
+  },
+  {
+    "patientId": 2104,
+    "timestamp": 1705273387,
+    "hr": 82.8,
+    "ox": 93.9,
+    "sys": 107,
+    "dia": 80
+  },
+  {
+    "patientId": 2104,
+    "timestamp": 1705273507,
+    "hr": 78.9,
+    "ox": 92.4,
+    "sys": 123,
+    "dia": 71
+  },
+  {
+    "patientId": 2105,
+    "timestamp": 1705077593,
+    "hr": 65.8,
+    "ox": 91.4,
+    "sys": 133,
+    "dia": 96
+  },
+  {
+    "patientId": 2105,
+    "timestamp": 1705083113,
+    "hr": 85.8,
+    "ox": 96.7,
+    "sys": 130,
+    "dia": 60
+  },
+  {
+    "patientId": 2105,
+    "timestamp": 1705089413,
+    "hr": 65.8,
+    "ox": 95.0,
+    "sys": 150,
+    "dia": 79
+  },
+  {
+    "patientId": 2105,
+    "timestamp": 1705087373,
+    "hr": 95.0,
+    "ox": 95.9,
+    "sys": 139,
+    "dia": 76
+  },
+  {
+    "patientId": 2105,
+    "timestamp": 1705088273,
+    "hr": 73.7,
+    "ox": 92.1,
+    "sys": 117,
+    "dia": 83
+  },
+  {
+    "patientId": 2106,
+    "timestamp": 1705246707,
+    "hr": 102.8,
+    "ox": 99.3,
+    "sys": 158,
+    "dia": 78
+  },
+  {
+    "patientId": 2106,
+    "timestamp": 1705248567,
+    "hr": 54.8,
+    "ox": 97.7,
+    "sys": 111,
+    "dia": 84
+  },
+  {
+    "patientId": 2106,
+    "timestamp": 1705255227,
+    "hr": 72.9,
+    "ox": 94.3,
+    "sys": 115,
+    "dia": 74
+  },
+  {
+    "patientId": 2106,
+    "timestamp": 1705263447,
+    "hr": 84.6,
+    "ox": 95.6,
+    "sys": 126,
+    "dia": 84
+  },
+  {
+    "patientId": 2106,
+    "timestamp": 1705251627,
+    "hr": 94.6,
+    "ox": 95.0,
+    "sys": 114,
+    "dia": 77
+  },
+  {
+    "patientId": 2107,
+    "timestamp": 1705067796,
+    "hr": 84.8,
+    "ox": 96.9,
+    "sys": 132,
+    "dia": 70
+  },
+  {
+    "patientId": 2107,
+    "timestamp": 1705067856,
+    "hr": 84.9,
+    "ox": 95.4,
+    "sys": 112,
+    "dia": 71
+  },
+  {
+    "patientId": 2107,
+    "timestamp": 1705066356,
+    "hr": 83.6,
+    "ox": 96.8,
+    "sys": 145,
+    "dia": 86
+  },
+  {
+    "patientId": 2107,
+    "timestamp": 1705069836,
+    "hr": 55.0,
+    "ox": 94.8,
+    "sys": 124,
+    "dia": 70
+  },
+  {
+    "patientId": 2107,
+    "timestamp": 1705089636,
+    "hr": 72.1,
+    "ox": 94.5,
+    "sys": 123,
+    "dia": 88
+  },
+  {
+    "patientId": 2108,
+    "timestamp": 1705203132,
+    "hr": 72.7,
+    "ox": 96.9,
+    "sys": 90,
+    "dia": 75
+  },
+  {
+    "patientId": 2108,
+    "timestamp": 1705207212,
+    "hr": 94.1,
+    "ox": 95.3,
+    "sys": 116,
+    "dia": 68
+  },
+  {
+    "patientId": 2108,
+    "timestamp": 1705209432,
+    "hr": 89.2,
+    "ox": 96.4,
+    "sys": 132,
+    "dia": 119
+  },
+  {
+    "patientId": 2108,
+    "timestamp": 1705203672,
+    "hr": 80.7,
+    "ox": 95.0,
+    "sys": 142,
+    "dia": 77
+  },
+  {
+    "patientId": 2108,
+    "timestamp": 1705207152,
+    "hr": 79.5,
+    "ox": 95.2,
+    "sys": 116,
+    "dia": 83
+  },
+  {
+    "patientId": 2109,
+    "timestamp": 1705142958,
+    "hr": 70.2,
+    "ox": 94.9,
+    "sys": 143,
+    "dia": 75
+  },
+  {
+    "patientId": 2109,
+    "timestamp": 1705144398,
+    "hr": 73.6,
+    "ox": 96.7,
+    "sys": 114,
+    "dia": 87
+  },
+  {
+    "patientId": 2109,
+    "timestamp": 1705150998,
+    "hr": 88.9,
+    "ox": 96.2,
+    "sys": 115,
+    "dia": 78
+  },
+  {
+    "patientId": 2109,
+    "timestamp": 1705142238,
+    "hr": 81.2,
+    "ox": 98.6,
+    "sys": 114,
+    "dia": 87
+  },
+  {
+    "patientId": 2109,
+    "timestamp": 1705150758,
+    "hr": 86.1,
+    "ox": 96.4,
+    "sys": 135,
+    "dia": 65
+  },
+  {
+    "patientId": 2110,
+    "timestamp": 1705088413,
+    "hr": 90.4,
+    "ox": 95.1,
+    "sys": 111,
+    "dia": 89
+  },
+  {
+    "patientId": 2110,
+    "timestamp": 1705088473,
+    "hr": 91.9,
+    "ox": 98.1,
+    "sys": 108,
+    "dia": 67
+  },
+  {
+    "patientId": 2110,
+    "timestamp": 1705087453,
+    "hr": 60.3,
+    "ox": 95.2,
+    "sys": 139,
+    "dia": 75
+  },
+  {
+    "patientId": 2110,
+    "timestamp": 1705104913,
+    "hr": 74.4,
+    "ox": 93.7,
+    "sys": 108,
+    "dia": 82
+  },
+  {
+    "patientId": 2110,
+    "timestamp": 1705110793,
+    "hr": 81.0,
+    "ox": 90.0,
+    "sys": 122,
+    "dia": 63
+  },
+  {
+    "patientId": 2111,
+    "timestamp": 1705097754,
+    "hr": 89.9,
+    "ox": 97.6,
+    "sys": 137,
+    "dia": 81
+  },
+  {
+    "patientId": 2111,
+    "timestamp": 1705103034,
+    "hr": 68.6,
+    "ox": 99.5,
+    "sys": 138,
+    "dia": 77
+  },
+  {
+    "patientId": 2111,
+    "timestamp": 1705108674,
+    "hr": 76.8,
+    "ox": 97.2,
+    "sys": 108,
+    "dia": 89
+  },
+  {
+    "patientId": 2111,
+    "timestamp": 1705100034,
+    "hr": 73.7,
+    "ox": 93.9,
+    "sys": 143,
+    "dia": 77
+  },
+  {
+    "patientId": 2111,
+    "timestamp": 1705099854,
+    "hr": 82.8,
+    "ox": 99.4,
+    "sys": 124,
+    "dia": 61
+  },
+  {
+    "patientId": 2112,
+    "timestamp": 1705088480,
+    "hr": 63.6,
+    "ox": 100.0,
+    "sys": 138,
+    "dia": 81
+  },
+  {
+    "patientId": 2112,
+    "timestamp": 1705091000,
+    "hr": 90.2,
+    "ox": 98.5,
+    "sys": 153,
+    "dia": 88
+  },
+  {
+    "patientId": 2112,
+    "timestamp": 1705101200,
+    "hr": 60.1,
+    "ox": 94.1,
+    "sys": 123,
+    "dia": 80
+  },
+  {
+    "patientId": 2112,
+    "timestamp": 1705099940,
+    "hr": 67.7,
+    "ox": 95.8,
+    "sys": 127,
+    "dia": 73
+  },
+  {
+    "patientId": 2112,
+    "timestamp": 1705107200,
+    "hr": 80.9,
+    "ox": 95.6,
+    "sys": 110,
+    "dia": 80
+  },
+  {
+    "patientId": 2113,
+    "timestamp": 1704985176,
+    "hr": 59.1,
+    "ox": 97.2,
+    "sys": 124,
+    "dia": 84
+  },
+  {
+    "patientId": 2113,
+    "timestamp": 1704988296,
+    "hr": 75.0,
+    "ox": 99.8,
+    "sys": 133,
+    "dia": 66
+  },
+  {
+    "patientId": 2113,
+    "timestamp": 1704989196,
+    "hr": 57.6,
+    "ox": 98.1,
+    "sys": 131,
+    "dia": 84
+  },
+  {
+    "patientId": 2113,
+    "timestamp": 1704995316,
+    "hr": 64.6,
+    "ox": 93.2,
+    "sys": 116,
+    "dia": 90
+  },
+  {
+    "patientId": 2113,
+    "timestamp": 1704991776,
+    "hr": 79.2,
+    "ox": 94.3,
+    "sys": 143,
+    "dia": 79
+  },
+  {
+    "patientId": 2114,
+    "timestamp": 1705106843,
+    "hr": 94.4,
+    "ox": 95.1,
+    "sys": 118,
+    "dia": 91
+  },
+  {
+    "patientId": 2114,
+    "timestamp": 1705110803,
+    "hr": 84.9,
+    "ox": 95.6,
+    "sys": 130,
+    "dia": 99
+  },
+  {
+    "patientId": 2114,
+    "timestamp": 1705107443,
+    "hr": 50.1,
+    "ox": 94.7,
+    "sys": 131,
+    "dia": 70
+  },
+  {
+    "patientId": 2114,
+    "timestamp": 1705126223,
+    "hr": 100.7,
+    "ox": 97.0,
+    "sys": 122,
+    "dia": 72
+  },
+  {
+    "patientId": 2114,
+    "timestamp": 1705110983,
+    "hr": 87.3,
+    "ox": 96.3,
+    "sys": 116,
+    "dia": 82
+  },
+  {
+    "patientId": 2115,
+    "timestamp": 1705292025,
+    "hr": 53.8,
+    "ox": 98.3,
+    "sys": 131,
+    "dia": 84
+  },
+  {
+    "patientId": 2115,
+    "timestamp": 1705296765,
+    "hr": 63.5,
+    "ox": 94.6,
+    "sys": 120,
+    "dia": 72
+  },
+  {
+    "patientId": 2115,
+    "timestamp": 1705297485,
+    "hr": 93.9,
+    "ox": 98.6,
+    "sys": 122,
+    "dia": 73
+  },
+  {
+    "patientId": 2115,
+    "timestamp": 1705295625,
+    "hr": 83.8,
+    "ox": 95.3,
+    "sys": 123,
+    "dia": 74
+  },
+  {
+    "patientId": 2115,
+    "timestamp": 1705296765,
+    "hr": 81.8,
+    "ox": 98.0,
+    "sys": 125,
+    "dia": 64
+  },
+  {
+    "patientId": 2116,
+    "timestamp": 1705147925,
+    "hr": 82.7,
+    "ox": 97.4,
+    "sys": 105,
+    "dia": 97
+  },
+  {
+    "patientId": 2116,
+    "timestamp": 1705152245,
+    "hr": 103.9,
+    "ox": 96.7,
+    "sys": 149,
+    "dia": 74
+  },
+  {
+    "patientId": 2116,
+    "timestamp": 1705157465,
+    "hr": 82.8,
+    "ox": 95.5,
+    "sys": 143,
+    "dia": 81
+  },
+  {
+    "patientId": 2116,
+    "timestamp": 1705154525,
+    "hr": 88.8,
+    "ox": 95.6,
+    "sys": 134,
+    "dia": 75
+  },
+  {
+    "patientId": 2116,
+    "timestamp": 1705158425,
+    "hr": 56.6,
+    "ox": 96.3,
+    "sys": 97,
+    "dia": 87
+  },
+  {
+    "patientId": 2117,
+    "timestamp": 1705227118,
+    "hr": 98.1,
+    "ox": 94.6,
+    "sys": 144,
+    "dia": 68
+  },
+  {
+    "patientId": 2117,
+    "timestamp": 1705235218,
+    "hr": 78.4,
+    "ox": 97.2,
+    "sys": 114,
+    "dia": 88
+  },
+  {
+    "patientId": 2117,
+    "timestamp": 1705242358,
+    "hr": 80.9,
+    "ox": 95.3,
+    "sys": 144,
+    "dia": 90
+  },
+  {
+    "patientId": 2117,
+    "timestamp": 1705231018,
+    "hr": 64.5,
+    "ox": 97.1,
+    "sys": 131,
+    "dia": 61
+  },
+  {
+    "patientId": 2117,
+    "timestamp": 1705239298,
+    "hr": 76.1,
+    "ox": 95.3,
+    "sys": 147,
+    "dia": 75
+  },
+  {
+    "patientId": 2118,
+    "timestamp": 1704955715,
+    "hr": 77.7,
+    "ox": 94.5,
+    "sys": 140,
+    "dia": 96
+  },
+  {
+    "patientId": 2118,
+    "timestamp": 1704953615,
+    "hr": 75.5,
+    "ox": 95.0,
+    "sys": 116,
+    "dia": 78
+  },
+  {
+    "patientId": 2118,
+    "timestamp": 1704953195,
+    "hr": 57.1,
+    "ox": 98.6,
+    "sys": 126,
+    "dia": 75
+  },
+  {
+    "patientId": 2118,
+    "timestamp": 1704953435,
+    "hr": 71.9,
+    "ox": 98.0,
+    "sys": 126,
+    "dia": 74
+  },
+  {
+    "patientId": 2118,
+    "timestamp": 1704963395,
+    "hr": 80.5,
+    "ox": 96.9,
+    "sys": 139,
+    "dia": 69
+  },
+  {
+    "patientId": 2119,
+    "timestamp": 1705124568,
+    "hr": 77.1,
+    "ox": 97.6,
+    "sys": 115,
+    "dia": 80
+  },
+  {
+    "patientId": 2119,
+    "timestamp": 1705127988,
+    "hr": 85.2,
+    "ox": 96.9,
+    "sys": 114,
+    "dia": 72
+  },
+  {
+    "patientId": 2119,
+    "timestamp": 1705136268,
+    "hr": 56.2,
+    "ox": 94.8,
+    "sys": 135,
+    "dia": 72
+  },
+  {
+    "patientId": 2119,
+    "timestamp": 1705126068,
+    "hr": 45.1,
+    "ox": 95.3,
+    "sys": 109,
+    "dia": 63
+  },
+  {
+    "patientId": 2119,
+    "timestamp": 1705138368,
+    "hr": 83.0,
+    "ox": 93.6,
+    "sys": 134,
+    "dia": 87
+  },
+  {
+    "patientId": 2120,
+    "timestamp": 1705339510,
+    "hr": 74.5,
+    "ox": 94.6,
+    "sys": 107,
+    "dia": 62
+  },
+  {
+    "patientId": 2120,
+    "timestamp": 1705345870,
+    "hr": 98.8,
+    "ox": 94.3,
+    "sys": 132,
+    "dia": 68
+  },
+  {
+    "patientId": 2120,
+    "timestamp": 1705343710,
+    "hr": 68.0,
+    "ox": 94.5,
+    "sys": 102,
+    "dia": 74
+  },
+  {
+    "patientId": 2120,
+    "timestamp": 1705353490,
+    "hr": 86.2,
+    "ox": 97.9,
+    "sys": 119,
+    "dia": 91
+  },
+  {
+    "patientId": 2120,
+    "timestamp": 1705344910,
+    "hr": 70.6,
+    "ox": 98.7,
+    "sys": 107,
+    "dia": 88
+  },
+  {
+    "patientId": 2121,
+    "timestamp": 1705084093,
+    "hr": 87.3,
+    "ox": 98.2,
+    "sys": 140,
+    "dia": 82
+  },
+  {
+    "patientId": 2121,
+    "timestamp": 1705087093,
+    "hr": 107.4,
+    "ox": 94.8,
+    "sys": 101,
+    "dia": 61
+  },
+  {
+    "patientId": 2121,
+    "timestamp": 1705089673,
+    "hr": 93.7,
+    "ox": 96.4,
+    "sys": 138,
+    "dia": 85
+  },
+  {
+    "patientId": 2121,
+    "timestamp": 1705096153,
+    "hr": 68.6,
+    "ox": 94.6,
+    "sys": 113,
+    "dia": 88
+  },
+  {
+    "patientId": 2121,
+    "timestamp": 1705106893,
+    "hr": 74.6,
+    "ox": 97.8,
+    "sys": 138,
+    "dia": 96
+  },
+  {
+    "patientId": 2122,
+    "timestamp": 1705345090,
+    "hr": 88.8,
+    "ox": 99.6,
+    "sys": 100,
+    "dia": 74
+  },
+  {
+    "patientId": 2122,
+    "timestamp": 1705350130,
+    "hr": 88.7,
+    "ox": 93.9,
+    "sys": 134,
+    "dia": 66
+  },
+  {
+    "patientId": 2122,
+    "timestamp": 1705354150,
+    "hr": 83.4,
+    "ox": 94.0,
+    "sys": 112,
+    "dia": 92
+  },
+  {
+    "patientId": 2122,
+    "timestamp": 1705353190,
+    "hr": 77.5,
+    "ox": 97.1,
+    "sys": 120,
+    "dia": 79
+  },
+  {
+    "patientId": 2122,
+    "timestamp": 1705346530,
+    "hr": 67.1,
+    "ox": 99.8,
+    "sys": 105,
+    "dia": 81
+  },
+  {
+    "patientId": 2123,
+    "timestamp": 1704967795,
+    "hr": 82.6,
+    "ox": 96.2,
+    "sys": 149,
+    "dia": 99
+  },
+  {
+    "patientId": 2123,
+    "timestamp": 1704971815,
+    "hr": 60.0,
+    "ox": 98.1,
+    "sys": 122,
+    "dia": 87
+  },
+  {
+    "patientId": 2123,
+    "timestamp": 1704969655,
+    "hr": 68.0,
+    "ox": 98.1,
+    "sys": 153,
+    "dia": 82
+  },
+  {
+    "patientId": 2123,
+    "timestamp": 1704985495,
+    "hr": 87.7,
+    "ox": 98.1,
+    "sys": 130,
+    "dia": 81
+  },
+  {
+    "patientId": 2123,
+    "timestamp": 1704975895,
+    "hr": 87.8,
+    "ox": 93.7,
+    "sys": 143,
+    "dia": 97
+  },
+  {
+    "patientId": 2124,
+    "timestamp": 1705319032,
+    "hr": 69.1,
+    "ox": 98.3,
+    "sys": 134,
+    "dia": 99
+  },
+  {
+    "patientId": 2124,
+    "timestamp": 1705322812,
+    "hr": 70.9,
+    "ox": 96.6,
+    "sys": 148,
+    "dia": 73
+  },
+  {
+    "patientId": 2124,
+    "timestamp": 1705331392,
+    "hr": 69.0,
+    "ox": 98.7,
+    "sys": 142,
+    "dia": 81
+  },
+  {
+    "patientId": 2124,
+    "timestamp": 1705339132,
+    "hr": 87.3,
+    "ox": 100.0,
+    "sys": 126,
+    "dia": 71
+  },
+  {
+    "patientId": 2124,
+    "timestamp": 1705330432,
+    "hr": 61.3,
+    "ox": 99.0,
+    "sys": 120,
+    "dia": 77
+  },
+  {
+    "patientId": 2125,
+    "timestamp": 1705295873,
+    "hr": 79.6,
+    "ox": 96.5,
+    "sys": 141,
+    "dia": 80
+  },
+  {
+    "patientId": 2125,
+    "timestamp": 1705304513,
+    "hr": 95.3,
+    "ox": 96.7,
+    "sys": 106,
+    "dia": 69
+  },
+  {
+    "patientId": 2125,
+    "timestamp": 1705301333,
+    "hr": 94.5,
+    "ox": 98.3,
+    "sys": 113,
+    "dia": 76
+  },
+  {
+    "patientId": 2125,
+    "timestamp": 1705308293,
+    "hr": 82.6,
+    "ox": 93.9,
+    "sys": 141,
+    "dia": 90
+  },
+  {
+    "patientId": 2125,
+    "timestamp": 1705314833,
+    "hr": 80.0,
+    "ox": 98.2,
+    "sys": 136,
+    "dia": 94
+  },
+  {
+    "patientId": 2126,
+    "timestamp": 1705196246,
+    "hr": 105.0,
+    "ox": 94.0,
+    "sys": 119,
+    "dia": 84
+  },
+  {
+    "patientId": 2126,
+    "timestamp": 1705197206,
+    "hr": 110.7,
+    "ox": 94.7,
+    "sys": 112,
+    "dia": 80
+  },
+  {
+    "patientId": 2126,
+    "timestamp": 1705197386,
+    "hr": 82.4,
+    "ox": 94.2,
+    "sys": 101,
+    "dia": 82
+  },
+  {
+    "patientId": 2126,
+    "timestamp": 1705209446,
+    "hr": 103.7,
+    "ox": 96.0,
+    "sys": 112,
+    "dia": 69
+  },
+  {
+    "patientId": 2126,
+    "timestamp": 1705212506,
+    "hr": 99.1,
+    "ox": 97.1,
+    "sys": 145,
+    "dia": 66
+  },
+  {
+    "patientId": 2127,
+    "timestamp": 1705266309,
+    "hr": 87.2,
+    "ox": 94.2,
+    "sys": 94,
+    "dia": 88
+  },
+  {
+    "patientId": 2127,
+    "timestamp": 1705273389,
+    "hr": 67.7,
+    "ox": 98.5,
+    "sys": 110,
+    "dia": 96
+  },
+  {
+    "patientId": 2127,
+    "timestamp": 1705276149,
+    "hr": 52.9,
+    "ox": 93.6,
+    "sys": 128,
+    "dia": 70
+  },
+  {
+    "patientId": 2127,
+    "timestamp": 1705284489,
+    "hr": 72.9,
+    "ox": 95.7,
+    "sys": 126,
+    "dia": 58
+  },
+  {
+    "patientId": 2127,
+    "timestamp": 1705270329,
+    "hr": 55.2,
+    "ox": 94.6,
+    "sys": 111,
+    "dia": 77
+  },
+  {
+    "patientId": 2128,
+    "timestamp": 1705272547,
+    "hr": 58.5,
+    "ox": 93.3,
+    "sys": 114,
+    "dia": 99
+  },
+  {
+    "patientId": 2128,
+    "timestamp": 1705275127,
+    "hr": 82.1,
+    "ox": 97.0,
+    "sys": 161,
+    "dia": 74
+  },
+  {
+    "patientId": 2128,
+    "timestamp": 1705277887,
+    "hr": 59.8,
+    "ox": 94.0,
+    "sys": 120,
+    "dia": 70
+  },
+  {
+    "patientId": 2128,
+    "timestamp": 1705273267,
+    "hr": 69.9,
+    "ox": 97.4,
+    "sys": 126,
+    "dia": 73
+  },
+  {
+    "patientId": 2128,
+    "timestamp": 1705285027,
+    "hr": 82.6,
+    "ox": 98.1,
+    "sys": 141,
+    "dia": 74
+  },
+  {
+    "patientId": 2129,
+    "timestamp": 1705205376,
+    "hr": 81.5,
+    "ox": 94.4,
+    "sys": 121,
+    "dia": 88
+  },
+  {
+    "patientId": 2129,
+    "timestamp": 1705206216,
+    "hr": 79.1,
+    "ox": 95.8,
+    "sys": 154,
+    "dia": 66
+  },
+  {
+    "patientId": 2129,
+    "timestamp": 1705205136,
+    "hr": 94.4,
+    "ox": 96.6,
+    "sys": 124,
+    "dia": 71
+  },
+  {
+    "patientId": 2129,
+    "timestamp": 1705216656,
+    "hr": 85.9,
+    "ox": 97.1,
+    "sys": 127,
+    "dia": 79
+  },
+  {
+    "patientId": 2129,
+    "timestamp": 1705208136,
+    "hr": 86.7,
+    "ox": 94.4,
+    "sys": 123,
+    "dia": 75
+  },
+  {
+    "patientId": 2130,
+    "timestamp": 1704917283,
+    "hr": 88.2,
+    "ox": 96.3,
+    "sys": 121,
+    "dia": 100
+  },
+  {
+    "patientId": 2130,
+    "timestamp": 1704923163,
+    "hr": 72.9,
+    "ox": 97.7,
+    "sys": 122,
+    "dia": 69
+  },
+  {
+    "patientId": 2130,
+    "timestamp": 1704925263,
+    "hr": 73.4,
+    "ox": 95.7,
+    "sys": 137,
+    "dia": 82
+  },
+  {
+    "patientId": 2130,
+    "timestamp": 1704923943,
+    "hr": 76.5,
+    "ox": 93.1,
+    "sys": 129,
+    "dia": 92
+  },
+  {
+    "patientId": 2130,
+    "timestamp": 1704925683,
+    "hr": 83.0,
+    "ox": 98.8,
+    "sys": 131,
+    "dia": 91
+  },
+  {
+    "patientId": 2131,
+    "timestamp": 1705054000,
+    "hr": 61.7,
+    "ox": 99.5,
+    "sys": 125,
+    "dia": 85
+  },
+  {
+    "patientId": 2131,
+    "timestamp": 1705056640,
+    "hr": 86.9,
+    "ox": 93.4,
+    "sys": 105,
+    "dia": 82
+  },
+  {
+    "patientId": 2131,
+    "timestamp": 1705052320,
+    "hr": 96.8,
+    "ox": 97.1,
+    "sys": 101,
+    "dia": 81
+  },
+  {
+    "patientId": 2131,
+    "timestamp": 1705064860,
+    "hr": 78.7,
+    "ox": 94.4,
+    "sys": 119,
+    "dia": 75
+  },
+  {
+    "patientId": 2131,
+    "timestamp": 1705057480,
+    "hr": 73.5,
+    "ox": 95.7,
+    "sys": 129,
+    "dia": 55
+  },
+  {
+    "patientId": 2132,
+    "timestamp": 1704955558,
+    "hr": 93.1,
+    "ox": 95.2,
+    "sys": 125,
+    "dia": 68
+  },
+  {
+    "patientId": 2132,
+    "timestamp": 1704954418,
+    "hr": 81.5,
+    "ox": 94.5,
+    "sys": 140,
+    "dia": 81
+  },
+  {
+    "patientId": 2132,
+    "timestamp": 1704962458,
+    "hr": 82.1,
+    "ox": 93.3,
+    "sys": 118,
+    "dia": 81
+  },
+  {
+    "patientId": 2132,
+    "timestamp": 1704973198,
+    "hr": 74.1,
+    "ox": 97.6,
+    "sys": 100,
+    "dia": 81
+  },
+  {
+    "patientId": 2132,
+    "timestamp": 1704964258,
+    "hr": 91.7,
+    "ox": 91.8,
+    "sys": 142,
+    "dia": 93
+  },
+  {
+    "patientId": 2133,
+    "timestamp": 1705246487,
+    "hr": 48.3,
+    "ox": 95.4,
+    "sys": 126,
+    "dia": 85
+  },
+  {
+    "patientId": 2133,
+    "timestamp": 1705252127,
+    "hr": 68.9,
+    "ox": 92.8,
+    "sys": 120,
+    "dia": 77
+  },
+  {
+    "patientId": 2133,
+    "timestamp": 1705248287,
+    "hr": 87.4,
+    "ox": 98.1,
+    "sys": 103,
+    "dia": 106
+  },
+  {
+    "patientId": 2133,
+    "timestamp": 1705264067,
+    "hr": 77.8,
+    "ox": 95.3,
+    "sys": 142,
+    "dia": 73
+  },
+  {
+    "patientId": 2133,
+    "timestamp": 1705270787,
+    "hr": 86.0,
+    "ox": 95.3,
+    "sys": 117,
+    "dia": 85
+  },
+  {
+    "patientId": 2134,
+    "timestamp": 1705089759,
+    "hr": 83.9,
+    "ox": 95.9,
+    "sys": 132,
+    "dia": 74
+  },
+  {
+    "patientId": 2134,
+    "timestamp": 1705091679,
+    "hr": 73.4,
+    "ox": 99.2,
+    "sys": 143,
+    "dia": 82
+  },
+  {
+    "patientId": 2134,
+    "timestamp": 1705100619,
+    "hr": 70.5,
+    "ox": 96.8,
+    "sys": 144,
+    "dia": 57
+  },
+  {
+    "patientId": 2134,
+    "timestamp": 1705097379,
+    "hr": 81.9,
+    "ox": 96.0,
+    "sys": 130,
+    "dia": 71
+  },
+  {
+    "patientId": 2134,
+    "timestamp": 1705099779,
+    "hr": 73.0,
+    "ox": 93.7,
+    "sys": 122,
+    "dia": 100
+  },
+  {
+    "patientId": 2135,
+    "timestamp": 1704908825,
+    "hr": 93.7,
+    "ox": 92.5,
+    "sys": 107,
+    "dia": 82
+  },
+  {
+    "patientId": 2135,
+    "timestamp": 1704911945,
+    "hr": 105.2,
+    "ox": 99.2,
+    "sys": 135,
+    "dia": 71
+  },
+  {
+    "patientId": 2135,
+    "timestamp": 1704908405,
+    "hr": 94.5,
+    "ox": 94.8,
+    "sys": 100,
+    "dia": 84
+  },
+  {
+    "patientId": 2135,
+    "timestamp": 1704921965,
+    "hr": 96.5,
+    "ox": 96.6,
+    "sys": 135,
+    "dia": 94
+  },
+  {
+    "patientId": 2135,
+    "timestamp": 1704920945,
+    "hr": 75.2,
+    "ox": 94.8,
+    "sys": 152,
+    "dia": 65
+  },
+  {
+    "patientId": 2136,
+    "timestamp": 1705351055,
+    "hr": 57.9,
+    "ox": 95.9,
+    "sys": 134,
+    "dia": 81
+  },
+  {
+    "patientId": 2136,
+    "timestamp": 1705350815,
+    "hr": 69.3,
+    "ox": 95.9,
+    "sys": 137,
+    "dia": 101
+  },
+  {
+    "patientId": 2136,
+    "timestamp": 1705355615,
+    "hr": 91.5,
+    "ox": 96.1,
+    "sys": 128,
+    "dia": 90
+  },
+  {
+    "patientId": 2136,
+    "timestamp": 1705367495,
+    "hr": 95.0,
+    "ox": 96.8,
+    "sys": 148,
+    "dia": 75
+  },
+  {
+    "patientId": 2136,
+    "timestamp": 1705372895,
+    "hr": 64.8,
+    "ox": 96.6,
+    "sys": 112,
+    "dia": 73
+  },
+  {
+    "patientId": 2137,
+    "timestamp": 1704878431,
+    "hr": 86.3,
+    "ox": 92.3,
+    "sys": 101,
+    "dia": 98
+  },
+  {
+    "patientId": 2137,
+    "timestamp": 1704883771,
+    "hr": 80.9,
+    "ox": 93.4,
+    "sys": 114,
+    "dia": 70
+  },
+  {
+    "patientId": 2137,
+    "timestamp": 1704884251,
+    "hr": 96.0,
+    "ox": 98.4,
+    "sys": 123,
+    "dia": 89
+  },
+  {
+    "patientId": 2137,
+    "timestamp": 1704889891,
+    "hr": 95.1,
+    "ox": 98.3,
+    "sys": 110,
+    "dia": 90
+  },
+  {
+    "patientId": 2137,
+    "timestamp": 1704900751,
+    "hr": 76.7,
+    "ox": 96.9,
+    "sys": 117,
+    "dia": 76
+  },
+  {
+    "patientId": 2138,
+    "timestamp": 1705325732,
+    "hr": 104.6,
+    "ox": 96.0,
+    "sys": 136,
+    "dia": 72
+  },
+  {
+    "patientId": 2138,
+    "timestamp": 1705329512,
+    "hr": 70.3,
+    "ox": 92.6,
+    "sys": 133,
+    "dia": 81
+  },
+  {
+    "patientId": 2138,
+    "timestamp": 1705327172,
+    "hr": 88.3,
+    "ox": 97.5,
+    "sys": 110,
+    "dia": 77
+  },
+  {
+    "patientId": 2138,
+    "timestamp": 1705336292,
+    "hr": 86.4,
+    "ox": 99.2,
+    "sys": 125,
+    "dia": 65
+  },
+  {
+    "patientId": 2138,
+    "timestamp": 1705331492,
+    "hr": 102.8,
+    "ox": 94.1,
+    "sys": 112,
+    "dia": 87
+  },
+  {
+    "patientId": 2139,
+    "timestamp": 1704991160,
+    "hr": 70.0,
+    "ox": 94.7,
+    "sys": 126,
+    "dia": 80
+  },
+  {
+    "patientId": 2139,
+    "timestamp": 1704993380,
+    "hr": 85.1,
+    "ox": 96.5,
+    "sys": 119,
+    "dia": 83
+  },
+  {
+    "patientId": 2139,
+    "timestamp": 1705004180,
+    "hr": 61.9,
+    "ox": 93.7,
+    "sys": 124,
+    "dia": 72
+  },
+  {
+    "patientId": 2139,
+    "timestamp": 1704993080,
+    "hr": 70.3,
+    "ox": 93.8,
+    "sys": 128,
+    "dia": 82
+  },
+  {
+    "patientId": 2139,
+    "timestamp": 1704998840,
+    "hr": 73.2,
+    "ox": 96.8,
+    "sys": 129,
+    "dia": 81
+  },
+  {
+    "patientId": 2140,
+    "timestamp": 1704892657,
+    "hr": 80.1,
+    "ox": 91.8,
+    "sys": 127,
+    "dia": 102
+  },
+  {
+    "patientId": 2140,
+    "timestamp": 1704891157,
+    "hr": 91.9,
+    "ox": 94.8,
+    "sys": 123,
+    "dia": 83
+  },
+  {
+    "patientId": 2140,
+    "timestamp": 1704900097,
+    "hr": 88.8,
+    "ox": 97.2,
+    "sys": 122,
+    "dia": 83
+  },
+  {
+    "patientId": 2140,
+    "timestamp": 1704907657,
+    "hr": 84.8,
+    "ox": 94.6,
+    "sys": 137,
+    "dia": 91
+  },
+  {
+    "patientId": 2140,
+    "timestamp": 1704897817,
+    "hr": 79.2,
+    "ox": 96.1,
+    "sys": 126,
+    "dia": 78
+  },
+  {
+    "patientId": 2141,
+    "timestamp": 1705256159,
+    "hr": 75.8,
+    "ox": 98.1,
+    "sys": 130,
+    "dia": 76
+  },
+  {
+    "patientId": 2141,
+    "timestamp": 1705259699,
+    "hr": 87.2,
+    "ox": 94.3,
+    "sys": 162,
+    "dia": 82
+  },
+  {
+    "patientId": 2141,
+    "timestamp": 1705261679,
+    "hr": 84.5,
+    "ox": 96.8,
+    "sys": 116,
+    "dia": 83
+  },
+  {
+    "patientId": 2141,
+    "timestamp": 1705271759,
+    "hr": 94.6,
+    "ox": 98.1,
+    "sys": 138,
+    "dia": 76
+  },
+  {
+    "patientId": 2141,
+    "timestamp": 1705273679,
+    "hr": 77.3,
+    "ox": 94.1,
+    "sys": 126,
+    "dia": 81
+  },
+  {
+    "patientId": 2142,
+    "timestamp": 1705203441,
+    "hr": 69.0,
+    "ox": 94.3,
+    "sys": 122,
+    "dia": 83
+  },
+  {
+    "patientId": 2142,
+    "timestamp": 1705208481,
+    "hr": 67.7,
+    "ox": 95.4,
+    "sys": 125,
+    "dia": 77
+  },
+  {
+    "patientId": 2142,
+    "timestamp": 1705215681,
+    "hr": 62.8,
+    "ox": 93.4,
+    "sys": 129,
+    "dia": 58
+  },
+  {
+    "patientId": 2142,
+    "timestamp": 1705210701,
+    "hr": 80.2,
+    "ox": 98.1,
+    "sys": 107,
+    "dia": 80
+  },
+  {
+    "patientId": 2142,
+    "timestamp": 1705226421,
+    "hr": 77.8,
+    "ox": 95.8,
+    "sys": 139,
+    "dia": 97
+  },
+  {
+    "patientId": 2143,
+    "timestamp": 1704920192,
+    "hr": 96.8,
+    "ox": 95.2,
+    "sys": 132,
+    "dia": 75
+  },
+  {
+    "patientId": 2143,
+    "timestamp": 1704924992,
+    "hr": 65.6,
+    "ox": 91.4,
+    "sys": 137,
+    "dia": 71
+  },
+  {
+    "patientId": 2143,
+    "timestamp": 1704926792,
+    "hr": 90.8,
+    "ox": 92.7,
+    "sys": 124,
+    "dia": 80
+  },
+  {
+    "patientId": 2143,
+    "timestamp": 1704937652,
+    "hr": 74.5,
+    "ox": 95.7,
+    "sys": 119,
+    "dia": 66
+  },
+  {
+    "patientId": 2143,
+    "timestamp": 1704925832,
+    "hr": 85.7,
+    "ox": 97.4,
+    "sys": 127,
+    "dia": 77
+  },
+  {
+    "patientId": 2144,
+    "timestamp": 1704973918,
+    "hr": 68.1,
+    "ox": 95.6,
+    "sys": 92,
+    "dia": 81
+  },
+  {
+    "patientId": 2144,
+    "timestamp": 1704973618,
+    "hr": 97.5,
+    "ox": 97.6,
+    "sys": 123,
+    "dia": 75
+  },
+  {
+    "patientId": 2144,
+    "timestamp": 1704982198,
+    "hr": 71.7,
+    "ox": 92.1,
+    "sys": 126,
+    "dia": 100
+  },
+  {
+    "patientId": 2144,
+    "timestamp": 1704987778,
+    "hr": 77.5,
+    "ox": 99.0,
+    "sys": 124,
+    "dia": 82
+  },
+  {
+    "patientId": 2144,
+    "timestamp": 1704995518,
+    "hr": 70.2,
+    "ox": 97.6,
+    "sys": 128,
+    "dia": 80
+  },
+  {
+    "patientId": 2145,
+    "timestamp": 1705049907,
+    "hr": 83.5,
+    "ox": 94.9,
+    "sys": 103,
+    "dia": 74
+  },
+  {
+    "patientId": 2145,
+    "timestamp": 1705054287,
+    "hr": 92.0,
+    "ox": 95.0,
+    "sys": 113,
+    "dia": 72
+  },
+  {
+    "patientId": 2145,
+    "timestamp": 1705047987,
+    "hr": 82.8,
+    "ox": 93.3,
+    "sys": 115,
+    "dia": 63
+  },
+  {
+    "patientId": 2145,
+    "timestamp": 1705054827,
+    "hr": 55.1,
+    "ox": 95.8,
+    "sys": 122,
+    "dia": 76
+  },
+  {
+    "patientId": 2145,
+    "timestamp": 1705055367,
+    "hr": 69.0,
+    "ox": 95.0,
+    "sys": 119,
+    "dia": 82
+  },
+  {
+    "patientId": 2146,
+    "timestamp": 1705054147,
+    "hr": 82.2,
+    "ox": 98.6,
+    "sys": 133,
+    "dia": 75
+  },
+  {
+    "patientId": 2146,
+    "timestamp": 1705053367,
+    "hr": 98.8,
+    "ox": 96.1,
+    "sys": 115,
+    "dia": 71
+  },
+  {
+    "patientId": 2146,
+    "timestamp": 1705056487,
+    "hr": 63.3,
+    "ox": 92.8,
+    "sys": 106,
+    "dia": 81
+  },
+  {
+    "patientId": 2146,
+    "timestamp": 1705066207,
+    "hr": 73.9,
+    "ox": 94.2,
+    "sys": 146,
+    "dia": 80
+  },
+  {
+    "patientId": 2146,
+    "timestamp": 1705071247,
+    "hr": 68.1,
+    "ox": 96.8,
+    "sys": 112,
+    "dia": 80
+  },
+  {
+    "patientId": 2147,
+    "timestamp": 1705008262,
+    "hr": 74.0,
+    "ox": 95.8,
+    "sys": 122,
+    "dia": 84
+  },
+  {
+    "patientId": 2147,
+    "timestamp": 1705007422,
+    "hr": 75.2,
+    "ox": 93.6,
+    "sys": 119,
+    "dia": 82
+  },
+  {
+    "patientId": 2147,
+    "timestamp": 1705021762,
+    "hr": 95.8,
+    "ox": 94.9,
+    "sys": 142,
+    "dia": 65
+  },
+  {
+    "patientId": 2147,
+    "timestamp": 1705011922,
+    "hr": 94.2,
+    "ox": 97.0,
+    "sys": 121,
+    "dia": 74
+  },
+  {
+    "patientId": 2147,
+    "timestamp": 1705016362,
+    "hr": 63.2,
+    "ox": 98.6,
+    "sys": 129,
+    "dia": 69
+  },
+  {
+    "patientId": 2148,
+    "timestamp": 1705270804,
+    "hr": 68.4,
+    "ox": 95.4,
+    "sys": 115,
+    "dia": 72
+  },
+  {
+    "patientId": 2148,
+    "timestamp": 1705270324,
+    "hr": 94.2,
+    "ox": 99.3,
+    "sys": 110,
+    "dia": 94
+  },
+  {
+    "patientId": 2148,
+    "timestamp": 1705279924,
+    "hr": 78.2,
+    "ox": 93.1,
+    "sys": 117,
+    "dia": 84
+  },
+  {
+    "patientId": 2148,
+    "timestamp": 1705270804,
+    "hr": 76.1,
+    "ox": 97.6,
+    "sys": 108,
+    "dia": 91
+  },
+  {
+    "patientId": 2148,
+    "timestamp": 1705270624,
+    "hr": 63.3,
+    "ox": 97.2,
+    "sys": 114,
+    "dia": 78
+  },
+  {
+    "patientId": 2149,
+    "timestamp": 1705215722,
+    "hr": 73.6,
+    "ox": 95.5,
+    "sys": 109,
+    "dia": 79
+  },
+  {
+    "patientId": 2149,
+    "timestamp": 1705218602,
+    "hr": 83.8,
+    "ox": 99.3,
+    "sys": 127,
+    "dia": 89
+  },
+  {
+    "patientId": 2149,
+    "timestamp": 1705223942,
+    "hr": 74.4,
+    "ox": 95.1,
+    "sys": 121,
+    "dia": 85
+  },
+  {
+    "patientId": 2149,
+    "timestamp": 1705224002,
+    "hr": 71.1,
+    "ox": 98.4,
+    "sys": 139,
+    "dia": 82
+  },
+  {
+    "patientId": 2149,
+    "timestamp": 1705218602,
+    "hr": 77.1,
+    "ox": 92.7,
+    "sys": 136,
+    "dia": 71
+  },
+  {
+    "patientId": 2150,
+    "timestamp": 1705008227,
+    "hr": 57.9,
+    "ox": 94.2,
+    "sys": 124,
+    "dia": 85
+  },
+  {
+    "patientId": 2150,
+    "timestamp": 1705009127,
+    "hr": 88.4,
+    "ox": 95.5,
+    "sys": 147,
+    "dia": 83
+  },
+  {
+    "patientId": 2150,
+    "timestamp": 1705016687,
+    "hr": 70.4,
+    "ox": 92.2,
+    "sys": 119,
+    "dia": 90
+  },
+  {
+    "patientId": 2150,
+    "timestamp": 1705020887,
+    "hr": 81.9,
+    "ox": 97.1,
+    "sys": 136,
+    "dia": 86
+  },
+  {
+    "patientId": 2150,
+    "timestamp": 1705026527,
+    "hr": 73.3,
+    "ox": 95.7,
+    "sys": 150,
+    "dia": 70
+  },
+  {
+    "patientId": 2151,
+    "timestamp": 1705001426,
+    "hr": 71.1,
+    "ox": 98.6,
+    "sys": 107,
+    "dia": 84
+  },
+  {
+    "patientId": 2151,
+    "timestamp": 1705007006,
+    "hr": 63.0,
+    "ox": 96.4,
+    "sys": 140,
+    "dia": 71
+  },
+  {
+    "patientId": 2151,
+    "timestamp": 1705007366,
+    "hr": 69.4,
+    "ox": 90.8,
+    "sys": 125,
+    "dia": 89
+  },
+  {
+    "patientId": 2151,
+    "timestamp": 1705014626,
+    "hr": 75.8,
+    "ox": 92.8,
+    "sys": 121,
+    "dia": 76
+  },
+  {
+    "patientId": 2151,
+    "timestamp": 1705001666,
+    "hr": 89.0,
+    "ox": 93.6,
+    "sys": 127,
+    "dia": 92
+  },
+  {
+    "patientId": 2152,
+    "timestamp": 1705170602,
+    "hr": 88.1,
+    "ox": 99.1,
+    "sys": 138,
+    "dia": 87
+  },
+  {
+    "patientId": 2152,
+    "timestamp": 1705179842,
+    "hr": 57.7,
+    "ox": 97.7,
+    "sys": 116,
+    "dia": 81
+  },
+  {
+    "patientId": 2152,
+    "timestamp": 1705183982,
+    "hr": 75.8,
+    "ox": 94.5,
+    "sys": 130,
+    "dia": 92
+  },
+  {
+    "patientId": 2152,
+    "timestamp": 1705179182,
+    "hr": 94.0,
+    "ox": 95.8,
+    "sys": 137,
+    "dia": 76
+  },
+  {
+    "patientId": 2152,
+    "timestamp": 1705174382,
+    "hr": 86.5,
+    "ox": 96.9,
+    "sys": 120,
+    "dia": 67
+  },
+  {
+    "patientId": 2153,
+    "timestamp": 1705277055,
+    "hr": 83.8,
+    "ox": 99.7,
+    "sys": 107,
+    "dia": 85
+  },
+  {
+    "patientId": 2153,
+    "timestamp": 1705278855,
+    "hr": 78.9,
+    "ox": 95.5,
+    "sys": 141,
+    "dia": 81
+  },
+  {
+    "patientId": 2153,
+    "timestamp": 1705287075,
+    "hr": 87.1,
+    "ox": 95.8,
+    "sys": 129,
+    "dia": 81
+  },
+  {
+    "patientId": 2153,
+    "timestamp": 1705288155,
+    "hr": 72.7,
+    "ox": 96.7,
+    "sys": 129,
+    "dia": 61
+  },
+  {
+    "patientId": 2153,
+    "timestamp": 1705292175,
+    "hr": 66.2,
+    "ox": 96.7,
+    "sys": 146,
+    "dia": 65
+  },
+  {
+    "patientId": 2154,
+    "timestamp": 1705286606,
+    "hr": 84.3,
+    "ox": 96.4,
+    "sys": 132,
+    "dia": 94
+  },
+  {
+    "patientId": 2154,
+    "timestamp": 1705284386,
+    "hr": 93.4,
+    "ox": 99.0,
+    "sys": 121,
+    "dia": 105
+  },
+  {
+    "patientId": 2154,
+    "timestamp": 1705290746,
+    "hr": 82.9,
+    "ox": 91.8,
+    "sys": 133,
+    "dia": 74
+  },
+  {
+    "patientId": 2154,
+    "timestamp": 1705287326,
+    "hr": 78.5,
+    "ox": 94.3,
+    "sys": 113,
+    "dia": 99
+  },
+  {
+    "patientId": 2154,
+    "timestamp": 1705290986,
+    "hr": 56.3,
+    "ox": 97.5,
+    "sys": 94,
+    "dia": 80
+  },
+  {
+    "patientId": 2155,
+    "timestamp": 1705181077,
+    "hr": 79.6,
+    "ox": 94.9,
+    "sys": 133,
+    "dia": 77
+  },
+  {
+    "patientId": 2155,
+    "timestamp": 1705178257,
+    "hr": 99.7,
+    "ox": 96.7,
+    "sys": 112,
+    "dia": 79
+  },
+  {
+    "patientId": 2155,
+    "timestamp": 1705192777,
+    "hr": 108.7,
+    "ox": 96.8,
+    "sys": 123,
+    "dia": 64
+  },
+  {
+    "patientId": 2155,
+    "timestamp": 1705187617,
+    "hr": 74.1,
+    "ox": 97.3,
+    "sys": 125,
+    "dia": 65
+  },
+  {
+    "patientId": 2155,
+    "timestamp": 1705198417,
+    "hr": 81.4,
+    "ox": 94.7,
+    "sys": 142,
+    "dia": 77
+  },
+  {
+    "patientId": 2156,
+    "timestamp": 1705083361,
+    "hr": 73.8,
+    "ox": 95.8,
+    "sys": 157,
+    "dia": 65
+  },
+  {
+    "patientId": 2156,
+    "timestamp": 1705088221,
+    "hr": 65.2,
+    "ox": 93.8,
+    "sys": 120,
+    "dia": 71
+  },
+  {
+    "patientId": 2156,
+    "timestamp": 1705084741,
+    "hr": 99.2,
+    "ox": 97.6,
+    "sys": 137,
+    "dia": 65
+  },
+  {
+    "patientId": 2156,
+    "timestamp": 1705092661,
+    "hr": 99.5,
+    "ox": 95.8,
+    "sys": 110,
+    "dia": 68
+  },
+  {
+    "patientId": 2156,
+    "timestamp": 1705106701,
+    "hr": 79.7,
+    "ox": 94.6,
+    "sys": 128,
+    "dia": 87
+  },
+  {
+    "patientId": 2157,
+    "timestamp": 1704930205,
+    "hr": 70.8,
+    "ox": 93.5,
+    "sys": 127,
+    "dia": 91
+  },
+  {
+    "patientId": 2157,
+    "timestamp": 1704933145,
+    "hr": 78.7,
+    "ox": 96.8,
+    "sys": 113,
+    "dia": 81
+  },
+  {
+    "patientId": 2157,
+    "timestamp": 1704938605,
+    "hr": 81.5,
+    "ox": 97.4,
+    "sys": 128,
+    "dia": 69
+  },
+  {
+    "patientId": 2157,
+    "timestamp": 1704944125,
+    "hr": 91.5,
+    "ox": 95.5,
+    "sys": 136,
+    "dia": 82
+  },
+  {
+    "patientId": 2157,
+    "timestamp": 1704944965,
+    "hr": 75.2,
+    "ox": 94.5,
+    "sys": 136,
+    "dia": 91
+  },
+  {
+    "patientId": 2158,
+    "timestamp": 1705057674,
+    "hr": 86.9,
+    "ox": 94.6,
+    "sys": 101,
+    "dia": 78
+  },
+  {
+    "patientId": 2158,
+    "timestamp": 1705062714,
+    "hr": 78.9,
+    "ox": 95.5,
+    "sys": 107,
+    "dia": 78
+  },
+  {
+    "patientId": 2158,
+    "timestamp": 1705071594,
+    "hr": 75.3,
+    "ox": 95.4,
+    "sys": 134,
+    "dia": 73
+  },
+  {
+    "patientId": 2158,
+    "timestamp": 1705066194,
+    "hr": 75.6,
+    "ox": 96.1,
+    "sys": 124,
+    "dia": 74
+  },
+  {
+    "patientId": 2158,
+    "timestamp": 1705078194,
+    "hr": 90.3,
+    "ox": 96.2,
+    "sys": 142,
+    "dia": 76
+  },
+  {
+    "patientId": 2159,
+    "timestamp": 1705140069,
+    "hr": 82.0,
+    "ox": 96.8,
+    "sys": 133,
+    "dia": 78
+  },
+  {
+    "patientId": 2159,
+    "timestamp": 1705142709,
+    "hr": 94.8,
+    "ox": 93.9,
+    "sys": 133,
+    "dia": 74
+  },
+  {
+    "patientId": 2159,
+    "timestamp": 1705151289,
+    "hr": 78.1,
+    "ox": 94.8,
+    "sys": 110,
+    "dia": 69
+  },
+  {
+    "patientId": 2159,
+    "timestamp": 1705160109,
+    "hr": 96.2,
+    "ox": 97.8,
+    "sys": 124,
+    "dia": 82
+  },
+  {
+    "patientId": 2159,
+    "timestamp": 1705161069,
+    "hr": 92.7,
+    "ox": 95.6,
+    "sys": 114,
+    "dia": 69
+  },
+  {
+    "patientId": 2160,
+    "timestamp": 1705308938,
+    "hr": 98.7,
+    "ox": 92.9,
+    "sys": 149,
+    "dia": 76
+  },
+  {
+    "patientId": 2160,
+    "timestamp": 1705308098,
+    "hr": 78.3,
+    "ox": 95.4,
+    "sys": 105,
+    "dia": 79
+  },
+  {
+    "patientId": 2160,
+    "timestamp": 1705311638,
+    "hr": 72.7,
+    "ox": 95.7,
+    "sys": 139,
+    "dia": 82
+  },
+  {
+    "patientId": 2160,
+    "timestamp": 1705310018,
+    "hr": 100.2,
+    "ox": 98.0,
+    "sys": 150,
+    "dia": 73
+  },
+  {
+    "patientId": 2160,
+    "timestamp": 1705317578,
+    "hr": 77.1,
+    "ox": 96.0,
+    "sys": 141,
+    "dia": 92
+  },
+  {
+    "patientId": 2161,
+    "timestamp": 1705064270,
+    "hr": 81.8,
+    "ox": 95.9,
+    "sys": 125,
+    "dia": 55
+  },
+  {
+    "patientId": 2161,
+    "timestamp": 1705073390,
+    "hr": 87.4,
+    "ox": 99.3,
+    "sys": 130,
+    "dia": 83
+  },
+  {
+    "patientId": 2161,
+    "timestamp": 1705071830,
+    "hr": 51.7,
+    "ox": 95.0,
+    "sys": 113,
+    "dia": 79
+  },
+  {
+    "patientId": 2161,
+    "timestamp": 1705076390,
+    "hr": 91.9,
+    "ox": 95.6,
+    "sys": 132,
+    "dia": 75
+  },
+  {
+    "patientId": 2161,
+    "timestamp": 1705079870,
+    "hr": 57.7,
+    "ox": 96.2,
+    "sys": 142,
+    "dia": 79
+  },
+  {
+    "patientId": 2162,
+    "timestamp": 1704967986,
+    "hr": 76.4,
+    "ox": 95.5,
+    "sys": 139,
+    "dia": 72
+  },
+  {
+    "patientId": 2162,
+    "timestamp": 1704971646,
+    "hr": 72.8,
+    "ox": 95.0,
+    "sys": 131,
+    "dia": 78
+  },
+  {
+    "patientId": 2162,
+    "timestamp": 1704972666,
+    "hr": 79.9,
+    "ox": 96.6,
+    "sys": 152,
+    "dia": 76
+  },
+  {
+    "patientId": 2162,
+    "timestamp": 1704987186,
+    "hr": 68.3,
+    "ox": 98.0,
+    "sys": 123,
+    "dia": 68
+  },
+  {
+    "patientId": 2162,
+    "timestamp": 1704983466,
+    "hr": 75.0,
+    "ox": 95.9,
+    "sys": 130,
+    "dia": 82
+  },
+  {
+    "patientId": 2163,
+    "timestamp": 1705104606,
+    "hr": 59.5,
+    "ox": 100.0,
+    "sys": 138,
+    "dia": 77
+  },
+  {
+    "patientId": 2163,
+    "timestamp": 1705111746,
+    "hr": 93.2,
+    "ox": 92.9,
+    "sys": 90,
+    "dia": 85
+  },
+  {
+    "patientId": 2163,
+    "timestamp": 1705107726,
+    "hr": 60.2,
+    "ox": 97.2,
+    "sys": 114,
+    "dia": 64
+  },
+  {
+    "patientId": 2163,
+    "timestamp": 1705123506,
+    "hr": 81.3,
+    "ox": 94.7,
+    "sys": 132,
+    "dia": 55
+  },
+  {
+    "patientId": 2163,
+    "timestamp": 1705111146,
+    "hr": 73.0,
+    "ox": 95.5,
+    "sys": 122,
+    "dia": 84
+  },
+  {
+    "patientId": 2164,
+    "timestamp": 1705312442,
+    "hr": 80.5,
+    "ox": 97.1,
+    "sys": 152,
+    "dia": 75
+  },
+  {
+    "patientId": 2164,
+    "timestamp": 1705317362,
+    "hr": 103.9,
+    "ox": 100.0,
+    "sys": 107,
+    "dia": 76
+  },
+  {
+    "patientId": 2164,
+    "timestamp": 1705324982,
+    "hr": 79.9,
+    "ox": 98.4,
+    "sys": 104,
+    "dia": 85
+  },
+  {
+    "patientId": 2164,
+    "timestamp": 1705321982,
+    "hr": 81.8,
+    "ox": 99.9,
+    "sys": 144,
+    "dia": 73
+  },
+  {
+    "patientId": 2164,
+    "timestamp": 1705316222,
+    "hr": 61.2,
+    "ox": 93.6,
+    "sys": 146,
+    "dia": 76
+  },
+  {
+    "patientId": 2165,
+    "timestamp": 1705004334,
+    "hr": 84.3,
+    "ox": 98.7,
+    "sys": 141,
+    "dia": 74
+  },
+  {
+    "patientId": 2165,
+    "timestamp": 1705004934,
+    "hr": 80.3,
+    "ox": 92.9,
+    "sys": 127,
+    "dia": 101
+  },
+  {
+    "patientId": 2165,
+    "timestamp": 1705009614,
+    "hr": 80.9,
+    "ox": 96.9,
+    "sys": 140,
+    "dia": 81
+  },
+  {
+    "patientId": 2165,
+    "timestamp": 1705015014,
+    "hr": 70.0,
+    "ox": 98.8,
+    "sys": 123,
+    "dia": 71
+  },
+  {
+    "patientId": 2165,
+    "timestamp": 1705013874,
+    "hr": 75.4,
+    "ox": 97.1,
+    "sys": 113,
+    "dia": 67
+  },
+  {
+    "patientId": 2166,
+    "timestamp": 1704893507,
+    "hr": 79.3,
+    "ox": 97.0,
+    "sys": 129,
+    "dia": 60
+  },
+  {
+    "patientId": 2166,
+    "timestamp": 1704896447,
+    "hr": 91.3,
+    "ox": 94.2,
+    "sys": 101,
+    "dia": 67
+  },
+  {
+    "patientId": 2166,
+    "timestamp": 1704894947,
+    "hr": 55.7,
+    "ox": 95.8,
+    "sys": 116,
+    "dia": 70
+  },
+  {
+    "patientId": 2166,
+    "timestamp": 1704909707,
+    "hr": 64.1,
+    "ox": 91.8,
+    "sys": 129,
+    "dia": 80
+  },
+  {
+    "patientId": 2166,
+    "timestamp": 1704897407,
+    "hr": 93.9,
+    "ox": 97.9,
+    "sys": 113,
+    "dia": 82
+  },
+  {
+    "patientId": 2167,
+    "timestamp": 1705133056,
+    "hr": 81.7,
+    "ox": 94.7,
+    "sys": 112,
+    "dia": 86
+  },
+  {
+    "patientId": 2167,
+    "timestamp": 1705138456,
+    "hr": 62.2,
+    "ox": 95.6,
+    "sys": 143,
+    "dia": 64
+  },
+  {
+    "patientId": 2167,
+    "timestamp": 1705138816,
+    "hr": 75.4,
+    "ox": 94.6,
+    "sys": 113,
+    "dia": 73
+  },
+  {
+    "patientId": 2167,
+    "timestamp": 1705139476,
+    "hr": 68.3,
+    "ox": 97.4,
+    "sys": 105,
+    "dia": 64
+  },
+  {
+    "patientId": 2167,
+    "timestamp": 1705155616,
+    "hr": 66.4,
+    "ox": 94.2,
+    "sys": 147,
+    "dia": 80
+  },
+  {
+    "patientId": 2168,
+    "timestamp": 1705056715,
+    "hr": 75.1,
+    "ox": 98.0,
+    "sys": 108,
+    "dia": 91
+  },
+  {
+    "patientId": 2168,
+    "timestamp": 1705053775,
+    "hr": 59.3,
+    "ox": 94.2,
+    "sys": 140,
+    "dia": 87
+  },
+  {
+    "patientId": 2168,
+    "timestamp": 1705058155,
+    "hr": 72.9,
+    "ox": 97.8,
+    "sys": 150,
+    "dia": 75
+  },
+  {
+    "patientId": 2168,
+    "timestamp": 1705067695,
+    "hr": 93.0,
+    "ox": 99.2,
+    "sys": 131,
+    "dia": 95
+  },
+  {
+    "patientId": 2168,
+    "timestamp": 1705061575,
+    "hr": 55.2,
+    "ox": 95.4,
+    "sys": 139,
+    "dia": 81
+  },
+  {
+    "patientId": 2169,
+    "timestamp": 1705147761,
+    "hr": 83.9,
+    "ox": 100.0,
+    "sys": 95,
+    "dia": 79
+  },
+  {
+    "patientId": 2169,
+    "timestamp": 1705147401,
+    "hr": 55.6,
+    "ox": 96.1,
+    "sys": 121,
+    "dia": 63
+  },
+  {
+    "patientId": 2169,
+    "timestamp": 1705148121,
+    "hr": 72.8,
+    "ox": 96.6,
+    "sys": 134,
+    "dia": 85
+  },
+  {
+    "patientId": 2169,
+    "timestamp": 1705161561,
+    "hr": 83.7,
+    "ox": 94.4,
+    "sys": 129,
+    "dia": 91
+  },
+  {
+    "patientId": 2169,
+    "timestamp": 1705162941,
+    "hr": 100.6,
+    "ox": 91.0,
+    "sys": 126,
+    "dia": 76
+  },
+  {
+    "patientId": 2170,
+    "timestamp": 1705252086,
+    "hr": 59.1,
+    "ox": 94.9,
+    "sys": 108,
+    "dia": 81
+  },
+  {
+    "patientId": 2170,
+    "timestamp": 1705258926,
+    "hr": 74.0,
+    "ox": 96.9,
+    "sys": 126,
+    "dia": 90
+  },
+  {
+    "patientId": 2170,
+    "timestamp": 1705259646,
+    "hr": 83.5,
+    "ox": 94.4,
+    "sys": 127,
+    "dia": 81
+  },
+  {
+    "patientId": 2170,
+    "timestamp": 1705265526,
+    "hr": 75.1,
+    "ox": 94.8,
+    "sys": 133,
+    "dia": 78
+  },
+  {
+    "patientId": 2170,
+    "timestamp": 1705268766,
+    "hr": 86.2,
+    "ox": 97.6,
+    "sys": 129,
+    "dia": 74
+  },
+  {
+    "patientId": 2171,
+    "timestamp": 1705237598,
+    "hr": 63.2,
+    "ox": 98.4,
+    "sys": 129,
+    "dia": 78
+  },
+  {
+    "patientId": 2171,
+    "timestamp": 1705237058,
+    "hr": 93.0,
+    "ox": 97.9,
+    "sys": 132,
+    "dia": 90
+  },
+  {
+    "patientId": 2171,
+    "timestamp": 1705246778,
+    "hr": 84.2,
+    "ox": 94.3,
+    "sys": 116,
+    "dia": 79
+  },
+  {
+    "patientId": 2171,
+    "timestamp": 1705244978,
+    "hr": 86.5,
+    "ox": 97.8,
+    "sys": 114,
+    "dia": 79
+  },
+  {
+    "patientId": 2171,
+    "timestamp": 1705248878,
+    "hr": 89.3,
+    "ox": 95.9,
+    "sys": 104,
+    "dia": 90
+  },
+  {
+    "patientId": 2172,
+    "timestamp": 1705292445,
+    "hr": 75.8,
+    "ox": 91.6,
+    "sys": 145,
+    "dia": 69
+  },
+  {
+    "patientId": 2172,
+    "timestamp": 1705296825,
+    "hr": 68.1,
+    "ox": 97.8,
+    "sys": 113,
+    "dia": 76
+  },
+  {
+    "patientId": 2172,
+    "timestamp": 1705300545,
+    "hr": 81.2,
+    "ox": 95.0,
+    "sys": 98,
+    "dia": 57
+  },
+  {
+    "patientId": 2172,
+    "timestamp": 1705293165,
+    "hr": 91.9,
+    "ox": 97.1,
+    "sys": 118,
+    "dia": 64
+  },
+  {
+    "patientId": 2172,
+    "timestamp": 1705312425,
+    "hr": 75.9,
+    "ox": 97.0,
+    "sys": 104,
+    "dia": 82
+  },
+  {
+    "patientId": 2173,
+    "timestamp": 1704990860,
+    "hr": 77.4,
+    "ox": 98.4,
+    "sys": 133,
+    "dia": 59
+  },
+  {
+    "patientId": 2173,
+    "timestamp": 1704991820,
+    "hr": 85.8,
+    "ox": 99.0,
+    "sys": 117,
+    "dia": 75
+  },
+  {
+    "patientId": 2173,
+    "timestamp": 1704994220,
+    "hr": 81.5,
+    "ox": 94.7,
+    "sys": 126,
+    "dia": 74
+  },
+  {
+    "patientId": 2173,
+    "timestamp": 1705007900,
+    "hr": 66.1,
+    "ox": 93.3,
+    "sys": 101,
+    "dia": 86
+  },
+  {
+    "patientId": 2173,
+    "timestamp": 1704993380,
+    "hr": 89.0,
+    "ox": 98.8,
+    "sys": 148,
+    "dia": 85
+  },
+  {
+    "patientId": 2174,
+    "timestamp": 1705225546,
+    "hr": 73.0,
+    "ox": 93.7,
+    "sys": 137,
+    "dia": 84
+  },
+  {
+    "patientId": 2174,
+    "timestamp": 1705232146,
+    "hr": 66.2,
+    "ox": 96.9,
+    "sys": 153,
+    "dia": 92
+  },
+  {
+    "patientId": 2174,
+    "timestamp": 1705234726,
+    "hr": 90.1,
+    "ox": 97.0,
+    "sys": 118,
+    "dia": 87
+  },
+  {
+    "patientId": 2174,
+    "timestamp": 1705236346,
+    "hr": 82.4,
+    "ox": 95.8,
+    "sys": 126,
+    "dia": 75
+  },
+  {
+    "patientId": 2174,
+    "timestamp": 1705228666,
+    "hr": 69.9,
+    "ox": 97.1,
+    "sys": 124,
+    "dia": 64
+  },
+  {
+    "patientId": 2175,
+    "timestamp": 1705101666,
+    "hr": 74.5,
+    "ox": 95.3,
+    "sys": 125,
+    "dia": 96
+  },
+  {
+    "patientId": 2175,
+    "timestamp": 1705106586,
+    "hr": 84.7,
+    "ox": 94.1,
+    "sys": 116,
+    "dia": 75
+  },
+  {
+    "patientId": 2175,
+    "timestamp": 1705108326,
+    "hr": 97.6,
+    "ox": 97.1,
+    "sys": 117,
+    "dia": 61
+  },
+  {
+    "patientId": 2175,
+    "timestamp": 1705106826,
+    "hr": 68.5,
+    "ox": 93.3,
+    "sys": 101,
+    "dia": 84
+  },
+  {
+    "patientId": 2175,
+    "timestamp": 1705121646,
+    "hr": 86.0,
+    "ox": 95.4,
+    "sys": 129,
+    "dia": 72
+  },
+  {
+    "patientId": 2176,
+    "timestamp": 1705020558,
+    "hr": 87.9,
+    "ox": 95.9,
+    "sys": 107,
+    "dia": 90
+  },
+  {
+    "patientId": 2176,
+    "timestamp": 1705018638,
+    "hr": 73.1,
+    "ox": 95.4,
+    "sys": 145,
+    "dia": 76
+  },
+  {
+    "patientId": 2176,
+    "timestamp": 1705019418,
+    "hr": 84.2,
+    "ox": 94.2,
+    "sys": 117,
+    "dia": 90
+  },
+  {
+    "patientId": 2176,
+    "timestamp": 1705030578,
+    "hr": 103.7,
+    "ox": 96.8,
+    "sys": 140,
+    "dia": 94
+  },
+  {
+    "patientId": 2176,
+    "timestamp": 1705024998,
+    "hr": 79.4,
+    "ox": 94.9,
+    "sys": 127,
+    "dia": 89
+  },
+  {
+    "patientId": 2177,
+    "timestamp": 1704941418,
+    "hr": 93.1,
+    "ox": 98.4,
+    "sys": 108,
+    "dia": 87
+  },
+  {
+    "patientId": 2177,
+    "timestamp": 1704945678,
+    "hr": 82.6,
+    "ox": 95.4,
+    "sys": 121,
+    "dia": 87
+  },
+  {
+    "patientId": 2177,
+    "timestamp": 1704947718,
+    "hr": 59.3,
+    "ox": 92.1,
+    "sys": 141,
+    "dia": 72
+  },
+  {
+    "patientId": 2177,
+    "timestamp": 1704957198,
+    "hr": 84.4,
+    "ox": 97.2,
+    "sys": 123,
+    "dia": 79
+  },
+  {
+    "patientId": 2177,
+    "timestamp": 1704946278,
+    "hr": 82.8,
+    "ox": 97.4,
+    "sys": 110,
+    "dia": 88
+  },
+  {
+    "patientId": 2178,
+    "timestamp": 1705267103,
+    "hr": 79.0,
+    "ox": 95.4,
+    "sys": 109,
+    "dia": 83
+  },
+  {
+    "patientId": 2178,
+    "timestamp": 1705272143,
+    "hr": 88.4,
+    "ox": 93.6,
+    "sys": 149,
+    "dia": 63
+  },
+  {
+    "patientId": 2178,
+    "timestamp": 1705266383,
+    "hr": 89.5,
+    "ox": 94.9,
+    "sys": 137,
+    "dia": 67
+  },
+  {
+    "patientId": 2178,
+    "timestamp": 1705283963,
+    "hr": 80.1,
+    "ox": 97.7,
+    "sys": 119,
+    "dia": 83
+  },
+  {
+    "patientId": 2178,
+    "timestamp": 1705289483,
+    "hr": 72.8,
+    "ox": 95.4,
+    "sys": 137,
+    "dia": 74
+  },
+  {
+    "patientId": 2179,
+    "timestamp": 1705263241,
+    "hr": 77.0,
+    "ox": 94.7,
+    "sys": 125,
+    "dia": 81
+  },
+  {
+    "patientId": 2179,
+    "timestamp": 1705266001,
+    "hr": 73.2,
+    "ox": 97.7,
+    "sys": 128,
+    "dia": 70
+  },
+  {
+    "patientId": 2179,
+    "timestamp": 1705275961,
+    "hr": 94.7,
+    "ox": 96.0,
+    "sys": 151,
+    "dia": 75
+  },
+  {
+    "patientId": 2179,
+    "timestamp": 1705277281,
+    "hr": 74.5,
+    "ox": 93.8,
+    "sys": 115,
+    "dia": 81
+  },
+  {
+    "patientId": 2179,
+    "timestamp": 1705272481,
+    "hr": 81.7,
+    "ox": 96.0,
+    "sys": 145,
+    "dia": 78
+  },
+  {
+    "patientId": 2180,
+    "timestamp": 1704928944,
+    "hr": 85.1,
+    "ox": 98.6,
+    "sys": 121,
+    "dia": 89
+  },
+  {
+    "patientId": 2180,
+    "timestamp": 1704933264,
+    "hr": 66.0,
+    "ox": 99.7,
+    "sys": 114,
+    "dia": 73
+  },
+  {
+    "patientId": 2180,
+    "timestamp": 1704938664,
+    "hr": 80.8,
+    "ox": 92.0,
+    "sys": 146,
+    "dia": 74
+  },
+  {
+    "patientId": 2180,
+    "timestamp": 1704931464,
+    "hr": 65.9,
+    "ox": 100.0,
+    "sys": 121,
+    "dia": 80
+  },
+  {
+    "patientId": 2180,
+    "timestamp": 1704939444,
+    "hr": 74.6,
+    "ox": 99.5,
+    "sys": 111,
+    "dia": 87
+  },
+  {
+    "patientId": 2181,
+    "timestamp": 1705067305,
+    "hr": 63.7,
+    "ox": 96.8,
+    "sys": 134,
+    "dia": 66
+  },
+  {
+    "patientId": 2181,
+    "timestamp": 1705071925,
+    "hr": 61.5,
+    "ox": 94.9,
+    "sys": 130,
+    "dia": 88
+  },
+  {
+    "patientId": 2181,
+    "timestamp": 1705071025,
+    "hr": 62.6,
+    "ox": 95.9,
+    "sys": 103,
+    "dia": 93
+  },
+  {
+    "patientId": 2181,
+    "timestamp": 1705084285,
+    "hr": 55.8,
+    "ox": 90.3,
+    "sys": 137,
+    "dia": 81
+  },
+  {
+    "patientId": 2181,
+    "timestamp": 1705085005,
+    "hr": 101.0,
+    "ox": 95.2,
+    "sys": 121,
+    "dia": 106
+  },
+  {
+    "patientId": 2182,
+    "timestamp": 1705246305,
+    "hr": 60.6,
+    "ox": 95.5,
+    "sys": 121,
+    "dia": 86
+  },
+  {
+    "patientId": 2182,
+    "timestamp": 1705255125,
+    "hr": 106.6,
+    "ox": 97.1,
+    "sys": 108,
+    "dia": 81
+  },
+  {
+    "patientId": 2182,
+    "timestamp": 1705252005,
+    "hr": 83.0,
+    "ox": 94.4,
+    "sys": 147,
+    "dia": 77
+  },
+  {
+    "patientId": 2182,
+    "timestamp": 1705251405,
+    "hr": 76.1,
+    "ox": 93.7,
+    "sys": 127,
+    "dia": 84
+  },
+  {
+    "patientId": 2182,
+    "timestamp": 1705257825,
+    "hr": 69.7,
+    "ox": 96.1,
+    "sys": 134,
+    "dia": 63
+  },
+  {
+    "patientId": 2183,
+    "timestamp": 1704903267,
+    "hr": 64.9,
+    "ox": 97.5,
+    "sys": 138,
+    "dia": 87
+  },
+  {
+    "patientId": 2183,
+    "timestamp": 1704909807,
+    "hr": 90.3,
+    "ox": 96.5,
+    "sys": 121,
+    "dia": 74
+  },
+  {
+    "patientId": 2183,
+    "timestamp": 1704907527,
+    "hr": 90.8,
+    "ox": 98.3,
+    "sys": 114,
+    "dia": 72
+  },
+  {
+    "patientId": 2183,
+    "timestamp": 1704909987,
+    "hr": 62.7,
+    "ox": 95.0,
+    "sys": 123,
+    "dia": 82
+  },
+  {
+    "patientId": 2183,
+    "timestamp": 1704913287,
+    "hr": 76.5,
+    "ox": 96.5,
+    "sys": 131,
+    "dia": 74
+  },
+  {
+    "patientId": 2184,
+    "timestamp": 1704930925,
+    "hr": 81.5,
+    "ox": 95.1,
+    "sys": 110,
+    "dia": 65
+  },
+  {
+    "patientId": 2184,
+    "timestamp": 1704935965,
+    "hr": 75.2,
+    "ox": 98.5,
+    "sys": 123,
+    "dia": 85
+  },
+  {
+    "patientId": 2184,
+    "timestamp": 1704940285,
+    "hr": 91.5,
+    "ox": 95.9,
+    "sys": 115,
+    "dia": 85
+  },
+  {
+    "patientId": 2184,
+    "timestamp": 1704945205,
+    "hr": 74.4,
+    "ox": 97.5,
+    "sys": 126,
+    "dia": 68
+  },
+  {
+    "patientId": 2184,
+    "timestamp": 1704944185,
+    "hr": 88.7,
+    "ox": 96.2,
+    "sys": 140,
+    "dia": 85
+  },
+  {
+    "patientId": 2185,
+    "timestamp": 1705125244,
+    "hr": 55.6,
+    "ox": 100.0,
+    "sys": 113,
+    "dia": 79
+  },
+  {
+    "patientId": 2185,
+    "timestamp": 1705132324,
+    "hr": 99.1,
+    "ox": 96.0,
+    "sys": 107,
+    "dia": 79
+  },
+  {
+    "patientId": 2185,
+    "timestamp": 1705135684,
+    "hr": 81.6,
+    "ox": 95.8,
+    "sys": 108,
+    "dia": 83
+  },
+  {
+    "patientId": 2185,
+    "timestamp": 1705145404,
+    "hr": 70.5,
+    "ox": 96.1,
+    "sys": 104,
+    "dia": 87
+  },
+  {
+    "patientId": 2185,
+    "timestamp": 1705146844,
+    "hr": 42.8,
+    "ox": 96.3,
+    "sys": 116,
+    "dia": 83
+  },
+  {
+    "patientId": 2186,
+    "timestamp": 1704903716,
+    "hr": 69.6,
+    "ox": 96.2,
+    "sys": 141,
+    "dia": 77
+  },
+  {
+    "patientId": 2186,
+    "timestamp": 1704909896,
+    "hr": 87.0,
+    "ox": 95.3,
+    "sys": 130,
+    "dia": 73
+  },
+  {
+    "patientId": 2186,
+    "timestamp": 1704903776,
+    "hr": 62.0,
+    "ox": 98.6,
+    "sys": 115,
+    "dia": 87
+  },
+  {
+    "patientId": 2186,
+    "timestamp": 1704915176,
+    "hr": 89.4,
+    "ox": 94.1,
+    "sys": 128,
+    "dia": 90
+  },
+  {
+    "patientId": 2186,
+    "timestamp": 1704906536,
+    "hr": 65.8,
+    "ox": 95.5,
+    "sys": 140,
+    "dia": 87
+  },
+  {
+    "patientId": 2187,
+    "timestamp": 1705305705,
+    "hr": 96.3,
+    "ox": 96.1,
+    "sys": 125,
+    "dia": 87
+  },
+  {
+    "patientId": 2187,
+    "timestamp": 1705314945,
+    "hr": 52.2,
+    "ox": 97.6,
+    "sys": 124,
+    "dia": 92
+  },
+  {
+    "patientId": 2187,
+    "timestamp": 1705313205,
+    "hr": 94.5,
+    "ox": 95.9,
+    "sys": 119,
+    "dia": 91
+  },
+  {
+    "patientId": 2187,
+    "timestamp": 1705313385,
+    "hr": 113.1,
+    "ox": 95.4,
+    "sys": 135,
+    "dia": 73
+  },
+  {
+    "patientId": 2187,
+    "timestamp": 1705319265,
+    "hr": 71.2,
+    "ox": 95.4,
+    "sys": 111,
+    "dia": 74
+  },
+  {
+    "patientId": 2188,
+    "timestamp": 1704915200,
+    "hr": 85.8,
+    "ox": 92.1,
+    "sys": 94,
+    "dia": 87
+  },
+  {
+    "patientId": 2188,
+    "timestamp": 1704917900,
+    "hr": 78.8,
+    "ox": 96.8,
+    "sys": 112,
+    "dia": 71
+  },
+  {
+    "patientId": 2188,
+    "timestamp": 1704920780,
+    "hr": 71.1,
+    "ox": 97.3,
+    "sys": 146,
+    "dia": 75
+  },
+  {
+    "patientId": 2188,
+    "timestamp": 1704921320,
+    "hr": 63.3,
+    "ox": 96.6,
+    "sys": 119,
+    "dia": 84
+  },
+  {
+    "patientId": 2188,
+    "timestamp": 1704936380,
+    "hr": 95.8,
+    "ox": 94.3,
+    "sys": 134,
+    "dia": 77
+  },
+  {
+    "patientId": 2189,
+    "timestamp": 1705300072,
+    "hr": 79.7,
+    "ox": 93.3,
+    "sys": 135,
+    "dia": 78
+  },
+  {
+    "patientId": 2189,
+    "timestamp": 1705305292,
+    "hr": 91.1,
+    "ox": 93.9,
+    "sys": 138,
+    "dia": 68
+  },
+  {
+    "patientId": 2189,
+    "timestamp": 1705301392,
+    "hr": 80.6,
+    "ox": 99.0,
+    "sys": 112,
+    "dia": 75
+  },
+  {
+    "patientId": 2189,
+    "timestamp": 1705306732,
+    "hr": 96.2,
+    "ox": 94.7,
+    "sys": 112,
+    "dia": 80
+  },
+  {
+    "patientId": 2189,
+    "timestamp": 1705302292,
+    "hr": 77.6,
+    "ox": 94.2,
+    "sys": 127,
+    "dia": 85
+  },
+  {
+    "patientId": 2190,
+    "timestamp": 1704940142,
+    "hr": 53.9,
+    "ox": 94.9,
+    "sys": 116,
+    "dia": 84
+  },
+  {
+    "patientId": 2190,
+    "timestamp": 1704941762,
+    "hr": 108.1,
+    "ox": 95.5,
+    "sys": 126,
+    "dia": 86
+  },
+  {
+    "patientId": 2190,
+    "timestamp": 1704945242,
+    "hr": 90.4,
+    "ox": 97.9,
+    "sys": 126,
+    "dia": 78
+  },
+  {
+    "patientId": 2190,
+    "timestamp": 1704941042,
+    "hr": 67.4,
+    "ox": 94.3,
+    "sys": 104,
+    "dia": 72
+  },
+  {
+    "patientId": 2190,
+    "timestamp": 1704950402,
+    "hr": 82.3,
+    "ox": 95.9,
+    "sys": 127,
+    "dia": 74
+  },
+  {
+    "patientId": 2191,
+    "timestamp": 1705110639,
+    "hr": 80.5,
+    "ox": 98.5,
+    "sys": 163,
+    "dia": 91
+  },
+  {
+    "patientId": 2191,
+    "timestamp": 1705112619,
+    "hr": 72.7,
+    "ox": 94.0,
+    "sys": 104,
+    "dia": 84
+  },
+  {
+    "patientId": 2191,
+    "timestamp": 1705113219,
+    "hr": 87.0,
+    "ox": 97.2,
+    "sys": 113,
+    "dia": 75
+  },
+  {
+    "patientId": 2191,
+    "timestamp": 1705114959,
+    "hr": 91.9,
+    "ox": 98.7,
+    "sys": 112,
+    "dia": 84
+  },
+  {
+    "patientId": 2191,
+    "timestamp": 1705118619,
+    "hr": 74.9,
+    "ox": 97.0,
+    "sys": 128,
+    "dia": 75
+  },
+  {
+    "patientId": 2192,
+    "timestamp": 1705036227,
+    "hr": 82.7,
+    "ox": 97.3,
+    "sys": 112,
+    "dia": 67
+  },
+  {
+    "patientId": 2192,
+    "timestamp": 1705038747,
+    "hr": 79.9,
+    "ox": 94.7,
+    "sys": 121,
+    "dia": 70
+  },
+  {
+    "patientId": 2192,
+    "timestamp": 1705040547,
+    "hr": 88.1,
+    "ox": 97.2,
+    "sys": 119,
+    "dia": 69
+  },
+  {
+    "patientId": 2192,
+    "timestamp": 1705043247,
+    "hr": 84.6,
+    "ox": 95.1,
+    "sys": 111,
+    "dia": 86
+  },
+  {
+    "patientId": 2192,
+    "timestamp": 1705045467,
+    "hr": 83.2,
+    "ox": 94.4,
+    "sys": 117,
+    "dia": 93
+  },
+  {
+    "patientId": 2193,
+    "timestamp": 1705204910,
+    "hr": 81.4,
+    "ox": 97.7,
+    "sys": 118,
+    "dia": 68
+  },
+  {
+    "patientId": 2193,
+    "timestamp": 1705210790,
+    "hr": 96.2,
+    "ox": 98.6,
+    "sys": 149,
+    "dia": 83
+  },
+  {
+    "patientId": 2193,
+    "timestamp": 1705214210,
+    "hr": 66.3,
+    "ox": 96.7,
+    "sys": 134,
+    "dia": 88
+  },
+  {
+    "patientId": 2193,
+    "timestamp": 1705205570,
+    "hr": 64.5,
+    "ox": 95.7,
+    "sys": 141,
+    "dia": 58
+  },
+  {
+    "patientId": 2193,
+    "timestamp": 1705219370,
+    "hr": 91.6,
+    "ox": 96.9,
+    "sys": 119,
+    "dia": 77
+  },
+  {
+    "patientId": 2194,
+    "timestamp": 1704960623,
+    "hr": 80.0,
+    "ox": 98.5,
+    "sys": 139,
+    "dia": 65
+  },
+  {
+    "patientId": 2194,
+    "timestamp": 1704960503,
+    "hr": 106.5,
+    "ox": 98.4,
+    "sys": 106,
+    "dia": 87
+  },
+  {
+    "patientId": 2194,
+    "timestamp": 1704962963,
+    "hr": 75.4,
+    "ox": 96.9,
+    "sys": 128,
+    "dia": 92
+  },
+  {
+    "patientId": 2194,
+    "timestamp": 1704972923,
+    "hr": 69.0,
+    "ox": 97.3,
+    "sys": 140,
+    "dia": 81
+  },
+  {
+    "patientId": 2194,
+    "timestamp": 1704969263,
+    "hr": 79.4,
+    "ox": 97.0,
+    "sys": 120,
+    "dia": 69
+  },
+  {
+    "patientId": 2195,
+    "timestamp": 1704960828,
+    "hr": 89.6,
+    "ox": 95.2,
+    "sys": 120,
+    "dia": 88
+  },
+  {
+    "patientId": 2195,
+    "timestamp": 1704957648,
+    "hr": 68.7,
+    "ox": 98.2,
+    "sys": 120,
+    "dia": 94
+  },
+  {
+    "patientId": 2195,
+    "timestamp": 1704964428,
+    "hr": 73.4,
+    "ox": 98.6,
+    "sys": 93,
+    "dia": 70
+  },
+  {
+    "patientId": 2195,
+    "timestamp": 1704965088,
+    "hr": 96.5,
+    "ox": 96.2,
+    "sys": 130,
+    "dia": 57
+  },
+  {
+    "patientId": 2195,
+    "timestamp": 1704974748,
+    "hr": 68.9,
+    "ox": 94.1,
+    "sys": 127,
+    "dia": 82
+  },
+  {
+    "patientId": 2196,
+    "timestamp": 1705238389,
+    "hr": 77.3,
+    "ox": 96.1,
+    "sys": 127,
+    "dia": 103
+  },
+  {
+    "patientId": 2196,
+    "timestamp": 1705241449,
+    "hr": 72.0,
+    "ox": 95.6,
+    "sys": 111,
+    "dia": 55
+  },
+  {
+    "patientId": 2196,
+    "timestamp": 1705237549,
+    "hr": 88.5,
+    "ox": 100.0,
+    "sys": 137,
+    "dia": 71
+  },
+  {
+    "patientId": 2196,
+    "timestamp": 1705240609,
+    "hr": 77.9,
+    "ox": 93.3,
+    "sys": 110,
+    "dia": 71
+  },
+  {
+    "patientId": 2196,
+    "timestamp": 1705253509,
+    "hr": 92.6,
+    "ox": 97.0,
+    "sys": 113,
+    "dia": 78
+  },
+  {
+    "patientId": 2197,
+    "timestamp": 1704996820,
+    "hr": 80.7,
+    "ox": 96.6,
+    "sys": 116,
+    "dia": 80
+  },
+  {
+    "patientId": 2197,
+    "timestamp": 1705001620,
+    "hr": 54.7,
+    "ox": 100.0,
+    "sys": 127,
+    "dia": 83
+  },
+  {
+    "patientId": 2197,
+    "timestamp": 1704997660,
+    "hr": 60.9,
+    "ox": 95.6,
+    "sys": 90,
+    "dia": 63
+  },
+  {
+    "patientId": 2197,
+    "timestamp": 1705008520,
+    "hr": 67.6,
+    "ox": 95.1,
+    "sys": 144,
+    "dia": 80
+  },
+  {
+    "patientId": 2197,
+    "timestamp": 1705013860,
+    "hr": 86.1,
+    "ox": 95.6,
+    "sys": 128,
+    "dia": 89
+  },
+  {
+    "patientId": 2198,
+    "timestamp": 1704914038,
+    "hr": 106.2,
+    "ox": 94.6,
+    "sys": 149,
+    "dia": 83
+  },
+  {
+    "patientId": 2198,
+    "timestamp": 1704914758,
+    "hr": 69.9,
+    "ox": 96.3,
+    "sys": 147,
+    "dia": 74
+  },
+  {
+    "patientId": 2198,
+    "timestamp": 1704922678,
+    "hr": 55.1,
+    "ox": 96.0,
+    "sys": 141,
+    "dia": 78
+  },
+  {
+    "patientId": 2198,
+    "timestamp": 1704926398,
+    "hr": 77.3,
+    "ox": 96.6,
+    "sys": 120,
+    "dia": 87
+  },
+  {
+    "patientId": 2198,
+    "timestamp": 1704921418,
+    "hr": 88.5,
+    "ox": 96.0,
+    "sys": 122,
+    "dia": 75
+  },
+  {
+    "patientId": 2199,
+    "timestamp": 1705101175,
+    "hr": 64.8,
+    "ox": 95.1,
+    "sys": 96,
+    "dia": 67
+  },
+  {
+    "patientId": 2199,
+    "timestamp": 1705106455,
+    "hr": 80.4,
+    "ox": 99.2,
+    "sys": 124,
+    "dia": 82
+  },
+  {
+    "patientId": 2199,
+    "timestamp": 1705099075,
+    "hr": 74.8,
+    "ox": 92.7,
+    "sys": 113,
+    "dia": 88
+  },
+  {
+    "patientId": 2199,
+    "timestamp": 1705110235,
+    "hr": 82.4,
+    "ox": 96.2,
+    "sys": 125,
+    "dia": 90
+  },
+  {
+    "patientId": 2199,
+    "timestamp": 1705118035,
+    "hr": 100.9,
+    "ox": 100.0,
+    "sys": 98,
+    "dia": 82
+  },
+  {
+    "patientId": 2200,
+    "timestamp": 1705013527,
+    "hr": 91.5,
+    "ox": 100.0,
+    "sys": 124,
+    "dia": 85
+  },
+  {
+    "patientId": 2200,
+    "timestamp": 1705014667,
+    "hr": 94.5,
+    "ox": 96.4,
+    "sys": 134,
+    "dia": 77
+  },
+  {
+    "patientId": 2200,
+    "timestamp": 1705017367,
+    "hr": 63.3,
+    "ox": 99.4,
+    "sys": 123,
+    "dia": 76
+  },
+  {
+    "patientId": 2200,
+    "timestamp": 1705020307,
+    "hr": 83.8,
+    "ox": 96.3,
+    "sys": 137,
+    "dia": 73
+  },
+  {
+    "patientId": 2200,
+    "timestamp": 1705017187,
+    "hr": 70.8,
+    "ox": 96.1,
+    "sys": 140,
+    "dia": 85
+  },
+  {
+    "patientId": 2201,
+    "timestamp": 1704964251,
+    "hr": 80.4,
+    "ox": 97.6,
+    "sys": 126,
+    "dia": 69
+  },
+  {
+    "patientId": 2201,
+    "timestamp": 1704962991,
+    "hr": 74.2,
+    "ox": 100.0,
+    "sys": 124,
+    "dia": 65
+  },
+  {
+    "patientId": 2201,
+    "timestamp": 1704976071,
+    "hr": 65.2,
+    "ox": 92.2,
+    "sys": 136,
+    "dia": 95
+  },
+  {
+    "patientId": 2201,
+    "timestamp": 1704968691,
+    "hr": 63.4,
+    "ox": 95.1,
+    "sys": 121,
+    "dia": 79
+  },
+  {
+    "patientId": 2201,
+    "timestamp": 1704968871,
+    "hr": 72.2,
+    "ox": 97.2,
+    "sys": 124,
+    "dia": 71
+  },
+  {
+    "patientId": 2202,
+    "timestamp": 1704939397,
+    "hr": 81.8,
+    "ox": 96.2,
+    "sys": 131,
+    "dia": 88
+  },
+  {
+    "patientId": 2202,
+    "timestamp": 1704940477,
+    "hr": 86.2,
+    "ox": 96.9,
+    "sys": 125,
+    "dia": 94
+  },
+  {
+    "patientId": 2202,
+    "timestamp": 1704943897,
+    "hr": 85.8,
+    "ox": 97.5,
+    "sys": 114,
+    "dia": 73
+  },
+  {
+    "patientId": 2202,
+    "timestamp": 1704956377,
+    "hr": 74.9,
+    "ox": 98.1,
+    "sys": 127,
+    "dia": 91
+  },
+  {
+    "patientId": 2202,
+    "timestamp": 1704963397,
+    "hr": 78.5,
+    "ox": 95.6,
+    "sys": 136,
+    "dia": 83
+  },
+  {
+    "patientId": 2203,
+    "timestamp": 1705019095,
+    "hr": 65.3,
+    "ox": 96.8,
+    "sys": 124,
+    "dia": 62
+  },
+  {
+    "patientId": 2203,
+    "timestamp": 1705018315,
+    "hr": 81.6,
+    "ox": 100.0,
+    "sys": 122,
+    "dia": 68
+  },
+  {
+    "patientId": 2203,
+    "timestamp": 1705022935,
+    "hr": 110.6,
+    "ox": 97.3,
+    "sys": 111,
+    "dia": 94
+  },
+  {
+    "patientId": 2203,
+    "timestamp": 1705019695,
+    "hr": 70.8,
+    "ox": 93.7,
+    "sys": 129,
+    "dia": 67
+  },
+  {
+    "patientId": 2203,
+    "timestamp": 1705022995,
+    "hr": 96.4,
+    "ox": 94.0,
+    "sys": 94,
+    "dia": 90
+  },
+  {
+    "patientId": 2204,
+    "timestamp": 1705189723,
+    "hr": 78.5,
+    "ox": 96.0,
+    "sys": 128,
+    "dia": 75
+  },
+  {
+    "patientId": 2204,
+    "timestamp": 1705197163,
+    "hr": 70.6,
+    "ox": 93.2,
+    "sys": 139,
+    "dia": 81
+  },
+  {
+    "patientId": 2204,
+    "timestamp": 1705202503,
+    "hr": 75.6,
+    "ox": 96.4,
+    "sys": 111,
+    "dia": 97
+  },
+  {
+    "patientId": 2204,
+    "timestamp": 1705198543,
+    "hr": 77.3,
+    "ox": 98.9,
+    "sys": 111,
+    "dia": 64
+  },
+  {
+    "patientId": 2204,
+    "timestamp": 1705210603,
+    "hr": 69.8,
+    "ox": 97.9,
+    "sys": 120,
+    "dia": 74
+  },
+  {
+    "patientId": 2205,
+    "timestamp": 1705195099,
+    "hr": 92.0,
+    "ox": 100.0,
+    "sys": 99,
+    "dia": 92
+  },
+  {
+    "patientId": 2205,
+    "timestamp": 1705199059,
+    "hr": 67.7,
+    "ox": 96.1,
+    "sys": 126,
+    "dia": 69
+  },
+  {
+    "patientId": 2205,
+    "timestamp": 1705205359,
+    "hr": 89.1,
+    "ox": 95.2,
+    "sys": 113,
+    "dia": 88
+  },
+  {
+    "patientId": 2205,
+    "timestamp": 1705193179,
+    "hr": 83.5,
+    "ox": 95.0,
+    "sys": 117,
+    "dia": 68
+  },
+  {
+    "patientId": 2205,
+    "timestamp": 1705205119,
+    "hr": 73.1,
+    "ox": 96.7,
+    "sys": 118,
+    "dia": 55
+  },
+  {
+    "patientId": 2206,
+    "timestamp": 1704996802,
+    "hr": 74.9,
+    "ox": 96.8,
+    "sys": 134,
+    "dia": 89
+  },
+  {
+    "patientId": 2206,
+    "timestamp": 1705000102,
+    "hr": 71.2,
+    "ox": 99.3,
+    "sys": 130,
+    "dia": 71
+  },
+  {
+    "patientId": 2206,
+    "timestamp": 1705002922,
+    "hr": 63.2,
+    "ox": 98.4,
+    "sys": 127,
+    "dia": 88
+  },
+  {
+    "patientId": 2206,
+    "timestamp": 1704997642,
+    "hr": 99.0,
+    "ox": 95.4,
+    "sys": 124,
+    "dia": 94
+  },
+  {
+    "patientId": 2206,
+    "timestamp": 1705018042,
+    "hr": 72.8,
+    "ox": 92.9,
+    "sys": 137,
+    "dia": 84
+  },
+  {
+    "patientId": 2207,
+    "timestamp": 1705274708,
+    "hr": 75.2,
+    "ox": 97.6,
+    "sys": 116,
+    "dia": 73
+  },
+  {
+    "patientId": 2207,
+    "timestamp": 1705278848,
+    "hr": 70.2,
+    "ox": 93.7,
+    "sys": 118,
+    "dia": 72
+  },
+  {
+    "patientId": 2207,
+    "timestamp": 1705283708,
+    "hr": 56.3,
+    "ox": 94.5,
+    "sys": 131,
+    "dia": 82
+  },
+  {
+    "patientId": 2207,
+    "timestamp": 1705290608,
+    "hr": 94.3,
+    "ox": 94.4,
+    "sys": 141,
+    "dia": 74
+  },
+  {
+    "patientId": 2207,
+    "timestamp": 1705282568,
+    "hr": 84.3,
+    "ox": 97.9,
+    "sys": 130,
+    "dia": 63
+  },
+  {
+    "patientId": 2208,
+    "timestamp": 1705022554,
+    "hr": 65.6,
+    "ox": 97.4,
+    "sys": 118,
+    "dia": 87
+  },
+  {
+    "patientId": 2208,
+    "timestamp": 1705027294,
+    "hr": 87.3,
+    "ox": 91.8,
+    "sys": 135,
+    "dia": 69
+  },
+  {
+    "patientId": 2208,
+    "timestamp": 1705032754,
+    "hr": 99.4,
+    "ox": 96.8,
+    "sys": 106,
+    "dia": 93
+  },
+  {
+    "patientId": 2208,
+    "timestamp": 1705037314,
+    "hr": 87.2,
+    "ox": 92.6,
+    "sys": 114,
+    "dia": 93
+  },
+  {
+    "patientId": 2208,
+    "timestamp": 1705029694,
+    "hr": 95.9,
+    "ox": 95.7,
+    "sys": 126,
+    "dia": 87
+  },
+  {
+    "patientId": 2209,
+    "timestamp": 1704925157,
+    "hr": 89.2,
+    "ox": 94.0,
+    "sys": 129,
+    "dia": 82
+  },
+  {
+    "patientId": 2209,
+    "timestamp": 1704926597,
+    "hr": 78.5,
+    "ox": 94.3,
+    "sys": 113,
+    "dia": 70
+  },
+  {
+    "patientId": 2209,
+    "timestamp": 1704934337,
+    "hr": 102.9,
+    "ox": 93.1,
+    "sys": 121,
+    "dia": 73
+  },
+  {
+    "patientId": 2209,
+    "timestamp": 1704925517,
+    "hr": 61.9,
+    "ox": 95.6,
+    "sys": 122,
+    "dia": 85
+  },
+  {
+    "patientId": 2209,
+    "timestamp": 1704928277,
+    "hr": 87.9,
+    "ox": 96.2,
+    "sys": 127,
+    "dia": 70
+  },
+  {
+    "patientId": 2210,
+    "timestamp": 1705053029,
+    "hr": 82.4,
+    "ox": 96.0,
+    "sys": 117,
+    "dia": 82
+  },
+  {
+    "patientId": 2210,
+    "timestamp": 1705059029,
+    "hr": 60.7,
+    "ox": 94.6,
+    "sys": 97,
+    "dia": 85
+  },
+  {
+    "patientId": 2210,
+    "timestamp": 1705051349,
+    "hr": 83.1,
+    "ox": 98.4,
+    "sys": 113,
+    "dia": 75
+  },
+  {
+    "patientId": 2210,
+    "timestamp": 1705053869,
+    "hr": 90.9,
+    "ox": 94.7,
+    "sys": 131,
+    "dia": 76
+  },
+  {
+    "patientId": 2210,
+    "timestamp": 1705059209,
+    "hr": 67.4,
+    "ox": 96.9,
+    "sys": 99,
+    "dia": 74
+  },
+  {
+    "patientId": 2211,
+    "timestamp": 1705050592,
+    "hr": 83.1,
+    "ox": 96.0,
+    "sys": 122,
+    "dia": 75
+  },
+  {
+    "patientId": 2211,
+    "timestamp": 1705052332,
+    "hr": 56.0,
+    "ox": 96.1,
+    "sys": 134,
+    "dia": 83
+  },
+  {
+    "patientId": 2211,
+    "timestamp": 1705061812,
+    "hr": 84.9,
+    "ox": 96.7,
+    "sys": 144,
+    "dia": 81
+  },
+  {
+    "patientId": 2211,
+    "timestamp": 1705054732,
+    "hr": 60.4,
+    "ox": 94.2,
+    "sys": 97,
+    "dia": 77
+  },
+  {
+    "patientId": 2211,
+    "timestamp": 1705072552,
+    "hr": 72.5,
+    "ox": 95.4,
+    "sys": 114,
+    "dia": 80
+  },
+  {
+    "patientId": 2212,
+    "timestamp": 1705222064,
+    "hr": 77.7,
+    "ox": 93.0,
+    "sys": 145,
+    "dia": 76
+  },
+  {
+    "patientId": 2212,
+    "timestamp": 1705229264,
+    "hr": 57.9,
+    "ox": 94.4,
+    "sys": 141,
+    "dia": 72
+  },
+  {
+    "patientId": 2212,
+    "timestamp": 1705223504,
+    "hr": 66.8,
+    "ox": 95.9,
+    "sys": 131,
+    "dia": 87
+  },
+  {
+    "patientId": 2212,
+    "timestamp": 1705232624,
+    "hr": 85.4,
+    "ox": 96.0,
+    "sys": 117,
+    "dia": 85
+  },
+  {
+    "patientId": 2212,
+    "timestamp": 1705229084,
+    "hr": 69.1,
+    "ox": 99.4,
+    "sys": 137,
+    "dia": 80
+  },
+  {
+    "patientId": 2213,
+    "timestamp": 1704924688,
+    "hr": 75.2,
+    "ox": 93.9,
+    "sys": 108,
+    "dia": 83
+  },
+  {
+    "patientId": 2213,
+    "timestamp": 1704930208,
+    "hr": 64.0,
+    "ox": 91.6,
+    "sys": 114,
+    "dia": 81
+  },
+  {
+    "patientId": 2213,
+    "timestamp": 1704924808,
+    "hr": 93.1,
+    "ox": 93.0,
+    "sys": 131,
+    "dia": 77
+  },
+  {
+    "patientId": 2213,
+    "timestamp": 1704934288,
+    "hr": 57.3,
+    "ox": 96.6,
+    "sys": 107,
+    "dia": 76
+  },
+  {
+    "patientId": 2213,
+    "timestamp": 1704936628,
+    "hr": 80.0,
+    "ox": 97.2,
+    "sys": 128,
+    "dia": 72
+  },
+  {
+    "patientId": 2214,
+    "timestamp": 1704936596,
+    "hr": 77.5,
+    "ox": 98.2,
+    "sys": 117,
+    "dia": 74
+  },
+  {
+    "patientId": 2214,
+    "timestamp": 1704942956,
+    "hr": 90.5,
+    "ox": 94.5,
+    "sys": 115,
+    "dia": 69
+  },
+  {
+    "patientId": 2214,
+    "timestamp": 1704942836,
+    "hr": 73.2,
+    "ox": 93.6,
+    "sys": 125,
+    "dia": 68
+  },
+  {
+    "patientId": 2214,
+    "timestamp": 1704945596,
+    "hr": 78.0,
+    "ox": 91.2,
+    "sys": 103,
+    "dia": 75
+  },
+  {
+    "patientId": 2214,
+    "timestamp": 1704942116,
+    "hr": 81.3,
+    "ox": 95.3,
+    "sys": 135,
+    "dia": 73
+  },
+  {
+    "patientId": 2215,
+    "timestamp": 1705094940,
+    "hr": 48.7,
+    "ox": 94.9,
+    "sys": 114,
+    "dia": 70
+  },
+  {
+    "patientId": 2215,
+    "timestamp": 1705093080,
+    "hr": 89.1,
+    "ox": 95.6,
+    "sys": 104,
+    "dia": 97
+  },
+  {
+    "patientId": 2215,
+    "timestamp": 1705105500,
+    "hr": 104.0,
+    "ox": 98.3,
+    "sys": 123,
+    "dia": 75
+  },
+  {
+    "patientId": 2215,
+    "timestamp": 1705105080,
+    "hr": 91.7,
+    "ox": 98.8,
+    "sys": 115,
+    "dia": 77
+  },
+  {
+    "patientId": 2215,
+    "timestamp": 1705103460,
+    "hr": 56.2,
+    "ox": 95.5,
+    "sys": 124,
+    "dia": 95
+  },
+  {
+    "patientId": 2216,
+    "timestamp": 1705202079,
+    "hr": 83.5,
+    "ox": 96.5,
+    "sys": 120,
+    "dia": 81
+  },
+  {
+    "patientId": 2216,
+    "timestamp": 1705206639,
+    "hr": 73.6,
+    "ox": 96.8,
+    "sys": 131,
+    "dia": 77
+  },
+  {
+    "patientId": 2216,
+    "timestamp": 1705202079,
+    "hr": 78.0,
+    "ox": 99.3,
+    "sys": 122,
+    "dia": 79
+  },
+  {
+    "patientId": 2216,
+    "timestamp": 1705218159,
+    "hr": 87.4,
+    "ox": 91.7,
+    "sys": 142,
+    "dia": 90
+  },
+  {
+    "patientId": 2216,
+    "timestamp": 1705225959,
+    "hr": 51.4,
+    "ox": 97.5,
+    "sys": 127,
+    "dia": 84
+  },
+  {
+    "patientId": 2217,
+    "timestamp": 1704982303,
+    "hr": 96.9,
+    "ox": 93.6,
+    "sys": 103,
+    "dia": 78
+  },
+  {
+    "patientId": 2217,
+    "timestamp": 1704987283,
+    "hr": 78.5,
+    "ox": 94.7,
+    "sys": 92,
+    "dia": 95
+  },
+  {
+    "patientId": 2217,
+    "timestamp": 1704992863,
+    "hr": 86.1,
+    "ox": 97.2,
+    "sys": 136,
+    "dia": 80
+  },
+  {
+    "patientId": 2217,
+    "timestamp": 1704998743,
+    "hr": 74.2,
+    "ox": 97.7,
+    "sys": 109,
+    "dia": 55
+  },
+  {
+    "patientId": 2217,
+    "timestamp": 1704987043,
+    "hr": 70.6,
+    "ox": 94.4,
+    "sys": 151,
+    "dia": 88
+  },
+  {
+    "patientId": 2218,
+    "timestamp": 1705108219,
+    "hr": 94.3,
+    "ox": 93.0,
+    "sys": 132,
+    "dia": 86
+  },
+  {
+    "patientId": 2218,
+    "timestamp": 1705107859,
+    "hr": 87.4,
+    "ox": 91.5,
+    "sys": 114,
+    "dia": 72
+  },
+  {
+    "patientId": 2218,
+    "timestamp": 1705116679,
+    "hr": 69.7,
+    "ox": 94.8,
+    "sys": 141,
+    "dia": 80
+  },
+  {
+    "patientId": 2218,
+    "timestamp": 1705110319,
+    "hr": 77.4,
+    "ox": 94.7,
+    "sys": 129,
+    "dia": 96
+  },
+  {
+    "patientId": 2218,
+    "timestamp": 1705125859,
+    "hr": 78.1,
+    "ox": 100.0,
+    "sys": 109,
+    "dia": 76
+  },
+  {
+    "patientId": 2219,
+    "timestamp": 1705207693,
+    "hr": 87.8,
+    "ox": 92.7,
+    "sys": 104,
+    "dia": 101
+  },
+  {
+    "patientId": 2219,
+    "timestamp": 1705213093,
+    "hr": 75.6,
+    "ox": 92.7,
+    "sys": 155,
+    "dia": 84
+  },
+  {
+    "patientId": 2219,
+    "timestamp": 1705216993,
+    "hr": 99.7,
+    "ox": 93.6,
+    "sys": 146,
+    "dia": 72
+  },
+  {
+    "patientId": 2219,
+    "timestamp": 1705206673,
+    "hr": 79.2,
+    "ox": 93.1,
+    "sys": 126,
+    "dia": 90
+  },
+  {
+    "patientId": 2219,
+    "timestamp": 1705229173,
+    "hr": 57.9,
+    "ox": 89.8,
+    "sys": 128,
+    "dia": 77
+  },
+  {
+    "patientId": 2220,
+    "timestamp": 1705164138,
+    "hr": 80.4,
+    "ox": 97.4,
+    "sys": 141,
+    "dia": 86
+  },
+  {
+    "patientId": 2220,
+    "timestamp": 1705164798,
+    "hr": 74.9,
+    "ox": 96.2,
+    "sys": 106,
+    "dia": 79
+  },
+  {
+    "patientId": 2220,
+    "timestamp": 1705166778,
+    "hr": 68.2,
+    "ox": 92.1,
+    "sys": 114,
+    "dia": 81
+  },
+  {
+    "patientId": 2220,
+    "timestamp": 1705174458,
+    "hr": 83.6,
+    "ox": 93.5,
+    "sys": 137,
+    "dia": 100
+  },
+  {
+    "patientId": 2220,
+    "timestamp": 1705183098,
+    "hr": 94.0,
+    "ox": 94.6,
+    "sys": 115,
+    "dia": 55
+  },
+  {
+    "patientId": 2221,
+    "timestamp": 1704995067,
+    "hr": 61.8,
+    "ox": 97.9,
+    "sys": 128,
+    "dia": 85
+  },
+  {
+    "patientId": 2221,
+    "timestamp": 1704993807,
+    "hr": 93.5,
+    "ox": 92.5,
+    "sys": 131,
+    "dia": 77
+  },
+  {
+    "patientId": 2221,
+    "timestamp": 1704993327,
+    "hr": 62.7,
+    "ox": 97.4,
+    "sys": 132,
+    "dia": 76
+  },
+  {
+    "patientId": 2221,
+    "timestamp": 1705001787,
+    "hr": 85.0,
+    "ox": 96.4,
+    "sys": 105,
+    "dia": 76
+  },
+  {
+    "patientId": 2221,
+    "timestamp": 1705006767,
+    "hr": 82.2,
+    "ox": 95.2,
+    "sys": 137,
+    "dia": 81
+  },
+  {
+    "patientId": 2222,
+    "timestamp": 1705214326,
+    "hr": 92.5,
+    "ox": 96.2,
+    "sys": 117,
+    "dia": 55
+  },
+  {
+    "patientId": 2222,
+    "timestamp": 1705215046,
+    "hr": 68.8,
+    "ox": 93.6,
+    "sys": 123,
+    "dia": 81
+  },
+  {
+    "patientId": 2222,
+    "timestamp": 1705221586,
+    "hr": 68.7,
+    "ox": 97.0,
+    "sys": 150,
+    "dia": 79
+  },
+  {
+    "patientId": 2222,
+    "timestamp": 1705232206,
+    "hr": 97.9,
+    "ox": 98.2,
+    "sys": 130,
+    "dia": 75
+  },
+  {
+    "patientId": 2222,
+    "timestamp": 1705222486,
+    "hr": 81.8,
+    "ox": 96.6,
+    "sys": 113,
+    "dia": 87
+  },
+  {
+    "patientId": 2223,
+    "timestamp": 1705143095,
+    "hr": 96.0,
+    "ox": 97.2,
+    "sys": 120,
+    "dia": 85
+  },
+  {
+    "patientId": 2223,
+    "timestamp": 1705149455,
+    "hr": 46.0,
+    "ox": 98.7,
+    "sys": 136,
+    "dia": 62
+  },
+  {
+    "patientId": 2223,
+    "timestamp": 1705152695,
+    "hr": 101.3,
+    "ox": 93.6,
+    "sys": 141,
+    "dia": 90
+  },
+  {
+    "patientId": 2223,
+    "timestamp": 1705143755,
+    "hr": 78.4,
+    "ox": 98.3,
+    "sys": 111,
+    "dia": 71
+  },
+  {
+    "patientId": 2223,
+    "timestamp": 1705154975,
+    "hr": 76.7,
+    "ox": 97.7,
+    "sys": 119,
+    "dia": 82
+  },
+  {
+    "patientId": 2224,
+    "timestamp": 1705124059,
+    "hr": 80.1,
+    "ox": 93.0,
+    "sys": 117,
+    "dia": 65
+  },
+  {
+    "patientId": 2224,
+    "timestamp": 1705129819,
+    "hr": 71.3,
+    "ox": 97.5,
+    "sys": 127,
+    "dia": 87
+  },
+  {
+    "patientId": 2224,
+    "timestamp": 1705128439,
+    "hr": 110.0,
+    "ox": 96.1,
+    "sys": 115,
+    "dia": 108
+  },
+  {
+    "patientId": 2224,
+    "timestamp": 1705133239,
+    "hr": 85.4,
+    "ox": 95.1,
+    "sys": 108,
+    "dia": 81
+  },
+  {
+    "patientId": 2224,
+    "timestamp": 1705142539,
+    "hr": 68.6,
+    "ox": 95.3,
+    "sys": 109,
+    "dia": 80
+  },
+  {
+    "patientId": 2225,
+    "timestamp": 1705079749,
+    "hr": 73.1,
+    "ox": 94.5,
+    "sys": 99,
+    "dia": 66
+  },
+  {
+    "patientId": 2225,
+    "timestamp": 1705083529,
+    "hr": 64.8,
+    "ox": 95.7,
+    "sys": 126,
+    "dia": 62
+  },
+  {
+    "patientId": 2225,
+    "timestamp": 1705078609,
+    "hr": 94.2,
+    "ox": 100.0,
+    "sys": 129,
+    "dia": 81
+  },
+  {
+    "patientId": 2225,
+    "timestamp": 1705094569,
+    "hr": 75.2,
+    "ox": 94.5,
+    "sys": 123,
+    "dia": 86
+  },
+  {
+    "patientId": 2225,
+    "timestamp": 1705077889,
+    "hr": 72.9,
+    "ox": 95.9,
+    "sys": 94,
+    "dia": 85
+  },
+  {
+    "patientId": 2226,
+    "timestamp": 1705021253,
+    "hr": 91.7,
+    "ox": 96.6,
+    "sys": 113,
+    "dia": 98
+  },
+  {
+    "patientId": 2226,
+    "timestamp": 1705027493,
+    "hr": 58.4,
+    "ox": 96.5,
+    "sys": 126,
+    "dia": 76
+  },
+  {
+    "patientId": 2226,
+    "timestamp": 1705032653,
+    "hr": 84.7,
+    "ox": 95.1,
+    "sys": 131,
+    "dia": 77
+  },
+  {
+    "patientId": 2226,
+    "timestamp": 1705026953,
+    "hr": 72.5,
+    "ox": 96.1,
+    "sys": 100,
+    "dia": 76
+  },
+  {
+    "patientId": 2226,
+    "timestamp": 1705025993,
+    "hr": 74.6,
+    "ox": 93.6,
+    "sys": 91,
+    "dia": 77
+  },
+  {
+    "patientId": 2227,
+    "timestamp": 1705305904,
+    "hr": 81.2,
+    "ox": 96.7,
+    "sys": 124,
+    "dia": 76
+  },
+  {
+    "patientId": 2227,
+    "timestamp": 1705313404,
+    "hr": 73.1,
+    "ox": 95.4,
+    "sys": 133,
+    "dia": 94
+  },
+  {
+    "patientId": 2227,
+    "timestamp": 1705313764,
+    "hr": 65.1,
+    "ox": 97.0,
+    "sys": 171,
+    "dia": 82
+  },
+  {
+    "patientId": 2227,
+    "timestamp": 1705311604,
+    "hr": 75.4,
+    "ox": 96.4,
+    "sys": 124,
+    "dia": 70
+  },
+  {
+    "patientId": 2227,
+    "timestamp": 1705310644,
+    "hr": 52.8,
+    "ox": 95.6,
+    "sys": 111,
+    "dia": 83
+  },
+  {
+    "patientId": 2228,
+    "timestamp": 1705315318,
+    "hr": 86.8,
+    "ox": 95.3,
+    "sys": 117,
+    "dia": 88
+  },
+  {
+    "patientId": 2228,
+    "timestamp": 1705321438,
+    "hr": 57.1,
+    "ox": 96.5,
+    "sys": 116,
+    "dia": 78
+  },
+  {
+    "patientId": 2228,
+    "timestamp": 1705328698,
+    "hr": 81.3,
+    "ox": 95.4,
+    "sys": 134,
+    "dia": 79
+  },
+  {
+    "patientId": 2228,
+    "timestamp": 1705319758,
+    "hr": 61.3,
+    "ox": 100.0,
+    "sys": 119,
+    "dia": 81
+  },
+  {
+    "patientId": 2228,
+    "timestamp": 1705320298,
+    "hr": 88.4,
+    "ox": 94.3,
+    "sys": 129,
+    "dia": 66
+  },
+  {
+    "patientId": 2229,
+    "timestamp": 1705157591,
+    "hr": 53.8,
+    "ox": 96.5,
+    "sys": 137,
+    "dia": 67
+  },
+  {
+    "patientId": 2229,
+    "timestamp": 1705162271,
+    "hr": 78.3,
+    "ox": 97.2,
+    "sys": 123,
+    "dia": 99
+  },
+  {
+    "patientId": 2229,
+    "timestamp": 1705165151,
+    "hr": 76.0,
+    "ox": 92.6,
+    "sys": 152,
+    "dia": 77
+  },
+  {
+    "patientId": 2229,
+    "timestamp": 1705176431,
+    "hr": 76.6,
+    "ox": 95.8,
+    "sys": 171,
+    "dia": 77
+  },
+  {
+    "patientId": 2229,
+    "timestamp": 1705162991,
+    "hr": 84.5,
+    "ox": 97.4,
+    "sys": 153,
+    "dia": 58
+  },
+  {
+    "patientId": 2230,
+    "timestamp": 1705167583,
+    "hr": 52.3,
+    "ox": 95.3,
+    "sys": 165,
+    "dia": 77
+  },
+  {
+    "patientId": 2230,
+    "timestamp": 1705165963,
+    "hr": 83.5,
+    "ox": 97.3,
+    "sys": 113,
+    "dia": 82
+  },
+  {
+    "patientId": 2230,
+    "timestamp": 1705173463,
+    "hr": 50.8,
+    "ox": 97.4,
+    "sys": 112,
+    "dia": 81
+  },
+  {
+    "patientId": 2230,
+    "timestamp": 1705173583,
+    "hr": 102.0,
+    "ox": 97.2,
+    "sys": 115,
+    "dia": 77
+  },
+  {
+    "patientId": 2230,
+    "timestamp": 1705189363,
+    "hr": 72.8,
+    "ox": 92.7,
+    "sys": 123,
+    "dia": 80
+  },
+  {
+    "patientId": 2231,
+    "timestamp": 1705333961,
+    "hr": 58.8,
+    "ox": 96.6,
+    "sys": 129,
+    "dia": 86
+  },
+  {
+    "patientId": 2231,
+    "timestamp": 1705333061,
+    "hr": 82.2,
+    "ox": 95.2,
+    "sys": 96,
+    "dia": 94
+  },
+  {
+    "patientId": 2231,
+    "timestamp": 1705336541,
+    "hr": 87.9,
+    "ox": 93.8,
+    "sys": 103,
+    "dia": 98
+  },
+  {
+    "patientId": 2231,
+    "timestamp": 1705340441,
+    "hr": 88.7,
+    "ox": 94.9,
+    "sys": 168,
+    "dia": 70
+  },
+  {
+    "patientId": 2231,
+    "timestamp": 1705339781,
+    "hr": 69.3,
+    "ox": 97.3,
+    "sys": 111,
+    "dia": 95
+  },
+  {
+    "patientId": 2232,
+    "timestamp": 1704998633,
+    "hr": 53.3,
+    "ox": 95.0,
+    "sys": 120,
+    "dia": 73
+  },
+  {
+    "patientId": 2232,
+    "timestamp": 1705003613,
+    "hr": 65.1,
+    "ox": 97.9,
+    "sys": 104,
+    "dia": 78
+  },
+  {
+    "patientId": 2232,
+    "timestamp": 1705000853,
+    "hr": 72.1,
+    "ox": 94.6,
+    "sys": 115,
+    "dia": 76
+  },
+  {
+    "patientId": 2232,
+    "timestamp": 1705010693,
+    "hr": 63.7,
+    "ox": 98.5,
+    "sys": 132,
+    "dia": 97
+  },
+  {
+    "patientId": 2232,
+    "timestamp": 1705005173,
+    "hr": 70.2,
+    "ox": 96.6,
+    "sys": 90,
+    "dia": 93
+  },
+  {
+    "patientId": 2233,
+    "timestamp": 1705265899,
+    "hr": 91.8,
+    "ox": 96.5,
+    "sys": 104,
+    "dia": 75
+  },
+  {
+    "patientId": 2233,
+    "timestamp": 1705267699,
+    "hr": 52.8,
+    "ox": 95.3,
+    "sys": 121,
+    "dia": 87
+  },
+  {
+    "patientId": 2233,
+    "timestamp": 1705271179,
+    "hr": 93.2,
+    "ox": 95.2,
+    "sys": 142,
+    "dia": 95
+  },
+  {
+    "patientId": 2233,
+    "timestamp": 1705272799,
+    "hr": 80.5,
+    "ox": 98.2,
+    "sys": 123,
+    "dia": 55
+  },
+  {
+    "patientId": 2233,
+    "timestamp": 1705282999,
+    "hr": 56.1,
+    "ox": 94.7,
+    "sys": 122,
+    "dia": 69
+  },
+  {
+    "patientId": 2234,
+    "timestamp": 1705224504,
+    "hr": 100.1,
+    "ox": 94.2,
+    "sys": 132,
+    "dia": 79
+  },
+  {
+    "patientId": 2234,
+    "timestamp": 1705228464,
+    "hr": 78.6,
+    "ox": 96.2,
+    "sys": 100,
+    "dia": 69
+  },
+  {
+    "patientId": 2234,
+    "timestamp": 1705231524,
+    "hr": 87.8,
+    "ox": 93.8,
+    "sys": 143,
+    "dia": 81
+  },
+  {
+    "patientId": 2234,
+    "timestamp": 1705226364,
+    "hr": 82.0,
+    "ox": 93.9,
+    "sys": 123,
+    "dia": 86
+  },
+  {
+    "patientId": 2234,
+    "timestamp": 1705232364,
+    "hr": 88.1,
+    "ox": 96.3,
+    "sys": 142,
+    "dia": 84
+  },
+  {
+    "patientId": 2235,
+    "timestamp": 1704941709,
+    "hr": 89.0,
+    "ox": 94.6,
+    "sys": 122,
+    "dia": 74
+  },
+  {
+    "patientId": 2235,
+    "timestamp": 1704945789,
+    "hr": 100.1,
+    "ox": 96.9,
+    "sys": 143,
+    "dia": 64
+  },
+  {
+    "patientId": 2235,
+    "timestamp": 1704949989,
+    "hr": 105.1,
+    "ox": 97.4,
+    "sys": 119,
+    "dia": 77
+  },
+  {
+    "patientId": 2235,
+    "timestamp": 1704944469,
+    "hr": 80.0,
+    "ox": 92.9,
+    "sys": 132,
+    "dia": 88
+  },
+  {
+    "patientId": 2235,
+    "timestamp": 1704961689,
+    "hr": 66.8,
+    "ox": 92.6,
+    "sys": 106,
+    "dia": 75
+  },
+  {
+    "patientId": 2236,
+    "timestamp": 1704926717,
+    "hr": 81.6,
+    "ox": 96.1,
+    "sys": 114,
+    "dia": 88
+  },
+  {
+    "patientId": 2236,
+    "timestamp": 1704934997,
+    "hr": 83.1,
+    "ox": 96.2,
+    "sys": 151,
+    "dia": 70
+  },
+  {
+    "patientId": 2236,
+    "timestamp": 1704934337,
+    "hr": 70.2,
+    "ox": 100.0,
+    "sys": 125,
+    "dia": 66
+  },
+  {
+    "patientId": 2236,
+    "timestamp": 1704938417,
+    "hr": 87.2,
+    "ox": 97.6,
+    "sys": 113,
+    "dia": 83
+  },
+  {
+    "patientId": 2236,
+    "timestamp": 1704946157,
+    "hr": 91.7,
+    "ox": 96.0,
+    "sys": 135,
+    "dia": 58
+  },
+  {
+    "patientId": 2237,
+    "timestamp": 1705089806,
+    "hr": 83.5,
+    "ox": 93.6,
+    "sys": 131,
+    "dia": 82
+  },
+  {
+    "patientId": 2237,
+    "timestamp": 1705096466,
+    "hr": 68.0,
+    "ox": 99.2,
+    "sys": 154,
+    "dia": 83
+  },
+  {
+    "patientId": 2237,
+    "timestamp": 1705096346,
+    "hr": 82.0,
+    "ox": 99.5,
+    "sys": 132,
+    "dia": 87
+  },
+  {
+    "patientId": 2237,
+    "timestamp": 1705108106,
+    "hr": 68.0,
+    "ox": 97.0,
+    "sys": 137,
+    "dia": 81
+  },
+  {
+    "patientId": 2237,
+    "timestamp": 1705099226,
+    "hr": 67.7,
+    "ox": 97.1,
+    "sys": 102,
+    "dia": 91
+  },
+  {
+    "patientId": 2238,
+    "timestamp": 1705284904,
+    "hr": 68.7,
+    "ox": 94.9,
+    "sys": 121,
+    "dia": 88
+  },
+  {
+    "patientId": 2238,
+    "timestamp": 1705286884,
+    "hr": 57.1,
+    "ox": 94.9,
+    "sys": 141,
+    "dia": 78
+  },
+  {
+    "patientId": 2238,
+    "timestamp": 1705293244,
+    "hr": 85.7,
+    "ox": 94.3,
+    "sys": 157,
+    "dia": 81
+  },
+  {
+    "patientId": 2238,
+    "timestamp": 1705302784,
+    "hr": 90.9,
+    "ox": 95.7,
+    "sys": 123,
+    "dia": 96
+  },
+  {
+    "patientId": 2238,
+    "timestamp": 1705300804,
+    "hr": 76.2,
+    "ox": 96.2,
+    "sys": 141,
+    "dia": 64
+  },
+  {
+    "patientId": 2239,
+    "timestamp": 1705215141,
+    "hr": 79.5,
+    "ox": 95.2,
+    "sys": 114,
+    "dia": 60
+  },
+  {
+    "patientId": 2239,
+    "timestamp": 1705218021,
+    "hr": 86.0,
+    "ox": 94.2,
+    "sys": 103,
+    "dia": 80
+  },
+  {
+    "patientId": 2239,
+    "timestamp": 1705220661,
+    "hr": 71.4,
+    "ox": 96.3,
+    "sys": 133,
+    "dia": 87
+  },
+  {
+    "patientId": 2239,
+    "timestamp": 1705231161,
+    "hr": 91.4,
+    "ox": 98.4,
+    "sys": 158,
+    "dia": 76
+  },
+  {
+    "patientId": 2239,
+    "timestamp": 1705218201,
+    "hr": 95.5,
+    "ox": 97.1,
+    "sys": 91,
+    "dia": 80
+  },
+  {
+    "patientId": 2240,
+    "timestamp": 1705041541,
+    "hr": 96.5,
+    "ox": 98.0,
+    "sys": 119,
+    "dia": 88
+  },
+  {
+    "patientId": 2240,
+    "timestamp": 1705048201,
+    "hr": 92.0,
+    "ox": 96.3,
+    "sys": 151,
+    "dia": 107
+  },
+  {
+    "patientId": 2240,
+    "timestamp": 1705049701,
+    "hr": 80.6,
+    "ox": 97.4,
+    "sys": 119,
+    "dia": 103
+  },
+  {
+    "patientId": 2240,
+    "timestamp": 1705043761,
+    "hr": 89.1,
+    "ox": 97.7,
+    "sys": 108,
+    "dia": 69
+  },
+  {
+    "patientId": 2240,
+    "timestamp": 1705062721,
+    "hr": 86.9,
+    "ox": 93.0,
+    "sys": 127,
+    "dia": 84
+  },
+  {
+    "patientId": 2241,
+    "timestamp": 1704999267,
+    "hr": 67.1,
+    "ox": 98.6,
+    "sys": 136,
+    "dia": 92
+  },
+  {
+    "patientId": 2241,
+    "timestamp": 1705001247,
+    "hr": 98.6,
+    "ox": 96.6,
+    "sys": 143,
+    "dia": 81
+  },
+  {
+    "patientId": 2241,
+    "timestamp": 1704998967,
+    "hr": 64.4,
+    "ox": 94.7,
+    "sys": 113,
+    "dia": 79
+  },
+  {
+    "patientId": 2241,
+    "timestamp": 1705017387,
+    "hr": 83.2,
+    "ox": 95.9,
+    "sys": 136,
+    "dia": 80
+  },
+  {
+    "patientId": 2241,
+    "timestamp": 1704999807,
+    "hr": 84.8,
+    "ox": 96.5,
+    "sys": 135,
+    "dia": 78
+  },
+  {
+    "patientId": 2242,
+    "timestamp": 1705104306,
+    "hr": 66.3,
+    "ox": 96.2,
+    "sys": 128,
+    "dia": 72
+  },
+  {
+    "patientId": 2242,
+    "timestamp": 1705111086,
+    "hr": 87.5,
+    "ox": 93.8,
+    "sys": 127,
+    "dia": 72
+  },
+  {
+    "patientId": 2242,
+    "timestamp": 1705105266,
+    "hr": 69.3,
+    "ox": 98.1,
+    "sys": 160,
+    "dia": 71
+  },
+  {
+    "patientId": 2242,
+    "timestamp": 1705106766,
+    "hr": 69.6,
+    "ox": 98.1,
+    "sys": 110,
+    "dia": 84
+  },
+  {
+    "patientId": 2242,
+    "timestamp": 1705120626,
+    "hr": 77.5,
+    "ox": 93.9,
+    "sys": 137,
+    "dia": 71
+  },
+  {
+    "patientId": 2243,
+    "timestamp": 1704962623,
+    "hr": 85.5,
+    "ox": 93.5,
+    "sys": 121,
+    "dia": 72
+  },
+  {
+    "patientId": 2243,
+    "timestamp": 1704968863,
+    "hr": 94.1,
+    "ox": 99.0,
+    "sys": 112,
+    "dia": 65
+  },
+  {
+    "patientId": 2243,
+    "timestamp": 1704964063,
+    "hr": 80.4,
+    "ox": 99.6,
+    "sys": 109,
+    "dia": 88
+  },
+  {
+    "patientId": 2243,
+    "timestamp": 1704969403,
+    "hr": 93.1,
+    "ox": 94.9,
+    "sys": 125,
+    "dia": 89
+  },
+  {
+    "patientId": 2243,
+    "timestamp": 1704974743,
+    "hr": 54.3,
+    "ox": 95.7,
+    "sys": 144,
+    "dia": 102
+  },
+  {
+    "patientId": 2244,
+    "timestamp": 1705045285,
+    "hr": 102.7,
+    "ox": 94.2,
+    "sys": 113,
+    "dia": 71
+  },
+  {
+    "patientId": 2244,
+    "timestamp": 1705045225,
+    "hr": 71.4,
+    "ox": 95.3,
+    "sys": 129,
+    "dia": 74
+  },
+  {
+    "patientId": 2244,
+    "timestamp": 1705057765,
+    "hr": 78.1,
+    "ox": 94.2,
+    "sys": 126,
+    "dia": 64
+  },
+  {
+    "patientId": 2244,
+    "timestamp": 1705050925,
+    "hr": 56.7,
+    "ox": 97.8,
+    "sys": 105,
+    "dia": 62
+  },
+  {
+    "patientId": 2244,
+    "timestamp": 1705064125,
+    "hr": 93.6,
+    "ox": 95.7,
+    "sys": 122,
+    "dia": 84
+  },
+  {
+    "patientId": 2245,
+    "timestamp": 1705073364,
+    "hr": 63.9,
+    "ox": 95.2,
+    "sys": 158,
+    "dia": 70
+  },
+  {
+    "patientId": 2245,
+    "timestamp": 1705077924,
+    "hr": 91.6,
+    "ox": 95.4,
+    "sys": 99,
+    "dia": 99
+  },
+  {
+    "patientId": 2245,
+    "timestamp": 1705072884,
+    "hr": 95.8,
+    "ox": 95.7,
+    "sys": 141,
+    "dia": 83
+  },
+  {
+    "patientId": 2245,
+    "timestamp": 1705082004,
+    "hr": 93.0,
+    "ox": 93.8,
+    "sys": 114,
+    "dia": 89
+  },
+  {
+    "patientId": 2245,
+    "timestamp": 1705085004,
+    "hr": 58.4,
+    "ox": 92.8,
+    "sys": 117,
+    "dia": 76
+  },
+  {
+    "patientId": 2246,
+    "timestamp": 1705153584,
+    "hr": 73.4,
+    "ox": 93.8,
+    "sys": 159,
+    "dia": 98
+  },
+  {
+    "patientId": 2246,
+    "timestamp": 1705159524,
+    "hr": 99.0,
+    "ox": 93.6,
+    "sys": 157,
+    "dia": 61
+  },
+  {
+    "patientId": 2246,
+    "timestamp": 1705166664,
+    "hr": 74.3,
+    "ox": 93.4,
+    "sys": 111,
+    "dia": 63
+  },
+  {
+    "patientId": 2246,
+    "timestamp": 1705157364,
+    "hr": 97.1,
+    "ox": 96.0,
+    "sys": 118,
+    "dia": 55
+  },
+  {
+    "patientId": 2246,
+    "timestamp": 1705175424,
+    "hr": 79.0,
+    "ox": 99.8,
+    "sys": 132,
+    "dia": 76
+  },
+  {
+    "patientId": 2247,
+    "timestamp": 1704968746,
+    "hr": 71.3,
+    "ox": 94.2,
+    "sys": 118,
+    "dia": 92
+  },
+  {
+    "patientId": 2247,
+    "timestamp": 1704971266,
+    "hr": 77.3,
+    "ox": 97.9,
+    "sys": 115,
+    "dia": 80
+  },
+  {
+    "patientId": 2247,
+    "timestamp": 1704967186,
+    "hr": 89.5,
+    "ox": 93.8,
+    "sys": 151,
+    "dia": 69
+  },
+  {
+    "patientId": 2247,
+    "timestamp": 1704981406,
+    "hr": 72.7,
+    "ox": 97.0,
+    "sys": 133,
+    "dia": 86
+  },
+  {
+    "patientId": 2247,
+    "timestamp": 1704982666,
+    "hr": 65.3,
+    "ox": 94.3,
+    "sys": 125,
+    "dia": 69
+  },
+  {
+    "patientId": 2248,
+    "timestamp": 1705137880,
+    "hr": 75.4,
+    "ox": 91.6,
+    "sys": 145,
+    "dia": 66
+  },
+  {
+    "patientId": 2248,
+    "timestamp": 1705144360,
+    "hr": 75.4,
+    "ox": 93.8,
+    "sys": 130,
+    "dia": 70
+  },
+  {
+    "patientId": 2248,
+    "timestamp": 1705146760,
+    "hr": 78.1,
+    "ox": 96.6,
+    "sys": 115,
+    "dia": 81
+  },
+  {
+    "patientId": 2248,
+    "timestamp": 1705154080,
+    "hr": 104.4,
+    "ox": 96.7,
+    "sys": 120,
+    "dia": 82
+  },
+  {
+    "patientId": 2248,
+    "timestamp": 1705138420,
+    "hr": 75.7,
+    "ox": 97.5,
+    "sys": 123,
+    "dia": 69
+  },
+  {
+    "patientId": 2249,
+    "timestamp": 1705211465,
+    "hr": 79.1,
+    "ox": 95.1,
+    "sys": 109,
+    "dia": 84
+  },
+  {
+    "patientId": 2249,
+    "timestamp": 1705217885,
+    "hr": 65.5,
+    "ox": 96.1,
+    "sys": 126,
+    "dia": 81
+  },
+  {
+    "patientId": 2249,
+    "timestamp": 1705220345,
+    "hr": 69.0,
+    "ox": 97.3,
+    "sys": 134,
+    "dia": 69
+  },
+  {
+    "patientId": 2249,
+    "timestamp": 1705214645,
+    "hr": 97.4,
+    "ox": 95.4,
+    "sys": 121,
+    "dia": 94
+  },
+  {
+    "patientId": 2249,
+    "timestamp": 1705230005,
+    "hr": 85.4,
+    "ox": 98.0,
+    "sys": 113,
+    "dia": 70
+  },
+  {
+    "patientId": 2250,
+    "timestamp": 1705225316,
+    "hr": 75.8,
+    "ox": 94.8,
+    "sys": 121,
+    "dia": 65
+  },
+  {
+    "patientId": 2250,
+    "timestamp": 1705233116,
+    "hr": 83.7,
+    "ox": 94.9,
+    "sys": 115,
+    "dia": 82
+  },
+  {
+    "patientId": 2250,
+    "timestamp": 1705238276,
+    "hr": 56.6,
+    "ox": 98.0,
+    "sys": 112,
+    "dia": 88
+  },
+  {
+    "patientId": 2250,
+    "timestamp": 1705238876,
+    "hr": 104.9,
+    "ox": 94.4,
+    "sys": 135,
+    "dia": 69
+  },
+  {
+    "patientId": 2250,
+    "timestamp": 1705244696,
+    "hr": 107.9,
+    "ox": 94.9,
+    "sys": 139,
+    "dia": 78
+  },
+  {
+    "patientId": 2251,
+    "timestamp": 1705231803,
+    "hr": 84.8,
+    "ox": 96.9,
+    "sys": 103,
+    "dia": 75
+  },
+  {
+    "patientId": 2251,
+    "timestamp": 1705233903,
+    "hr": 73.8,
+    "ox": 97.2,
+    "sys": 145,
+    "dia": 81
+  },
+  {
+    "patientId": 2251,
+    "timestamp": 1705235703,
+    "hr": 64.6,
+    "ox": 97.4,
+    "sys": 127,
+    "dia": 77
+  },
+  {
+    "patientId": 2251,
+    "timestamp": 1705233123,
+    "hr": 88.3,
+    "ox": 95.1,
+    "sys": 127,
+    "dia": 79
+  },
+  {
+    "patientId": 2251,
+    "timestamp": 1705255323,
+    "hr": 74.8,
+    "ox": 99.6,
+    "sys": 129,
+    "dia": 74
+  },
+  {
+    "patientId": 2252,
+    "timestamp": 1705055495,
+    "hr": 78.3,
+    "ox": 95.7,
+    "sys": 125,
+    "dia": 80
+  },
+  {
+    "patientId": 2252,
+    "timestamp": 1705063655,
+    "hr": 60.1,
+    "ox": 93.9,
+    "sys": 123,
+    "dia": 64
+  },
+  {
+    "patientId": 2252,
+    "timestamp": 1705064495,
+    "hr": 63.8,
+    "ox": 97.5,
+    "sys": 93,
+    "dia": 77
+  },
+  {
+    "patientId": 2252,
+    "timestamp": 1705065755,
+    "hr": 59.2,
+    "ox": 99.8,
+    "sys": 148,
+    "dia": 74
+  },
+  {
+    "patientId": 2252,
+    "timestamp": 1705074215,
+    "hr": 73.8,
+    "ox": 97.4,
+    "sys": 145,
+    "dia": 97
+  },
+  {
+    "patientId": 2253,
+    "timestamp": 1705115453,
+    "hr": 56.2,
+    "ox": 95.7,
+    "sys": 119,
+    "dia": 75
+  },
+  {
+    "patientId": 2253,
+    "timestamp": 1705115273,
+    "hr": 93.4,
+    "ox": 98.5,
+    "sys": 122,
+    "dia": 90
+  },
+  {
+    "patientId": 2253,
+    "timestamp": 1705123313,
+    "hr": 80.4,
+    "ox": 96.9,
+    "sys": 121,
+    "dia": 66
+  },
+  {
+    "patientId": 2253,
+    "timestamp": 1705126733,
+    "hr": 73.8,
+    "ox": 95.7,
+    "sys": 131,
+    "dia": 92
+  },
+  {
+    "patientId": 2253,
+    "timestamp": 1705120853,
+    "hr": 100.4,
+    "ox": 95.9,
+    "sys": 124,
+    "dia": 95
+  },
+  {
+    "patientId": 2254,
+    "timestamp": 1705323033,
+    "hr": 60.9,
+    "ox": 94.7,
+    "sys": 111,
+    "dia": 88
+  },
+  {
+    "patientId": 2254,
+    "timestamp": 1705323813,
+    "hr": 58.0,
+    "ox": 96.5,
+    "sys": 111,
+    "dia": 82
+  },
+  {
+    "patientId": 2254,
+    "timestamp": 1705332213,
+    "hr": 75.6,
+    "ox": 97.0,
+    "sys": 132,
+    "dia": 93
+  },
+  {
+    "patientId": 2254,
+    "timestamp": 1705341993,
+    "hr": 97.8,
+    "ox": 93.9,
+    "sys": 122,
+    "dia": 73
+  },
+  {
+    "patientId": 2254,
+    "timestamp": 1705347093,
+    "hr": 58.4,
+    "ox": 96.7,
+    "sys": 130,
+    "dia": 73
+  },
+  {
+    "patientId": 2255,
+    "timestamp": 1705077204,
+    "hr": 85.9,
+    "ox": 95.7,
+    "sys": 121,
+    "dia": 85
+  },
+  {
+    "patientId": 2255,
+    "timestamp": 1705077144,
+    "hr": 95.6,
+    "ox": 96.3,
+    "sys": 116,
+    "dia": 85
+  },
+  {
+    "patientId": 2255,
+    "timestamp": 1705085544,
+    "hr": 63.0,
+    "ox": 92.7,
+    "sys": 121,
+    "dia": 69
+  },
+  {
+    "patientId": 2255,
+    "timestamp": 1705085124,
+    "hr": 62.2,
+    "ox": 93.3,
+    "sys": 127,
+    "dia": 76
+  },
+  {
+    "patientId": 2255,
+    "timestamp": 1705086984,
+    "hr": 86.2,
+    "ox": 95.0,
+    "sys": 124,
+    "dia": 94
+  },
+  {
+    "patientId": 2256,
+    "timestamp": 1704887082,
+    "hr": 63.4,
+    "ox": 97.8,
+    "sys": 136,
+    "dia": 71
+  },
+  {
+    "patientId": 2256,
+    "timestamp": 1704886662,
+    "hr": 74.7,
+    "ox": 94.8,
+    "sys": 125,
+    "dia": 87
+  },
+  {
+    "patientId": 2256,
+    "timestamp": 1704892122,
+    "hr": 76.7,
+    "ox": 97.9,
+    "sys": 108,
+    "dia": 73
+  },
+  {
+    "patientId": 2256,
+    "timestamp": 1704894702,
+    "hr": 93.7,
+    "ox": 93.6,
+    "sys": 134,
+    "dia": 63
+  },
+  {
+    "patientId": 2256,
+    "timestamp": 1704889662,
+    "hr": 75.4,
+    "ox": 93.5,
+    "sys": 122,
+    "dia": 85
+  },
+  {
+    "patientId": 2257,
+    "timestamp": 1705174089,
+    "hr": 73.2,
+    "ox": 95.3,
+    "sys": 122,
+    "dia": 76
+  },
+  {
+    "patientId": 2257,
+    "timestamp": 1705173009,
+    "hr": 86.4,
+    "ox": 94.7,
+    "sys": 125,
+    "dia": 76
+  },
+  {
+    "patientId": 2257,
+    "timestamp": 1705177569,
+    "hr": 114.3,
+    "ox": 96.6,
+    "sys": 107,
+    "dia": 69
+  },
+  {
+    "patientId": 2257,
+    "timestamp": 1705186749,
+    "hr": 77.1,
+    "ox": 96.6,
+    "sys": 135,
+    "dia": 59
+  },
+  {
+    "patientId": 2257,
+    "timestamp": 1705181889,
+    "hr": 82.9,
+    "ox": 94.0,
+    "sys": 103,
+    "dia": 81
+  },
+  {
+    "patientId": 2258,
+    "timestamp": 1705283071,
+    "hr": 84.8,
+    "ox": 98.6,
+    "sys": 126,
+    "dia": 70
+  },
+  {
+    "patientId": 2258,
+    "timestamp": 1705288231,
+    "hr": 86.5,
+    "ox": 98.4,
+    "sys": 132,
+    "dia": 72
+  },
+  {
+    "patientId": 2258,
+    "timestamp": 1705291831,
+    "hr": 79.2,
+    "ox": 95.3,
+    "sys": 143,
+    "dia": 67
+  },
+  {
+    "patientId": 2258,
+    "timestamp": 1705286851,
+    "hr": 89.6,
+    "ox": 96.4,
+    "sys": 105,
+    "dia": 97
+  },
+  {
+    "patientId": 2258,
+    "timestamp": 1705303891,
+    "hr": 95.2,
+    "ox": 97.0,
+    "sys": 106,
+    "dia": 94
+  },
+  {
+    "patientId": 2259,
+    "timestamp": 1705210851,
+    "hr": 67.5,
+    "ox": 98.6,
+    "sys": 133,
+    "dia": 105
+  },
+  {
+    "patientId": 2259,
+    "timestamp": 1705215651,
+    "hr": 47.6,
+    "ox": 96.7,
+    "sys": 119,
+    "dia": 79
+  },
+  {
+    "patientId": 2259,
+    "timestamp": 1705213971,
+    "hr": 90.7,
+    "ox": 92.5,
+    "sys": 122,
+    "dia": 91
+  },
+  {
+    "patientId": 2259,
+    "timestamp": 1705210071,
+    "hr": 80.2,
+    "ox": 94.4,
+    "sys": 133,
+    "dia": 84
+  },
+  {
+    "patientId": 2259,
+    "timestamp": 1705225191,
+    "hr": 77.3,
+    "ox": 96.1,
+    "sys": 132,
+    "dia": 85
+  },
+  {
+    "patientId": 2260,
+    "timestamp": 1705204782,
+    "hr": 68.6,
+    "ox": 97.4,
+    "sys": 117,
+    "dia": 69
+  },
+  {
+    "patientId": 2260,
+    "timestamp": 1705208142,
+    "hr": 40.9,
+    "ox": 98.4,
+    "sys": 101,
+    "dia": 95
+  },
+  {
+    "patientId": 2260,
+    "timestamp": 1705209042,
+    "hr": 84.7,
+    "ox": 97.2,
+    "sys": 124,
+    "dia": 91
+  },
+  {
+    "patientId": 2260,
+    "timestamp": 1705207842,
+    "hr": 68.2,
+    "ox": 97.3,
+    "sys": 114,
+    "dia": 79
+  },
+  {
+    "patientId": 2260,
+    "timestamp": 1705225782,
+    "hr": 78.7,
+    "ox": 98.2,
+    "sys": 135,
+    "dia": 94
+  },
+  {
+    "patientId": 2261,
+    "timestamp": 1705291499,
+    "hr": 97.0,
+    "ox": 95.3,
+    "sys": 135,
+    "dia": 79
+  },
+  {
+    "patientId": 2261,
+    "timestamp": 1705292879,
+    "hr": 97.7,
+    "ox": 95.6,
+    "sys": 128,
+    "dia": 92
+  },
+  {
+    "patientId": 2261,
+    "timestamp": 1705291439,
+    "hr": 86.0,
+    "ox": 95.9,
+    "sys": 135,
+    "dia": 85
+  },
+  {
+    "patientId": 2261,
+    "timestamp": 1705290059,
+    "hr": 105.7,
+    "ox": 95.1,
+    "sys": 127,
+    "dia": 91
+  },
+  {
+    "patientId": 2261,
+    "timestamp": 1705294739,
+    "hr": 66.2,
+    "ox": 94.1,
+    "sys": 115,
+    "dia": 80
+  },
+  {
+    "patientId": 2262,
+    "timestamp": 1705258887,
+    "hr": 76.5,
+    "ox": 96.5,
+    "sys": 120,
+    "dia": 64
+  },
+  {
+    "patientId": 2262,
+    "timestamp": 1705263687,
+    "hr": 76.3,
+    "ox": 99.1,
+    "sys": 132,
+    "dia": 92
+  },
+  {
+    "patientId": 2262,
+    "timestamp": 1705260987,
+    "hr": 77.4,
+    "ox": 93.6,
+    "sys": 147,
+    "dia": 73
+  },
+  {
+    "patientId": 2262,
+    "timestamp": 1705271067,
+    "hr": 66.3,
+    "ox": 95.2,
+    "sys": 131,
+    "dia": 65
+  },
+  {
+    "patientId": 2262,
+    "timestamp": 1705270707,
+    "hr": 64.5,
+    "ox": 96.1,
+    "sys": 138,
+    "dia": 84
+  },
+  {
+    "patientId": 2263,
+    "timestamp": 1705046694,
+    "hr": 85.4,
+    "ox": 96.0,
+    "sys": 139,
+    "dia": 62
+  },
+  {
+    "patientId": 2263,
+    "timestamp": 1705046934,
+    "hr": 70.6,
+    "ox": 96.4,
+    "sys": 135,
+    "dia": 89
+  },
+  {
+    "patientId": 2263,
+    "timestamp": 1705055154,
+    "hr": 93.5,
+    "ox": 95.7,
+    "sys": 124,
+    "dia": 86
+  },
+  {
+    "patientId": 2263,
+    "timestamp": 1705065174,
+    "hr": 93.1,
+    "ox": 100.0,
+    "sys": 103,
+    "dia": 77
+  },
+  {
+    "patientId": 2263,
+    "timestamp": 1705047954,
+    "hr": 80.7,
+    "ox": 92.8,
+    "sys": 111,
+    "dia": 58
+  },
+  {
+    "patientId": 2264,
+    "timestamp": 1704948169,
+    "hr": 72.1,
+    "ox": 91.9,
+    "sys": 130,
+    "dia": 94
+  },
+  {
+    "patientId": 2264,
+    "timestamp": 1704951349,
+    "hr": 82.8,
+    "ox": 93.7,
+    "sys": 112,
+    "dia": 72
+  },
+  {
+    "patientId": 2264,
+    "timestamp": 1704944809,
+    "hr": 75.3,
+    "ox": 94.5,
+    "sys": 113,
+    "dia": 76
+  },
+  {
+    "patientId": 2264,
+    "timestamp": 1704949069,
+    "hr": 71.9,
+    "ox": 96.3,
+    "sys": 120,
+    "dia": 64
+  },
+  {
+    "patientId": 2264,
+    "timestamp": 1704946369,
+    "hr": 66.8,
+    "ox": 99.6,
+    "sys": 112,
+    "dia": 73
+  },
+  {
+    "patientId": 2265,
+    "timestamp": 1705012046,
+    "hr": 65.1,
+    "ox": 95.4,
+    "sys": 134,
+    "dia": 98
+  },
+  {
+    "patientId": 2265,
+    "timestamp": 1705017746,
+    "hr": 83.1,
+    "ox": 95.3,
+    "sys": 113,
+    "dia": 83
+  },
+  {
+    "patientId": 2265,
+    "timestamp": 1705020086,
+    "hr": 87.8,
+    "ox": 95.8,
+    "sys": 130,
+    "dia": 70
+  },
+  {
+    "patientId": 2265,
+    "timestamp": 1705018046,
+    "hr": 78.7,
+    "ox": 96.6,
+    "sys": 137,
+    "dia": 73
+  },
+  {
+    "patientId": 2265,
+    "timestamp": 1705035206,
+    "hr": 75.1,
+    "ox": 92.8,
+    "sys": 96,
+    "dia": 81
+  },
+  {
+    "patientId": 2266,
+    "timestamp": 1705295909,
+    "hr": 71.4,
+    "ox": 94.2,
+    "sys": 106,
+    "dia": 77
+  },
+  {
+    "patientId": 2266,
+    "timestamp": 1705304789,
+    "hr": 74.0,
+    "ox": 96.5,
+    "sys": 144,
+    "dia": 92
+  },
+  {
+    "patientId": 2266,
+    "timestamp": 1705310789,
+    "hr": 91.2,
+    "ox": 97.6,
+    "sys": 125,
+    "dia": 71
+  },
+  {
+    "patientId": 2266,
+    "timestamp": 1705302089,
+    "hr": 85.7,
+    "ox": 95.0,
+    "sys": 123,
+    "dia": 68
+  },
+  {
+    "patientId": 2266,
+    "timestamp": 1705320749,
+    "hr": 80.2,
+    "ox": 96.3,
+    "sys": 117,
+    "dia": 70
+  },
+  {
+    "patientId": 2267,
+    "timestamp": 1704949977,
+    "hr": 66.7,
+    "ox": 94.1,
+    "sys": 136,
+    "dia": 81
+  },
+  {
+    "patientId": 2267,
+    "timestamp": 1704951357,
+    "hr": 86.2,
+    "ox": 93.8,
+    "sys": 139,
+    "dia": 91
+  },
+  {
+    "patientId": 2267,
+    "timestamp": 1704953757,
+    "hr": 79.0,
+    "ox": 97.6,
+    "sys": 122,
+    "dia": 91
+  },
+  {
+    "patientId": 2267,
+    "timestamp": 1704957897,
+    "hr": 77.0,
+    "ox": 93.7,
+    "sys": 118,
+    "dia": 80
+  },
+  {
+    "patientId": 2267,
+    "timestamp": 1704961017,
+    "hr": 88.2,
+    "ox": 98.1,
+    "sys": 135,
+    "dia": 82
+  },
+  {
+    "patientId": 2268,
+    "timestamp": 1704921604,
+    "hr": 97.2,
+    "ox": 96.6,
+    "sys": 95,
+    "dia": 84
+  },
+  {
+    "patientId": 2268,
+    "timestamp": 1704923404,
+    "hr": 79.1,
+    "ox": 98.0,
+    "sys": 128,
+    "dia": 89
+  },
+  {
+    "patientId": 2268,
+    "timestamp": 1704932404,
+    "hr": 86.8,
+    "ox": 98.2,
+    "sys": 130,
+    "dia": 55
+  },
+  {
+    "patientId": 2268,
+    "timestamp": 1704938704,
+    "hr": 63.4,
+    "ox": 92.9,
+    "sys": 128,
+    "dia": 72
+  },
+  {
+    "patientId": 2268,
+    "timestamp": 1704933844,
+    "hr": 100.2,
+    "ox": 94.2,
+    "sys": 127,
+    "dia": 73
+  },
+  {
+    "patientId": 2269,
+    "timestamp": 1705159178,
+    "hr": 75.4,
+    "ox": 96.8,
+    "sys": 129,
+    "dia": 87
+  },
+  {
+    "patientId": 2269,
+    "timestamp": 1705164578,
+    "hr": 115.2,
+    "ox": 93.9,
+    "sys": 99,
+    "dia": 76
+  },
+  {
+    "patientId": 2269,
+    "timestamp": 1705162358,
+    "hr": 61.9,
+    "ox": 94.4,
+    "sys": 134,
+    "dia": 75
+  },
+  {
+    "patientId": 2269,
+    "timestamp": 1705158638,
+    "hr": 68.5,
+    "ox": 97.0,
+    "sys": 117,
+    "dia": 78
+  },
+  {
+    "patientId": 2269,
+    "timestamp": 1705164338,
+    "hr": 85.0,
+    "ox": 96.6,
+    "sys": 122,
+    "dia": 64
+  },
+  {
+    "patientId": 2270,
+    "timestamp": 1705229175,
+    "hr": 84.2,
+    "ox": 97.0,
+    "sys": 155,
+    "dia": 81
+  },
+  {
+    "patientId": 2270,
+    "timestamp": 1705235655,
+    "hr": 80.0,
+    "ox": 96.0,
+    "sys": 128,
+    "dia": 84
+  },
+  {
+    "patientId": 2270,
+    "timestamp": 1705235955,
+    "hr": 54.5,
+    "ox": 96.8,
+    "sys": 157,
+    "dia": 82
+  },
+  {
+    "patientId": 2270,
+    "timestamp": 1705236735,
+    "hr": 88.6,
+    "ox": 96.9,
+    "sys": 122,
+    "dia": 68
+  },
+  {
+    "patientId": 2270,
+    "timestamp": 1705239135,
+    "hr": 66.8,
+    "ox": 97.6,
+    "sys": 138,
+    "dia": 83
+  },
+  {
+    "patientId": 2271,
+    "timestamp": 1704932984,
+    "hr": 77.0,
+    "ox": 95.3,
+    "sys": 125,
+    "dia": 66
+  },
+  {
+    "patientId": 2271,
+    "timestamp": 1704939704,
+    "hr": 80.7,
+    "ox": 95.5,
+    "sys": 135,
+    "dia": 75
+  },
+  {
+    "patientId": 2271,
+    "timestamp": 1704936284,
+    "hr": 93.4,
+    "ox": 98.4,
+    "sys": 100,
+    "dia": 73
+  },
+  {
+    "patientId": 2271,
+    "timestamp": 1704948284,
+    "hr": 77.6,
+    "ox": 98.8,
+    "sys": 148,
+    "dia": 95
+  },
+  {
+    "patientId": 2271,
+    "timestamp": 1704953204,
+    "hr": 60.3,
+    "ox": 94.9,
+    "sys": 128,
+    "dia": 62
+  },
+  {
+    "patientId": 2272,
+    "timestamp": 1705201120,
+    "hr": 69.6,
+    "ox": 95.7,
+    "sys": 111,
+    "dia": 86
+  },
+  {
+    "patientId": 2272,
+    "timestamp": 1705201480,
+    "hr": 62.9,
+    "ox": 95.1,
+    "sys": 97,
+    "dia": 91
+  },
+  {
+    "patientId": 2272,
+    "timestamp": 1705206640,
+    "hr": 62.9,
+    "ox": 96.4,
+    "sys": 95,
+    "dia": 65
+  },
+  {
+    "patientId": 2272,
+    "timestamp": 1705201480,
+    "hr": 115.7,
+    "ox": 95.8,
+    "sys": 151,
+    "dia": 85
+  },
+  {
+    "patientId": 2272,
+    "timestamp": 1705205620,
+    "hr": 89.0,
+    "ox": 94.8,
+    "sys": 102,
+    "dia": 79
+  },
+  {
+    "patientId": 2273,
+    "timestamp": 1705207574,
+    "hr": 69.6,
+    "ox": 95.2,
+    "sys": 129,
+    "dia": 98
+  },
+  {
+    "patientId": 2273,
+    "timestamp": 1705209314,
+    "hr": 84.6,
+    "ox": 93.6,
+    "sys": 138,
+    "dia": 62
+  },
+  {
+    "patientId": 2273,
+    "timestamp": 1705213034,
+    "hr": 79.0,
+    "ox": 95.8,
+    "sys": 120,
+    "dia": 66
+  },
+  {
+    "patientId": 2273,
+    "timestamp": 1705221734,
+    "hr": 109.3,
+    "ox": 96.9,
+    "sys": 126,
+    "dia": 84
+  },
+  {
+    "patientId": 2273,
+    "timestamp": 1705221014,
+    "hr": 88.9,
+    "ox": 96.3,
+    "sys": 117,
+    "dia": 89
+  },
+  {
+    "patientId": 2274,
+    "timestamp": 1704936451,
+    "hr": 80.4,
+    "ox": 92.5,
+    "sys": 125,
+    "dia": 96
+  },
+  {
+    "patientId": 2274,
+    "timestamp": 1704936571,
+    "hr": 90.2,
+    "ox": 97.2,
+    "sys": 139,
+    "dia": 67
+  },
+  {
+    "patientId": 2274,
+    "timestamp": 1704942691,
+    "hr": 103.2,
+    "ox": 96.5,
+    "sys": 124,
+    "dia": 90
+  },
+  {
+    "patientId": 2274,
+    "timestamp": 1704943171,
+    "hr": 70.6,
+    "ox": 97.4,
+    "sys": 139,
+    "dia": 76
+  },
+  {
+    "patientId": 2274,
+    "timestamp": 1704955111,
+    "hr": 63.8,
+    "ox": 95.1,
+    "sys": 104,
+    "dia": 71
+  },
+  {
+    "patientId": 2275,
+    "timestamp": 1705034614,
+    "hr": 69.7,
+    "ox": 97.7,
+    "sys": 92,
+    "dia": 71
+  },
+  {
+    "patientId": 2275,
+    "timestamp": 1705043794,
+    "hr": 71.3,
+    "ox": 95.6,
+    "sys": 127,
+    "dia": 71
+  },
+  {
+    "patientId": 2275,
+    "timestamp": 1705043554,
+    "hr": 60.8,
+    "ox": 92.2,
+    "sys": 125,
+    "dia": 73
+  },
+  {
+    "patientId": 2275,
+    "timestamp": 1705045234,
+    "hr": 65.1,
+    "ox": 96.9,
+    "sys": 114,
+    "dia": 74
+  },
+  {
+    "patientId": 2275,
+    "timestamp": 1705059154,
+    "hr": 75.1,
+    "ox": 97.1,
+    "sys": 108,
+    "dia": 73
+  },
+  {
+    "patientId": 2276,
+    "timestamp": 1704999642,
+    "hr": 91.4,
+    "ox": 96.1,
+    "sys": 131,
+    "dia": 75
+  },
+  {
+    "patientId": 2276,
+    "timestamp": 1705005462,
+    "hr": 76.8,
+    "ox": 94.0,
+    "sys": 117,
+    "dia": 72
+  },
+  {
+    "patientId": 2276,
+    "timestamp": 1705002282,
+    "hr": 54.7,
+    "ox": 98.7,
+    "sys": 114,
+    "dia": 91
+  },
+  {
+    "patientId": 2276,
+    "timestamp": 1705001802,
+    "hr": 74.8,
+    "ox": 97.6,
+    "sys": 136,
+    "dia": 99
+  },
+  {
+    "patientId": 2276,
+    "timestamp": 1705010982,
+    "hr": 101.0,
+    "ox": 95.9,
+    "sys": 128,
+    "dia": 73
+  },
+  {
+    "patientId": 2277,
+    "timestamp": 1705072976,
+    "hr": 74.0,
+    "ox": 99.4,
+    "sys": 109,
+    "dia": 77
+  },
+  {
+    "patientId": 2277,
+    "timestamp": 1705074176,
+    "hr": 79.2,
+    "ox": 93.9,
+    "sys": 113,
+    "dia": 88
+  },
+  {
+    "patientId": 2277,
+    "timestamp": 1705076816,
+    "hr": 76.6,
+    "ox": 98.3,
+    "sys": 121,
+    "dia": 76
+  },
+  {
+    "patientId": 2277,
+    "timestamp": 1705078196,
+    "hr": 74.9,
+    "ox": 97.9,
+    "sys": 144,
+    "dia": 89
+  },
+  {
+    "patientId": 2277,
+    "timestamp": 1705085156,
+    "hr": 92.1,
+    "ox": 92.3,
+    "sys": 115,
+    "dia": 77
+  },
+  {
+    "patientId": 2278,
+    "timestamp": 1705222307,
+    "hr": 75.6,
+    "ox": 97.4,
+    "sys": 105,
+    "dia": 91
+  },
+  {
+    "patientId": 2278,
+    "timestamp": 1705221887,
+    "hr": 70.1,
+    "ox": 93.5,
+    "sys": 148,
+    "dia": 73
+  },
+  {
+    "patientId": 2278,
+    "timestamp": 1705226087,
+    "hr": 112.0,
+    "ox": 96.2,
+    "sys": 141,
+    "dia": 82
+  },
+  {
+    "patientId": 2278,
+    "timestamp": 1705223987,
+    "hr": 82.8,
+    "ox": 96.2,
+    "sys": 113,
+    "dia": 99
+  },
+  {
+    "patientId": 2278,
+    "timestamp": 1705220987,
+    "hr": 79.3,
+    "ox": 97.7,
+    "sys": 109,
+    "dia": 79
+  },
+  {
+    "patientId": 2279,
+    "timestamp": 1705021884,
+    "hr": 81.4,
+    "ox": 94.6,
+    "sys": 126,
+    "dia": 103
+  },
+  {
+    "patientId": 2279,
+    "timestamp": 1705029264,
+    "hr": 83.9,
+    "ox": 98.0,
+    "sys": 148,
+    "dia": 60
+  },
+  {
+    "patientId": 2279,
+    "timestamp": 1705031364,
+    "hr": 87.8,
+    "ox": 95.5,
+    "sys": 130,
+    "dia": 71
+  },
+  {
+    "patientId": 2279,
+    "timestamp": 1705022724,
+    "hr": 76.7,
+    "ox": 94.7,
+    "sys": 106,
+    "dia": 74
+  },
+  {
+    "patientId": 2279,
+    "timestamp": 1705037304,
+    "hr": 74.0,
+    "ox": 95.9,
+    "sys": 139,
+    "dia": 74
+  },
+  {
+    "patientId": 2280,
+    "timestamp": 1705109960,
+    "hr": 91.4,
+    "ox": 98.1,
+    "sys": 115,
+    "dia": 77
+  },
+  {
+    "patientId": 2280,
+    "timestamp": 1705109840,
+    "hr": 76.6,
+    "ox": 96.0,
+    "sys": 118,
+    "dia": 71
+  },
+  {
+    "patientId": 2280,
+    "timestamp": 1705116140,
+    "hr": 88.6,
+    "ox": 95.5,
+    "sys": 135,
+    "dia": 87
+  },
+  {
+    "patientId": 2280,
+    "timestamp": 1705120100,
+    "hr": 97.5,
+    "ox": 98.7,
+    "sys": 138,
+    "dia": 100
+  },
+  {
+    "patientId": 2280,
+    "timestamp": 1705132700,
+    "hr": 90.5,
+    "ox": 97.5,
+    "sys": 120,
+    "dia": 84
+  },
+  {
+    "patientId": 2281,
+    "timestamp": 1704926650,
+    "hr": 106.9,
+    "ox": 90.5,
+    "sys": 121,
+    "dia": 92
+  },
+  {
+    "patientId": 2281,
+    "timestamp": 1704932350,
+    "hr": 73.3,
+    "ox": 96.1,
+    "sys": 142,
+    "dia": 83
+  },
+  {
+    "patientId": 2281,
+    "timestamp": 1704929710,
+    "hr": 99.5,
+    "ox": 99.3,
+    "sys": 124,
+    "dia": 82
+  },
+  {
+    "patientId": 2281,
+    "timestamp": 1704932410,
+    "hr": 86.0,
+    "ox": 94.0,
+    "sys": 149,
+    "dia": 92
+  },
+  {
+    "patientId": 2281,
+    "timestamp": 1704930790,
+    "hr": 77.1,
+    "ox": 97.7,
+    "sys": 119,
+    "dia": 60
+  },
+  {
+    "patientId": 2282,
+    "timestamp": 1705084799,
+    "hr": 89.2,
+    "ox": 95.2,
+    "sys": 131,
+    "dia": 64
+  },
+  {
+    "patientId": 2282,
+    "timestamp": 1705086119,
+    "hr": 57.1,
+    "ox": 97.5,
+    "sys": 141,
+    "dia": 66
+  },
+  {
+    "patientId": 2282,
+    "timestamp": 1705096379,
+    "hr": 92.6,
+    "ox": 96.6,
+    "sys": 127,
+    "dia": 62
+  },
+  {
+    "patientId": 2282,
+    "timestamp": 1705093379,
+    "hr": 80.4,
+    "ox": 95.5,
+    "sys": 139,
+    "dia": 97
+  },
+  {
+    "patientId": 2282,
+    "timestamp": 1705102979,
+    "hr": 71.5,
+    "ox": 96.2,
+    "sys": 128,
+    "dia": 70
+  },
+  {
+    "patientId": 2283,
+    "timestamp": 1705320073,
+    "hr": 78.4,
+    "ox": 94.4,
+    "sys": 96,
+    "dia": 86
+  },
+  {
+    "patientId": 2283,
+    "timestamp": 1705326313,
+    "hr": 63.5,
+    "ox": 98.4,
+    "sys": 135,
+    "dia": 92
+  },
+  {
+    "patientId": 2283,
+    "timestamp": 1705329133,
+    "hr": 76.9,
+    "ox": 96.1,
+    "sys": 110,
+    "dia": 94
+  },
+  {
+    "patientId": 2283,
+    "timestamp": 1705338673,
+    "hr": 84.1,
+    "ox": 98.5,
+    "sys": 113,
+    "dia": 73
+  },
+  {
+    "patientId": 2283,
+    "timestamp": 1705329373,
+    "hr": 57.5,
+    "ox": 95.6,
+    "sys": 106,
+    "dia": 80
+  },
+  {
+    "patientId": 2284,
+    "timestamp": 1705215317,
+    "hr": 80.6,
+    "ox": 97.7,
+    "sys": 117,
+    "dia": 96
+  },
+  {
+    "patientId": 2284,
+    "timestamp": 1705217237,
+    "hr": 64.6,
+    "ox": 93.9,
+    "sys": 124,
+    "dia": 107
+  },
+  {
+    "patientId": 2284,
+    "timestamp": 1705220177,
+    "hr": 69.5,
+    "ox": 93.2,
+    "sys": 121,
+    "dia": 78
+  },
+  {
+    "patientId": 2284,
+    "timestamp": 1705214417,
+    "hr": 64.9,
+    "ox": 97.8,
+    "sys": 124,
+    "dia": 90
+  },
+  {
+    "patientId": 2284,
+    "timestamp": 1705220357,
+    "hr": 51.6,
+    "ox": 96.7,
+    "sys": 110,
+    "dia": 81
+  },
+  {
+    "patientId": 2285,
+    "timestamp": 1705006640,
+    "hr": 57.6,
+    "ox": 94.2,
+    "sys": 111,
+    "dia": 93
+  },
+  {
+    "patientId": 2285,
+    "timestamp": 1705010480,
+    "hr": 101.0,
+    "ox": 95.3,
+    "sys": 112,
+    "dia": 86
+  },
+  {
+    "patientId": 2285,
+    "timestamp": 1705005140,
+    "hr": 76.4,
+    "ox": 92.7,
+    "sys": 123,
+    "dia": 76
+  },
+  {
+    "patientId": 2285,
+    "timestamp": 1705014620,
+    "hr": 80.3,
+    "ox": 97.2,
+    "sys": 127,
+    "dia": 93
+  },
+  {
+    "patientId": 2285,
+    "timestamp": 1705005260,
+    "hr": 88.7,
+    "ox": 92.5,
+    "sys": 114,
+    "dia": 73
+  },
+  {
+    "patientId": 2286,
+    "timestamp": 1705310223,
+    "hr": 73.7,
+    "ox": 98.7,
+    "sys": 90,
+    "dia": 83
+  },
+  {
+    "patientId": 2286,
+    "timestamp": 1705312263,
+    "hr": 74.0,
+    "ox": 96.0,
+    "sys": 117,
+    "dia": 95
+  },
+  {
+    "patientId": 2286,
+    "timestamp": 1705317903,
+    "hr": 96.4,
+    "ox": 94.5,
+    "sys": 135,
+    "dia": 87
+  },
+  {
+    "patientId": 2286,
+    "timestamp": 1705324923,
+    "hr": 72.8,
+    "ox": 93.8,
+    "sys": 94,
+    "dia": 76
+  },
+  {
+    "patientId": 2286,
+    "timestamp": 1705329723,
+    "hr": 69.7,
+    "ox": 95.2,
+    "sys": 129,
+    "dia": 79
+  },
+  {
+    "patientId": 2287,
+    "timestamp": 1705047539,
+    "hr": 65.7,
+    "ox": 100.0,
+    "sys": 124,
+    "dia": 72
+  },
+  {
+    "patientId": 2287,
+    "timestamp": 1705053779,
+    "hr": 93.0,
+    "ox": 96.1,
+    "sys": 117,
+    "dia": 77
+  },
+  {
+    "patientId": 2287,
+    "timestamp": 1705061099,
+    "hr": 94.2,
+    "ox": 92.2,
+    "sys": 115,
+    "dia": 90
+  },
+  {
+    "patientId": 2287,
+    "timestamp": 1705061999,
+    "hr": 75.0,
+    "ox": 94.6,
+    "sys": 129,
+    "dia": 76
+  },
+  {
+    "patientId": 2287,
+    "timestamp": 1705054199,
+    "hr": 82.4,
+    "ox": 96.2,
+    "sys": 162,
+    "dia": 97
+  },
+  {
+    "patientId": 2288,
+    "timestamp": 1705326412,
+    "hr": 76.6,
+    "ox": 91.9,
+    "sys": 127,
+    "dia": 80
+  },
+  {
+    "patientId": 2288,
+    "timestamp": 1705333852,
+    "hr": 105.1,
+    "ox": 95.1,
+    "sys": 121,
+    "dia": 88
+  },
+  {
+    "patientId": 2288,
+    "timestamp": 1705339252,
+    "hr": 101.3,
+    "ox": 93.0,
+    "sys": 127,
+    "dia": 80
+  },
+  {
+    "patientId": 2288,
+    "timestamp": 1705330732,
+    "hr": 81.7,
+    "ox": 99.3,
+    "sys": 138,
+    "dia": 72
+  },
+  {
+    "patientId": 2288,
+    "timestamp": 1705339852,
+    "hr": 64.8,
+    "ox": 98.3,
+    "sys": 160,
+    "dia": 76
+  },
+  {
+    "patientId": 2289,
+    "timestamp": 1705294771,
+    "hr": 100.9,
+    "ox": 96.2,
+    "sys": 98,
+    "dia": 69
+  },
+  {
+    "patientId": 2289,
+    "timestamp": 1705297351,
+    "hr": 93.3,
+    "ox": 91.5,
+    "sys": 121,
+    "dia": 111
+  },
+  {
+    "patientId": 2289,
+    "timestamp": 1705295971,
+    "hr": 64.6,
+    "ox": 96.0,
+    "sys": 149,
+    "dia": 90
+  },
+  {
+    "patientId": 2289,
+    "timestamp": 1705302331,
+    "hr": 82.9,
+    "ox": 97.5,
+    "sys": 115,
+    "dia": 92
+  },
+  {
+    "patientId": 2289,
+    "timestamp": 1705318291,
+    "hr": 83.8,
+    "ox": 96.6,
+    "sys": 116,
+    "dia": 72
+  },
+  {
+    "patientId": 2290,
+    "timestamp": 1704944622,
+    "hr": 88.3,
+    "ox": 95.1,
+    "sys": 112,
+    "dia": 73
+  },
+  {
+    "patientId": 2290,
+    "timestamp": 1704946122,
+    "hr": 83.5,
+    "ox": 98.8,
+    "sys": 124,
+    "dia": 79
+  },
+  {
+    "patientId": 2290,
+    "timestamp": 1704950322,
+    "hr": 84.0,
+    "ox": 94.5,
+    "sys": 140,
+    "dia": 89
+  },
+  {
+    "patientId": 2290,
+    "timestamp": 1704959082,
+    "hr": 85.2,
+    "ox": 96.8,
+    "sys": 128,
+    "dia": 75
+  },
+  {
+    "patientId": 2290,
+    "timestamp": 1704968682,
+    "hr": 88.6,
+    "ox": 99.6,
+    "sys": 123,
+    "dia": 86
+  },
+  {
+    "patientId": 2291,
+    "timestamp": 1705185748,
+    "hr": 89.1,
+    "ox": 95.9,
+    "sys": 125,
+    "dia": 71
+  },
+  {
+    "patientId": 2291,
+    "timestamp": 1705190068,
+    "hr": 84.6,
+    "ox": 98.7,
+    "sys": 122,
+    "dia": 73
+  },
+  {
+    "patientId": 2291,
+    "timestamp": 1705184428,
+    "hr": 85.2,
+    "ox": 92.0,
+    "sys": 138,
+    "dia": 104
+  },
+  {
+    "patientId": 2291,
+    "timestamp": 1705189828,
+    "hr": 90.9,
+    "ox": 95.5,
+    "sys": 146,
+    "dia": 72
+  },
+  {
+    "patientId": 2291,
+    "timestamp": 1705196728,
+    "hr": 100.2,
+    "ox": 95.3,
+    "sys": 123,
+    "dia": 79
+  },
+  {
+    "patientId": 2292,
+    "timestamp": 1705013809,
+    "hr": 103.6,
+    "ox": 95.9,
+    "sys": 143,
+    "dia": 69
+  },
+  {
+    "patientId": 2292,
+    "timestamp": 1705020589,
+    "hr": 79.2,
+    "ox": 99.8,
+    "sys": 124,
+    "dia": 88
+  },
+  {
+    "patientId": 2292,
+    "timestamp": 1705021009,
+    "hr": 72.5,
+    "ox": 94.0,
+    "sys": 126,
+    "dia": 75
+  },
+  {
+    "patientId": 2292,
+    "timestamp": 1705019869,
+    "hr": 92.3,
+    "ox": 94.5,
+    "sys": 107,
+    "dia": 72
+  },
+  {
+    "patientId": 2292,
+    "timestamp": 1705019749,
+    "hr": 74.5,
+    "ox": 96.7,
+    "sys": 131,
+    "dia": 55
+  },
+  {
+    "patientId": 2293,
+    "timestamp": 1705153260,
+    "hr": 93.8,
+    "ox": 97.0,
+    "sys": 124,
+    "dia": 79
+  },
+  {
+    "patientId": 2293,
+    "timestamp": 1705153260,
+    "hr": 74.6,
+    "ox": 94.5,
+    "sys": 128,
+    "dia": 60
+  },
+  {
+    "patientId": 2293,
+    "timestamp": 1705160760,
+    "hr": 97.6,
+    "ox": 94.4,
+    "sys": 106,
+    "dia": 70
+  },
+  {
+    "patientId": 2293,
+    "timestamp": 1705162200,
+    "hr": 87.6,
+    "ox": 95.8,
+    "sys": 118,
+    "dia": 82
+  },
+  {
+    "patientId": 2293,
+    "timestamp": 1705172700,
+    "hr": 88.4,
+    "ox": 98.9,
+    "sys": 119,
+    "dia": 92
+  },
+  {
+    "patientId": 2294,
+    "timestamp": 1705110245,
+    "hr": 115.3,
+    "ox": 97.4,
+    "sys": 160,
+    "dia": 93
+  },
+  {
+    "patientId": 2294,
+    "timestamp": 1705118885,
+    "hr": 76.7,
+    "ox": 95.1,
+    "sys": 143,
+    "dia": 79
+  },
+  {
+    "patientId": 2294,
+    "timestamp": 1705117685,
+    "hr": 72.8,
+    "ox": 96.8,
+    "sys": 137,
+    "dia": 70
+  },
+  {
+    "patientId": 2294,
+    "timestamp": 1705114145,
+    "hr": 64.5,
+    "ox": 94.4,
+    "sys": 144,
+    "dia": 70
+  },
+  {
+    "patientId": 2294,
+    "timestamp": 1705120445,
+    "hr": 69.0,
+    "ox": 96.3,
+    "sys": 117,
+    "dia": 91
+  },
+  {
+    "patientId": 2295,
+    "timestamp": 1705141416,
+    "hr": 69.5,
+    "ox": 97.4,
+    "sys": 129,
+    "dia": 88
+  },
+  {
+    "patientId": 2295,
+    "timestamp": 1705143036,
+    "hr": 70.9,
+    "ox": 97.3,
+    "sys": 140,
+    "dia": 74
+  },
+  {
+    "patientId": 2295,
+    "timestamp": 1705149516,
+    "hr": 76.0,
+    "ox": 99.0,
+    "sys": 113,
+    "dia": 94
+  },
+  {
+    "patientId": 2295,
+    "timestamp": 1705144176,
+    "hr": 82.5,
+    "ox": 96.1,
+    "sys": 119,
+    "dia": 60
+  },
+  {
+    "patientId": 2295,
+    "timestamp": 1705156896,
+    "hr": 94.5,
+    "ox": 96.3,
+    "sys": 130,
+    "dia": 89
+  },
+  {
+    "patientId": 2296,
+    "timestamp": 1705118426,
+    "hr": 76.2,
+    "ox": 94.4,
+    "sys": 121,
+    "dia": 83
+  },
+  {
+    "patientId": 2296,
+    "timestamp": 1705115666,
+    "hr": 86.4,
+    "ox": 96.9,
+    "sys": 128,
+    "dia": 77
+  },
+  {
+    "patientId": 2296,
+    "timestamp": 1705125386,
+    "hr": 95.4,
+    "ox": 96.2,
+    "sys": 105,
+    "dia": 76
+  },
+  {
+    "patientId": 2296,
+    "timestamp": 1705121606,
+    "hr": 119.3,
+    "ox": 97.1,
+    "sys": 133,
+    "dia": 85
+  },
+  {
+    "patientId": 2296,
+    "timestamp": 1705130666,
+    "hr": 72.4,
+    "ox": 97.1,
+    "sys": 123,
+    "dia": 78
+  },
+  {
+    "patientId": 2297,
+    "timestamp": 1705321728,
+    "hr": 91.8,
+    "ox": 95.5,
+    "sys": 135,
+    "dia": 62
+  },
+  {
+    "patientId": 2297,
+    "timestamp": 1705322628,
+    "hr": 92.6,
+    "ox": 96.2,
+    "sys": 121,
+    "dia": 84
+  },
+  {
+    "patientId": 2297,
+    "timestamp": 1705326228,
+    "hr": 87.6,
+    "ox": 96.1,
+    "sys": 113,
+    "dia": 94
+  },
+  {
+    "patientId": 2297,
+    "timestamp": 1705320348,
+    "hr": 79.8,
+    "ox": 95.5,
+    "sys": 118,
+    "dia": 79
+  },
+  {
+    "patientId": 2297,
+    "timestamp": 1705337268,
+    "hr": 86.2,
+    "ox": 92.5,
+    "sys": 112,
+    "dia": 74
+  },
+  {
+    "patientId": 2298,
+    "timestamp": 1705133162,
+    "hr": 82.4,
+    "ox": 92.9,
+    "sys": 125,
+    "dia": 65
+  },
+  {
+    "patientId": 2298,
+    "timestamp": 1705133342,
+    "hr": 93.9,
+    "ox": 97.6,
+    "sys": 123,
+    "dia": 70
+  },
+  {
+    "patientId": 2298,
+    "timestamp": 1705133462,
+    "hr": 61.8,
+    "ox": 97.3,
+    "sys": 151,
+    "dia": 107
+  },
+  {
+    "patientId": 2298,
+    "timestamp": 1705150742,
+    "hr": 106.5,
+    "ox": 98.6,
+    "sys": 133,
+    "dia": 78
+  },
+  {
+    "patientId": 2298,
+    "timestamp": 1705152242,
+    "hr": 89.3,
+    "ox": 95.0,
+    "sys": 143,
+    "dia": 77
+  },
+  {
+    "patientId": 2299,
+    "timestamp": 1705046979,
+    "hr": 87.1,
+    "ox": 94.2,
+    "sys": 109,
+    "dia": 69
+  },
+  {
+    "patientId": 2299,
+    "timestamp": 1705046499,
+    "hr": 69.1,
+    "ox": 97.5,
+    "sys": 115,
+    "dia": 66
+  },
+  {
+    "patientId": 2299,
+    "timestamp": 1705051119,
+    "hr": 68.4,
+    "ox": 98.4,
+    "sys": 116,
+    "dia": 60
+  },
+  {
+    "patientId": 2299,
+    "timestamp": 1705056879,
+    "hr": 76.1,
+    "ox": 95.3,
+    "sys": 118,
+    "dia": 86
+  },
+  {
+    "patientId": 2299,
+    "timestamp": 1705054599,
+    "hr": 84.4,
+    "ox": 97.7,
+    "sys": 144,
+    "dia": 68
+  },
+  {
+    "patientId": 2300,
+    "timestamp": 1705018447,
+    "hr": 78.9,
+    "ox": 99.5,
+    "sys": 91,
+    "dia": 81
+  },
+  {
+    "patientId": 2300,
+    "timestamp": 1705023427,
+    "hr": 88.5,
+    "ox": 96.7,
+    "sys": 119,
+    "dia": 86
+  },
+  {
+    "patientId": 2300,
+    "timestamp": 1705021087,
+    "hr": 75.9,
+    "ox": 94.7,
+    "sys": 143,
+    "dia": 84
+  },
+  {
+    "patientId": 2300,
+    "timestamp": 1705037407,
+    "hr": 80.3,
+    "ox": 91.4,
+    "sys": 123,
+    "dia": 76
+  },
+  {
+    "patientId": 2300,
+    "timestamp": 1705025047,
+    "hr": 73.8,
+    "ox": 100.0,
+    "sys": 90,
+    "dia": 78
+  }
+]
