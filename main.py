@@ -7,9 +7,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ==============================
-# Configuration
-# ==============================
+
+### Configuration
+
 
 HR_THRESHOLD = 120
 OX_THRESHOLD = 92
@@ -21,25 +21,23 @@ SILVER_DIR = "silver"
 GOLD_DIR = "gold"
 VIS_DIR = "visualizations"
 
-# ==============================
-# Setup Logging
-# ==============================
+
+## Setup Logging here
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
-# ==============================
-# Utility Functions
-# ==============================
+## Utility Functions
+
 
 def create_directories():
     for folder in [BRONZE_DIR, SILVER_DIR, GOLD_DIR, VIS_DIR]:
         os.makedirs(folder, exist_ok=True)
 
 
-# ==============================
-# Bronze Layer
-# ==============================
+# Bronze Layer to store raw files
+
 
 def load_and_store_bronze():
     logging.info("Loading raw files into Bronze layer...")
@@ -61,9 +59,8 @@ def load_and_store_bronze():
     return ehr_df, vitals_df, labs_df
 
 
-# ==============================
-# Silver Layer – Cleaning
-# ==============================
+# Silver Layer 
+
 
 def clean_vitals(df: pd.DataFrame) -> pd.DataFrame:
     logging.info("Cleaning vitals data...")
