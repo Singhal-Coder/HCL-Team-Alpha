@@ -70,21 +70,21 @@ def main():
     for d in ["bronze", "silver", "gold", "visualizations"]:
         os.makedirs(os.path.join(ROOT_DIR, d), exist_ok=True)
 
-    # ── 1. BRONZE ── Convert raw files to CSV
+    # BRONZE ── Convert raw files to CSV
     run_step("BRONZE: File Conversion", os.path.join("bronze", "file_conversion.py"))
 
-    # ── 2. SILVER ── Clean individual datasets
+    #  SILVER ── Clean individual datasets
     run_step("SILVER: Clean EHR",    os.path.join("silver", "clean_ehr.py"))
     run_step("SILVER: Clean Vitals", os.path.join("silver", "clean_vitals.py"))
     run_step("SILVER: Clean Labs",   os.path.join("silver", "clean_labs.py"))
 
-    # ── 2b. SILVER ── Build patient master (natural join)
+    #  SILVER ── Build patient master dataset
     run_step("SILVER: Build Patient Master", os.path.join("silver", "build_patient_master.py"))
 
-    # ── 3. GOLD ── Anomaly detection
+    #  GOLD ── Anomaly detection
     run_step("GOLD: Detect Anomalies", os.path.join("gold", "detect_anomalies.py"))
 
-    # ── 4. VISUALIZATIONS ── Generate plots
+    #  VISUALIZATIONS ── Generate plots
     run_step("VISUALIZATIONS: Generate Plots", os.path.join("visualizations", "generate_plots.py"))
 
     elapsed = time.time() - start

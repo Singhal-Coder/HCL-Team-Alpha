@@ -1,251 +1,301 @@
 # Hospital Health Monitoring Mini-Pipeline
 
-A Python-based data processing pipeline that reads hospital data from multiple sources, cleans and combines it, detects anomalies in patient vitals, and visualizes key health trends — built using a **Bronze → Silver → Gold** lakehouse architecture.
+A modular, production-style data pipeline for hospital health monitoring. It ingests EHR, vitals, and lab data from multiple sources, cleans and standardizes them using a **Bronze → Silver → Gold** medallion architecture, detects rule-based anomalies, and generates publication-ready visualizations.
+
+**Built for the HCL Hackathon — Team Alpha**
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Prerequisites & Installation](#prerequisites--installation)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Pipeline Stages](#pipeline-stages)
+- [Data Cleaning](#data-cleaning)
+- [Joins & Patient Master](#joins--patient-master)
+- [Anomaly Detection](#anomaly-detection)
+- [Visualizations](#visualizations)
+- [Input Data](#input-data)
+- [Architecture](#architecture)
+- [Judging Criteria](#judging-criteria)
+
+---
+
+## Overview
+
+| Aspect | Description |
+|--------|-------------|
+| **Goal** | Read hospital data → clean & combine → detect anomalies → visualize trends |
+| **Tools** | Python, pandas, matplotlib, seaborn, json |
+| **Design** | Single entry point (`main.py`) orchestrating stage-specific scripts |
+| **Output** | Clean CSVs in `silver/`, anomalies in `gold/`, charts in `visualizations/` |
+
+---
+
+## Prerequisites & Installation
+
+- **Python:** 3.8+
+- **Dependencies:** See `requirements.txt`
+
+```bash
+# From project root
+pip install -r requirements.txt
+```
+
+| Package | Purpose |
+|---------|---------|
+| `pandas` | Data loading, cleaning, merging |
+| `matplotlib` | Plotting |
+| `seaborn` | Styled visualizations |
+| `openpyxl` | Excel support (optional, for bronze) |
+| `python-docx` | Document support (optional) |
 
 ---
 
 ## Project Structure
 
 ```
-project/
-├── bronze/                  # Raw, unprocessed data 
-│   ├── vitals.csv
+HCL-Team-Alpha/
+├── main.py                    # Entry point — runs full pipeline in order
+├── requirements.txt           # Python dependencies
+├── README.md                  # This file
+│
+├── INPUT_DATA/                # Source data (place files here)
+│   ├── ehr.csv                # Electronic Health Records
+│   ├── vitals.json            # Streaming vitals (JSON array)
+│   └── labs.json              # Lab results (JSON array)
+│
+├── bronze/                    # Raw layer — CSV copies of input
+│   ├── file_conversion.py     # Converts INPUT_DATA → bronze/*.csv
 │   ├── ehr.csv
+│   ├── vitals.csv
 │   └── labs.csv
-├── silver/                  # Cleaned & standardized data 
+│
+├── silver/                    # Cleaned & joined data
+│   ├── clean_ehr.py           # Clean EHR → clean_ehr.csv
+│   ├── clean_vitals.py        # Clean vitals → clean_vitals.csv
+│   ├── clean_labs.py          # Clean labs → clean_labs.csv
+│   ├── build_patient_master.py # Join → patient_master.csv
+│   ├── clean_ehr.csv
 │   ├── clean_vitals.csv
 │   ├── clean_labs.csv
 │   └── patient_master.csv
-├── gold/                    # Analytical outputs 
+│
+├── gold/                      # Analytics layer
+│   ├── detect_anomalies.py     # Rule-based anomalies → anomalies.csv
 │   └── anomalies.csv
-├── visualizations/          # Charts & graphs 
-│   ├── hr_trend.png
-│   ├── oxygen_distribution.png
-│   └── anomaly_counts.png
-├── main.py                  # Entry point — runs the full pipeline
-└── README.md                # This file
-```
-
----
-
-## Tools & Dependencies
-
-| Library      | Purpose                              |
-| ------------ | ------------------------------------ |
-| `pandas`     | Data loading, cleaning, and merging  |
-| `numpy`      | Numeric operations and type coercion |
-| `matplotlib` | Plotting and chart generation        |
-| `seaborn`    | Statistical visualizations           |
-| `json`       | Parsing JSON and JSONL input files   |
-
-### Installation
-
-```bash
-pip install pandas numpy matplotlib seaborn
+│
+└── visualizations/            # Generated charts
+    ├── generate_plots.py      # Creates all plots
+    ├── hr_trend.png           # Combined HR trend (timestamp vs HR)
+    ├── oxygen_distribution.png
+    ├── anomaly_counts.png
+    └── per_patient_hr/        # One HR trend plot per patient
+        └── hr_patient_*.png
 ```
 
 ---
 
 ## How to Run
 
+**Full pipeline (recommended):**
+
 ```bash
 python main.py
 ```
 
-This single command executes the entire pipeline end-to-end, from raw ingestion to visualization output.
+This runs, in order:
 
----
+1. Bronze: file conversion  
+2. Silver: clean EHR, vitals, labs → build patient master  
+3. Gold: detect anomalies  
+4. Visualizations: generate all plots  
 
-## Pipeline Tasks — Detailed Breakdown
+**Run individual stages** (e.g. for debugging):
 
----
-
-### Task 1 — Bronze Layer (Raw Storage)
-
-**Goal:** Ingest all three source files and store them as-is in `bronze/`.
-
-| Source File    | Format     | Records | Description                               |
-| -------------- | ---------- | ------- | ----------------------------------------- |
-| `vitals.jsonl` | JSON Lines | 1,500   | Streaming vitals (5 readings per patient) |
-| `ehr.csv`      | CSV        | 300     | Electronic Health Records master file     |
-| `labs.json`    | JSON List  | 900     | Lab test results (3 tests per patient)    |
-
-**Process:**
-
-- **vitals.jsonl** → Read line-by-line, parse each JSON object, and write to `bronze/vitals.csv` without modification.
-- **ehr.csv** → Read directly with `pandas.read_csv()` and write to `bronze/ehr.csv` as-is.
-- **labs.json** → Parse the JSON list with `json.load()` and write to `bronze/labs.csv` row-by-row.
-
-> **No transformations, cleaning, or corrections are applied at this layer.** The bronze layer preserves the raw data exactly as received for auditability and reproducibility.
-
----
-
-### Task 2 — Silver Layer (Cleaning & Standardization)
-
-**Goal:** Clean and standardize bronze data to produce analysis-ready datasets.
-
-#### Cleaning `vitals.csv` → `silver/clean_vitals.csv`
-
-| Step | Transformation        | Details                                                                 |
-| ---- | --------------------- | ----------------------------------------------------------------------- |
-| 1    | Rename columns        | `patientId` → `patient_id`                                              |
-| 2    | Convert timestamps    | UNIX epoch (`1730001290`) → `datetime` (`pd.to_datetime(ts, unit='s')`) |
-| 3    | Coerce numeric fields | `hr`, `ox`, `sys`, `dia` cast via `pd.to_numeric(errors='coerce')`      |
-| 4    | Drop invalid rows     | Remove rows where any critical vital is `NaN` after coercion            |
-
-**Output columns:** `patient_id`, `timestamp`, `hr`, `ox`, `sys`, `dia`
-
-#### Cleaning `labs.csv` → `silver/clean_labs.csv`
-
-| Step | Transformation        | Details                                                                |
-| ---- | --------------------- | ---------------------------------------------------------------------- |
-| 1    | Rename columns        | `patientId` → `patient_id`, `test` → `lab_test`, `value` → `lab_value` |
-| 2    | Convert timestamps    | String datetime → `pd.to_datetime()`                                   |
-| 3    | Coerce numeric fields | `lab_value` cast via `pd.to_numeric(errors='coerce')`                  |
-| 4    | Drop invalid rows     | Remove rows where `lab_value` is `NaN` after coercion                  |
-
-**Output columns:** `patient_id`, `timestamp`, `lab_test`, `lab_value`
-
----
-
-### Task 3 — Combined Patient Master Table
-
-**Goal:** Create a unified patient view by joining EHR data with the **latest** vitals and **latest** lab results for each patient.
-
-#### Join Strategy
-
-```
-patient_master = EHR ← LEFT JOIN → Latest Vitals ← LEFT JOIN → Latest Labs (pivoted)
+```bash
+python bronze/file_conversion.py
+python silver/clean_ehr.py
+python silver/clean_vitals.py
+python silver/clean_labs.py
+python silver/build_patient_master.py
+python gold/detect_anomalies.py
+python visualizations/generate_plots.py
 ```
 
-| Step | Operation                 | Details                                                                                                                                                    |
-| ---- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | **Latest Vitals**         | Sort `clean_vitals` by `timestamp` descending, then `groupby('patient_id').first()` to get the most recent reading per patient                             |
-| 2    | **Latest Labs (Pivoted)** | Sort `clean_labs` by `timestamp` descending, `groupby(['patient_id', 'lab_test']).first()`, then `pivot` on `lab_test` so each test becomes its own column |
-| 3    | **Merge**                 | Left join EHR → Latest Vitals on `patient_id`, then left join → Pivoted Labs on `patient_id`                                                               |
-
-**Output:** `silver/patient_master.csv`
-
-This table provides a single-row-per-patient snapshot containing demographics, most recent vitals, and latest lab values — ideal for dashboards and downstream analytics.
+Ensure `INPUT_DATA/` contains `ehr.csv`, `vitals.json`, and `labs.json` before running.
 
 ---
 
-### Task 4 — Anomaly Detection (Rule-Based)
+## Pipeline Stages
 
-**Goal:** Flag patients exhibiting abnormal vital signs using clinically-inspired thresholds.
+### 1. Bronze — Raw Storage
 
-#### Detection Rules
+| Script | Action |
+|--------|--------|
+| `bronze/file_conversion.py` | Reads `INPUT_DATA/ehr.csv`, `vitals.json`, `labs.json`; writes `bronze/ehr.csv`, `bronze/vitals.csv`, `bronze/labs.csv`. No transformations — format conversion only (JSON → CSV where needed). |
 
-| Anomaly                 | Condition                       | Clinical Significance                  |
-| ----------------------- | ------------------------------- | -------------------------------------- |
-| **High Heart Rate**     | `hr > 120` bpm                  | Tachycardia — potential cardiac stress |
-| **Low Oxygen**          | `ox < 92` %                     | Hypoxemia — respiratory concern        |
-| **High Blood Pressure** | `sys > 160` OR `dia > 100` mmHg | Hypertensive crisis risk               |
+### 2. Silver — Cleaning & Standardization
 
-#### Process
+| Script | Input | Output | Summary |
+|--------|--------|--------|---------|
+| `silver/clean_ehr.py` | `bronze/ehr.csv` | `silver/clean_ehr.csv` | Standardize columns, validate patient_id/age/gender/admission_time, drop duplicates. |
+| `silver/clean_vitals.py` | `bronze/vitals.csv` | `silver/clean_vitals.csv` | Rename `patientId`→`patient_id`, parse timestamps (Unix/ISO), coerce hr/ox/sys/dia to numeric, drop invalid rows. |
+| `silver/clean_labs.py` | `bronze/labs.csv` | `silver/clean_labs.csv` | Validate patient_id, test, value, timestamp; coerce types; keep latest per patient per test; output standard columns. |
+| `silver/build_patient_master.py` | `clean_ehr`, `clean_vitals`, `clean_labs` | `silver/patient_master.csv` | Join all three on `patient_id` (inner). Timestamp columns renamed to `vitals_timestamp`, `labs_timestamp` to avoid clashes. |
 
-1. Iterate over every row in `silver/clean_vitals.csv`
-2. Apply each rule independently (a single reading can trigger **multiple** anomalies)
-3. Collect all flagged records into a list
+### 3. Gold — Anomaly Detection
 
-#### Output: `gold/anomalies.csv`
+| Script | Input | Output |
+|--------|--------|--------|
+| `gold/detect_anomalies.py` | `silver/patient_master.csv` | `gold/anomalies.csv` |
 
-```
-patient_id, timestamp, anomaly, value
-101, 2024-10-27 03:14:50, High Heart Rate, 125
-101, 2024-10-27 03:14:50, High Blood Pressure, 165
-203, 2024-10-27 03:15:10, Low Oxygen, 89
-```
+### 4. Visualizations
 
----
-
-### Task 5 — Visualizations
-
-**Goal:** Generate insightful charts to communicate health trends and anomaly patterns.
-
-All visualizations are saved to the `visualizations/` directory.
-
-#### 1. Heart Rate Trend — `hr_trend.png`
-
-- **Type:** Multi-line chart
-- **X-axis:** Timestamp
-- **Y-axis:** Heart Rate (bpm)
-- **Details:** One line per patient (or a representative subset), showing HR fluctuation over time. A horizontal reference line at `hr = 120` marks the anomaly threshold.
-
-#### 2. Oxygen Level Distribution — `oxygen_distribution.png`
-
-- **Type:** Histogram with threshold highlight
-- **X-axis:** Oxygen Saturation (%)
-- **Y-axis:** Frequency
-- **Details:** Distribution of all SpO₂ readings. Readings below `ox = 92` are highlighted (e.g., in red) to visually flag low-oxygen events.
-
-#### 3. Anomaly Counts — `anomaly_counts.png`
-
-- **Type:** Bar chart
-- **X-axis:** Anomaly type (`High Heart Rate`, `Low Oxygen`, `High Blood Pressure`)
-- **Y-axis:** Number of occurrences
-- **Details:** Grouped count of each anomaly type from `gold/anomalies.csv`, providing a quick overview of the most prevalent health risks.
+| Script | Inputs | Outputs |
+|--------|--------|--------|
+| `visualizations/generate_plots.py` | `silver/clean_vitals.csv`, `gold/anomalies.csv` | `hr_trend.png`, `per_patient_hr/*.png`, `oxygen_distribution.png`, `anomaly_counts.png` |
 
 ---
 
-## Input Data Summary
+## Data Cleaning
 
-| File           | Format     | Records | Key Fields                                              |
-| -------------- | ---------- | ------- | ------------------------------------------------------- |
-| `vitals.jsonl` | JSON Lines | 1,500   | `patientId`, `timestamp`, `hr`, `ox`, `sys`, `dia`      |
-| `ehr.csv`      | CSV        | 300     | `patient_id`, `name`, `age`, `gender`, `admission_time` |
-| `labs.json`    | JSON List  | 900     | `patientId`, `test`, `value`, `timestamp`               |
+### EHR (`clean_ehr.py`)
 
-- **300 unique patients**, each with **5 vitals readings** and **3 lab tests**.
-- Vitals use **UNIX timestamps**; labs use **ISO datetime strings**.
-- Data contains **natural variation** with **mild anomalies** seeded for detection.
+- **Column names:** Lowercased and stripped.
+- **patient_id:** Coerced to numeric; invalid/NaN dropped; cast to int.
+- **age:** Coerced to numeric; values &lt; 0 or &gt; 120 set to NA; missing filled with median when available.
+- **gender:** Standardized to `male` / `female` / `unknown` (handles M/F, 1/2, etc.).
+- **admission_time:** Parsed with `pd.to_datetime(..., format="mixed")`; invalid rows dropped.
+- **Duplicates:** One row per `patient_id`, keep last; sorted by `admission_time`.
+
+### Vitals (`clean_vitals.py`)
+
+- **Columns:** `patientId` → `patient_id`; timestamps and numeric fields validated.
+- **Timestamp:** Supports Unix (seconds/ms) and ISO strings via a small parser.
+- **Numeric:** `hr`, `ox`, `sys`, `dia` coerced to numeric; invalid rows dropped.
+- **Sanity:** Optional filters (e.g. hr &gt; 0, ox ≤ 100) to drop impossible values.
+- **Output columns:** `patient_id`, `timestamp`, `hr`, `ox`, `sys`, `dia`.
+
+### Labs (`clean_labs.py`)
+
+- **Columns:** Lowercased; required: `patient_id`, `test`, `value`, `timestamp`.
+- **patient_id:** Coerced to numeric; invalid dropped; int.
+- **test:** Non-empty string; empty/NaN dropped.
+- **value:** Coerced to numeric; NaN dropped.
+- **timestamp:** `pd.to_datetime(..., format="mixed")`; invalid dropped.
+- **Deduplication:** Latest per `(patient_id, test)` kept; sorted by `patient_id`, `timestamp`.
+- **Output columns:** `patient_id`, `test`, `value`, `timestamp`.
 
 ---
 
-## Architecture Overview
+## Joins & Patient Master
+
+**Strategy:** Inner join on `patient_id`.
+
+1. **clean_ehr** — base table (one row per patient after dedup).
+2. **clean_vitals** — timestamp column renamed to `vitals_timestamp`; joined on `patient_id`.
+3. **clean_labs** — timestamp renamed to `labs_timestamp`; joined on `patient_id`.
+
+Result: `silver/patient_master.csv` with demographics, vitals, and lab columns; one row per combination of patient × vital × lab (or one row per patient if vitals/labs were already aggregated to one row per patient). Used as the single source for **gold** anomaly detection.
+
+---
+
+## Anomaly Detection
+
+**Source:** Each row of `silver/patient_master.csv` (vitals columns: `hr`, `ox`, `sys`, `dia`).
+
+**Rules:**
+
+| Anomaly | Condition | Output `value` |
+|---------|-----------|----------------|
+| **High Heart Rate** | `hr > 120` | HR value |
+| **Low Oxygen** | `ox < 92` | OX value |
+| **High Blood Pressure** | `sys > 160` OR `dia > 100` | `"sys/dia"` (e.g. `"165/98"`) |
+
+**Output:** `gold/anomalies.csv` with columns:
+
+- `patient_id`, `timestamp` (vitals_timestamp), `anomaly`, `value`
+
+One row per triggered rule per master row (a patient can appear multiple times if multiple rules fire or multiple master rows exist).
+
+---
+
+## Visualizations
+
+All generated under `visualizations/` by `visualizations/generate_plots.py`.
+
+| Figure | Description |
+|--------|-------------|
+| **hr_trend.png** | Multi-line plot: timestamp (x) vs Heart Rate (y). All patients as faint lines; 5 sample patients highlighted with legend. Red dashed line at 120 bpm (anomaly threshold). |
+| **per_patient_hr/hr_patient_&lt;id&gt;.png** | One line chart per patient: timestamp vs HR, with 120 bpm threshold. |
+| **oxygen_distribution.png** | Histogram of oxygen levels with normal (≥ 92%) and low (&lt; 92%) highlighted; box plot below; threshold line at 92%. |
+| **anomaly_counts.png** | Bar chart: anomaly type (x) vs number of occurrences (y), with counts labeled on bars. |
+
+---
+
+## Input Data
+
+Place these in `INPUT_DATA/`:
+
+| File | Format | Expected fields |
+|------|--------|------------------|
+| **ehr.csv** | CSV | `patient_id`, `name`, `age`, `gender`, `admission_time` |
+| **vitals.json** | JSON array | `patientId`, `timestamp` (Unix or ISO), `hr`, `ox`, `sys`, `dia` |
+| **labs.json** | JSON array | `patient_id`, `test`, `value`, `timestamp` |
+
+- **ehr.csv:** One row per patient (e.g. 300 rows).
+- **vitals:** Multiple readings per patient (e.g. 5 per patient); timestamps often Unix.
+- **labs:** Multiple tests per patient (e.g. 3); timestamps often ISO strings.
+- Data may contain natural variation and mild anomalies for detection.
+
+---
+
+## Architecture
 
 ```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   BRONZE    │     │   SILVER    │     │    GOLD     │
-│  (Raw Data) │────▶│  (Cleaned)  │────▶│ (Analytics) │
-│             │     │             │     │             │
-│ vitals.csv  │     │clean_vitals │     │anomalies.csv│
-│ ehr.csv     │     │clean_labs   │     └──────┬──────┘
-│ labs.csv    │     │patient_master│            │
-└─────────────┘     └─────────────┘     ┌──────▼──────┐
-                                        │VISUALIZATIONS│
-                                        │  hr_trend    │
-                                        │  oxygen_dist │
-                                        │  anomaly_cnt │
-                                        └──────────────┘
+┌──────────────────┐
+│   INPUT_DATA/    │  ehr.csv, vitals.json, labs.json
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│      BRONZE      │────▶│      SILVER     │────▶│       GOLD       │
+│  (raw CSV copy)  │     │ (cleaned + join) │     │   (anomalies)    │
+│                  │     │                  │     │                  │
+│ file_conversion  │     │ clean_ehr        │     │ detect_anomalies │
+│ → ehr, vitals,  │     │ clean_vitals     │     │ → anomalies.csv  │
+│   labs.csv      │     │ clean_labs       │     └────────┬─────────┘
+└──────────────────┘     │ patient_master  │              │
+                         └────────┬────────┘              │
+                                  │                       ▼
+                                  │              ┌──────────────────┐
+                                  └─────────────▶│  VISUALIZATIONS   │
+                                                 │  hr_trend, oxygen, │
+                                                 │  anomaly_counts,   │
+                                                 │  per_patient_hr/   │
+                                                 └───────────────────┘
 ```
 
-This follows the **Medallion Architecture** pattern:
-
-- **Bronze** — Raw, immutable data lake
-- **Silver** — Cleaned, conformed, and enriched datasets
-- **Gold** — Business-level aggregates and analytical outputs
+- **Bronze:** Immutable raw copy; format normalization only.  
+- **Silver:** Cleaned, validated, and joined for analytics.  
+- **Gold:** Rule-based anomaly table.  
+- **Visualizations:** Charts for reporting and judging.
 
 ---
 
 ## Judging Criteria
 
-| Category                        | Weight | Coverage                             |
-| ------------------------------- | ------ | ------------------------------------ |
-| Data Cleaning & Transformations | 30%    | Tasks 1–2 (Bronze + Silver layers)   |
-| Pipeline Logic & Joins          | 25%    | Task 3 (Patient Master Table)        |
-| Visualizations                  | 20%    | Task 5 (Charts in `visualizations/`) |
-| Anomaly Detection               | 15%    | Task 4 (Rule-based flags in `gold/`) |
-| Code Quality & README           | 10%    | Clean code + this documentation      |
+| Category | Weight | Coverage in this project |
+|----------|--------|---------------------------|
+| Data Cleaning & Transformations | 30% | Bronze file conversion; Silver clean_ehr, clean_vitals, clean_labs |
+| Pipeline Logic & Joins | 25% | build_patient_master (EHR + vitals + labs on patient_id) |
+| Visualizations | 20% | HR trend, oxygen distribution, anomaly counts, per-patient HR |
+| Anomaly Detection | 15% | Rule-based (HR, OX, BP) → gold/anomalies.csv |
+| Code Quality & README | 10% | Modular scripts, logging, this README |
 
 ---
 
-## 👥 Team
 
-**HCL Team Alpha**
-
----
-
-## License
-
-This project was built as part of the **HCL Hackathon** challenge.
