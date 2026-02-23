@@ -1,17 +1,3 @@
-"""
-Task 5 — Visualizations
-========================
-Generates charts from clean vitals and anomaly data.
-
-Output:
-  - visualizations/hr_trend.png                    (combined multi-line)
-  - visualizations/per_patient_hr/hr_patient_XXXX.png (one per patient)
-  - visualizations/oxygen_distribution.png
-  - visualizations/anomaly_counts.png
-
-Re-run anytime to refresh.
-"""
-
 import os
 import pandas as pd
 import matplotlib
@@ -31,9 +17,8 @@ sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({"figure.dpi": 150, "savefig.bbox": "tight"})
 
 
-# ──────────────────────────────────────────────
-# 1a. Heart Rate Trend — combined multi-line plot
-# ──────────────────────────────────────────────
+
+# Heart Rate Trend — combined multi-line plot
 def plot_hr_trend(vitals):
     vitals = vitals.copy()
     vitals["timestamp"] = pd.to_datetime(vitals["timestamp"])
@@ -68,9 +53,9 @@ def plot_hr_trend(vitals):
     print(f"  ✓ {path}")
 
 
-# ──────────────────────────────────────────────
-# 1b. Heart Rate Trend — one plot per patient
-# ──────────────────────────────────────────────
+
+#Heart Rate Trend — one plot per patient
+
 def plot_hr_per_patient(vitals):
     vitals = vitals.copy()
     vitals["timestamp"] = pd.to_datetime(vitals["timestamp"])
@@ -101,9 +86,9 @@ def plot_hr_per_patient(vitals):
     print(f"  ✓ Saved {len(patient_ids)} plots to per_patient_hr/")
 
 
-# ──────────────────────────────────────────────
-# 2. Oxygen Level Distribution — histogram + box plot
-# ──────────────────────────────────────────────
+
+# Oxygen Level Distribution — histogram + box plot
+
 def plot_oxygen_distribution(vitals):
     fig = plt.figure(figsize=(12, 7))
     gs = gridspec.GridSpec(2, 1, height_ratios=[3, 1], hspace=0.08)
@@ -139,9 +124,9 @@ def plot_oxygen_distribution(vitals):
     print(f"  ✓ {path}")
 
 
-# ──────────────────────────────────────────────
-# 3. Bar Chart of Anomaly Counts
-# ──────────────────────────────────────────────
+
+# Bar Chart of Anomaly Counts
+
 def plot_anomaly_counts(anomalies):
     fig, ax = plt.subplots(figsize=(9, 5))
 
@@ -170,7 +155,6 @@ def plot_anomaly_counts(anomalies):
     print(f"  ✓ {path}")
 
 
-# ──────────────────────────────────────────────
 if __name__ == "__main__":
     print("Generating visualizations...\n")
 
