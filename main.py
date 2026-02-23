@@ -59,7 +59,7 @@ def load_and_store_bronze():
     return ehr_df, vitals_df, labs_df
 
 
-# Silver Layer 
+# Silver Layer  
 
 
 def clean_vitals(df: pd.DataFrame) -> pd.DataFrame:
@@ -103,21 +103,18 @@ def clean_labs(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# ==============================
-# Gold Layer – Master Table
-# ==============================
+## Gold Layer
+
 
 def create_patient_master(ehr_df, vitals_df, labs_df):
     logging.info("Creating patient master table...")
 
-    # Latest vitals
     latest_vitals = (
         vitals_df.sort_values("timestamp")
         .groupby("patient_id")
         .tail(1)
     )
 
-    # Latest labs per patient per test
     latest_labs = (
         labs_df.sort_values("timestamp")
         .groupby(["patient_id", "lab_test"])
@@ -140,9 +137,8 @@ def create_patient_master(ehr_df, vitals_df, labs_df):
     return master
 
 
-# ==============================
 # Anomaly Detection
-# ==============================
+
 
 def detect_anomalies(vitals_df: pd.DataFrame):
     logging.info("Detecting anomalies...")
@@ -170,9 +166,7 @@ def detect_anomalies(vitals_df: pd.DataFrame):
     anomaly_df.to_csv(f"{GOLD_DIR}/anomalies.csv", index=False)
 
 
-# ==============================
 # Visualization
-# ==============================
 
 def generate_visualizations(vitals_df: pd.DataFrame, anomalies_path: str):
     logging.info("Generating visualizations...")
@@ -212,10 +206,7 @@ def generate_visualizations(vitals_df: pd.DataFrame, anomalies_path: str):
     plt.savefig(f"{VIS_DIR}/anomaly_counts.png")
     plt.close()
 
-
-# ==============================
-# Main Execution
-# ==============================
+#### Main Execution
 
 def main():
     create_directories()
