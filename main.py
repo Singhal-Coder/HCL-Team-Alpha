@@ -5,11 +5,12 @@ from typing import Tuple
 
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")  
 import matplotlib.pyplot as plt
 
 
-### Configuration
-
+### Configuration here
 
 HR_THRESHOLD = 120
 OX_THRESHOLD = 92
@@ -20,13 +21,12 @@ BRONZE_DIR = "bronze"
 SILVER_DIR = "silver"
 GOLD_DIR = "gold"
 VIS_DIR = "visualizations"
+INPUT_DIR = "INPUT_DATA"  
 
 
 ## Setup Logging here
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
 
 ## Utility Functions
 
@@ -38,20 +38,28 @@ def create_directories():
 
 # Bronze Layer to store raw files
 
-
 def load_and_store_bronze():
     logging.info("Loading raw files into Bronze layer...")
 
     # EHR
-    ehr_df = pd.read_csv("ehr.csv")
+    ehr_path = os.path.join(INPUT_DIR, "ehr.csv")
+    ehr_df = pd.read_csv(ehr_path)
     ehr_df.to_csv(f"{BRONZE_DIR}/ehr.csv", index=False)
 
-    # Vitals JSONL
-    vitals_df = pd.read_json("vitals.jsonl", lines=True)
+    # Vitals: support both .json (array) and .jsonl (lines)
+    vitals_jsonl = os.path.join(INPUT_DIR, "vitals.jsonl")
+    vitals_json = os.path.join(INPUT_DIR, "vitals.json")
+    if os.path.isfile(vitals_jsonl):
+        vitals_df = pd.read_json(vitals_jsonl, lines=True)
+    elif os.path.isfile(vitals_json):
+        vitals_df = pd.read_json(vitals_json)  # JSON array
+    else:
+        raise FileNotFoundError(f"Neither {vitals_jsonl} nor {vitals_json} found.")
     vitals_df.to_csv(f"{BRONZE_DIR}/vitals.csv", index=False)
 
     # Labs JSON
-    with open("labs.json") as f:
+    labs_path = os.path.join(INPUT_DIR, "labs.json")
+    with open(labs_path) as f:
         labs_data = json.load(f)
     labs_df = pd.DataFrame(labs_data)
     labs_df.to_csv(f"{BRONZE_DIR}/labs.csv", index=False)
@@ -85,13 +93,17 @@ def clean_vitals(df: pd.DataFrame) -> pd.DataFrame:
 def clean_labs(df: pd.DataFrame) -> pd.DataFrame:
     logging.info("Cleaning labs data...")
 
-    df = df.rename(columns={
-        "patientId": "patient_id",
-        "test": "lab_test",
-        "value": "lab_value"
-    })
+    rename_map = {"test": "lab_test", "value": "lab_value"}
+    if "patientId" in df.columns:
+        rename_map["patientId"] = "patient_id"
+    df = df.rename(columns=rename_map)
 
-    df["timestamp"] = pd.to_datetime(df["timestamp"], unit="s")
+   
+    ts = df["timestamp"]
+    if pd.api.types.is_numeric_dtype(ts):
+        df["timestamp"] = pd.to_datetime(ts, unit="s")
+    else:
+        df["timestamp"] = pd.to_datetime(ts)
     df["lab_value"] = pd.to_numeric(df["lab_value"], errors="coerce")
 
     df = df.drop_duplicates()
@@ -139,30 +151,38 @@ def create_patient_master(ehr_df, vitals_df, labs_df):
 
 # Anomaly Detection
 
-
 def detect_anomalies(vitals_df: pd.DataFrame):
     logging.info("Detecting anomalies...")
 
     df = vitals_df.copy()
+    rows = []
 
-    df["high_hr"] = df["hr"] > HR_THRESHOLD
-    df["low_ox"] = df["ox"] < OX_THRESHOLD
-    df["high_bp"] = (df["sys"] > SYS_THRESHOLD) | (df["dia"] > DIA_THRESHOLD)
+    for _, row in df.iterrows():
+        if row["hr"] > HR_THRESHOLD:
+            rows.append({
+                "patient_id": row["patient_id"],
+                "timestamp": row["timestamp"],
+                "anomaly": "High Heart Rate",
+                "value": row["hr"],
+            })
+        if row["ox"] < OX_THRESHOLD:
+            rows.append({
+                "patient_id": row["patient_id"],
+                "timestamp": row["timestamp"],
+                "anomaly": "Low Oxygen",
+                "value": row["ox"],
+            })
+        if row["sys"] > SYS_THRESHOLD or row["dia"] > DIA_THRESHOLD:
+            # Value: the one that triggered (prefer sys if both)
+            val = row["sys"] if row["sys"] > SYS_THRESHOLD else row["dia"]
+            rows.append({
+                "patient_id": row["patient_id"],
+                "timestamp": row["timestamp"],
+                "anomaly": "High Blood Pressure",
+                "value": val,
+            })
 
-    anomaly_df = df[
-        df[["high_hr", "low_ox", "high_bp"]].any(axis=1)
-    ].copy()
-
-    anomaly_df = anomaly_df.melt(
-        id_vars=["patient_id", "timestamp"],
-        value_vars=["high_hr", "low_ox", "high_bp"],
-        var_name="anomaly_type",
-        value_name="flag"
-    )
-
-    anomaly_df = anomaly_df[anomaly_df["flag"] == True]
-    anomaly_df = anomaly_df.drop(columns=["flag"])
-
+    anomaly_df = pd.DataFrame(rows)
     anomaly_df.to_csv(f"{GOLD_DIR}/anomalies.csv", index=False)
 
 
@@ -183,25 +203,28 @@ def generate_visualizations(vitals_df: pd.DataFrame, anomalies_path: str):
         plt.savefig(f"{VIS_DIR}/hr_trend_{pid}.png")
         plt.close()
 
-    # Oxygen Distribution
+    # Oxygen Distribution — highlight low oxygen (ox < 92)
     plt.figure()
-    plt.hist(vitals_df["ox"])
-    plt.axvline(OX_THRESHOLD)
+    low_ox = vitals_df[vitals_df["ox"] < OX_THRESHOLD]["ox"]
+    normal_ox = vitals_df[vitals_df["ox"] >= OX_THRESHOLD]["ox"]
+    plt.hist([normal_ox, low_ox], bins=15, label=["Normal (ox ≥ 92)", "Low oxygen (ox < 92)"], color=["steelblue", "coral"])
+    plt.axvline(OX_THRESHOLD, color="red", linestyle="--", label=f"Threshold ({OX_THRESHOLD})")
     plt.title("Oxygen Level Distribution")
-    plt.xlabel("Oxygen")
+    plt.xlabel("Oxygen Saturation (%)")
     plt.ylabel("Frequency")
+    plt.legend()
     plt.tight_layout()
     plt.savefig(f"{VIS_DIR}/oxygen_distribution.png")
     plt.close()
 
-    # Anomaly Counts
+    # Anomaly Counts (x = anomaly type, y = number of occurrences)
     anomaly_df = pd.read_csv(anomalies_path)
 
     plt.figure()
-    anomaly_df["anomaly_type"].value_counts().plot(kind="bar")
+    anomaly_df["anomaly"].value_counts().plot(kind="bar")
     plt.title("Anomaly Counts")
     plt.xlabel("Anomaly Type")
-    plt.ylabel("Count")
+    plt.ylabel("Number of Occurrences")
     plt.tight_layout()
     plt.savefig(f"{VIS_DIR}/anomaly_counts.png")
     plt.close()
@@ -222,7 +245,7 @@ def main():
 
     generate_visualizations(vitals_clean, f"{GOLD_DIR}/anomalies.csv")
 
-    logging.info("Pipeline execution completed successfully.")
+    logging.info("Pipeline execution completed successfully")
 
 
 if __name__ == "__main__":
