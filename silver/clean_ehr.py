@@ -11,7 +11,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
               output_path="silver/clean_ehr.csv"):
    
 
-    #Read Raw File with error handling
+    #Read Raw File
     try:
         df = pd.read_csv(input_path)
         logger.info(f"Successfully read file: {input_path}")
@@ -23,11 +23,11 @@ def clean_ehr(input_path="bronze/ehr.csv",
     except Exception as e:
         raise Exception(f"Error reading EHR file: {str(e)}")
 
-    # Step 2: Standardize Column Names (case-insensitive)
+    #Standardize Column Names (case-insensitive)
     df.columns = df.columns.str.strip().str.lower()
     logger.info(f"Available columns: {list(df.columns)}")
 
-    # Step 3: Dynamic Schema Validation (with warnings for missing columns)
+    #Dynamic Schema Validation (with warnings for missing columns)
     required_columns = ["patient_id", "name", "age", "gender", "admission_time"]
     missing_columns = [col for col in required_columns if col not in df.columns]
     
@@ -39,7 +39,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
     if not required_columns:
         raise ValueError(f"No required columns found. Available: {list(df.columns)}")
 
-    # Step 4: Clean patient_id (with validation)
+    #Clean patient_id 
     if "patient_id" in df.columns:
         initial_count = len(df)
         df["patient_id"] = pd.to_numeric(df["patient_id"], errors="coerce")
@@ -49,7 +49,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
         if removed > 0:
             logger.warning(f"Removed {removed} rows with invalid patient_id")
 
-    # Step 5: Clean age (with realistic bounds)
+    #Clean age
     if "age" in df.columns:
         initial_count = len(df)
         df["age"] = pd.to_numeric(df["age"], errors="coerce")
@@ -65,7 +65,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
         else:
             logger.warning("No valid age values found")
 
-    # Step 6: Clean gender (flexible mapping)
+    #Clean gender 
     if "gender" in df.columns:
         df["gender"] = df["gender"].astype(str).str.strip().str.lower()
         
@@ -85,7 +85,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
         if invalid_mask.sum() > 0:
             logger.warning(f"Mapped {invalid_mask.sum()} invalid gender values to 'unknown'")
 
-    # Step 7: Convert admission_time (flexible date parsing)
+    #Convert admission_time (flexible date parsing)
     if "admission_time" in df.columns:
         initial_count = len(df)
         df["admission_time"] = pd.to_datetime(
@@ -98,7 +98,7 @@ def clean_ehr(input_path="bronze/ehr.csv",
         if removed > 0:
             logger.warning(f"Removed {removed} rows with invalid timestamps")
 
-    # Step 8: Remove Duplicate Patients (keep latest)
+    #Remove Duplicate Patients
     if "patient_id" in df.columns:
         initial_count = len(df)
         df = df.drop_duplicates(subset="patient_id", keep="last")
@@ -106,15 +106,15 @@ def clean_ehr(input_path="bronze/ehr.csv",
         if removed > 0:
             logger.warning(f"Removed {removed} duplicate patient records")
 
-    # Step 9: Sort by admission_time (if available)
+    #Sort by admission_time
     if "admission_time" in df.columns:
         df = df.sort_values("admission_time").reset_index(drop=True)
 
-    # Step 10: Data Quality Report
+    #Data Quality Report
     logger.info(f"Final shape: {df.shape}")
     logger.info(f"Data quality: {df.notna().sum().to_dict()}")
 
-    # Step 11: Save Clean File
+    #Save Clean File
     os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else ".", exist_ok=True)
     df.to_csv(output_path, index=False)
     logger.info(f"Clean EHR saved to: {output_path}")

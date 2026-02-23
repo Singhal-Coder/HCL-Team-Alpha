@@ -3,25 +3,16 @@ import os
 import logging
 from datetime import datetime
 
-# Setup logging for debugging
+#logging setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
 def clean_vitals(input_path="bronze/vitals.csv",
                  output_path="silver/clean_vitals.csv"):
-    """
-    Cleans the vitals dataset (CSV format) and saves standardized CSV.
     
-    Handles:
-    - CSV format reading
-    - UNIX timestamp conversion to datetime
-    - Numeric field validation (hr, ox, sys, dia)
-    - Case-insensitive column name standardization
-    - Flexible data handling
-    """
 
-    # Step 1: Read CSV file with error handling
+    #Read CSV file
     try:
         df = pd.read_csv(input_path)
         logger.info(f"Successfully read file: {input_path}")
@@ -34,10 +25,10 @@ def clean_vitals(input_path="bronze/vitals.csv",
     except Exception as e:
         raise Exception(f"Error reading vitals file: {str(e)}")
 
-    # Step 2: Standardize Column Names (case-insensitive)
+    #Standardize Column Names
     df.columns = df.columns.str.strip().str.lower()
 
-    # Step 3: Dynamic Schema Validation
+    #Dynamic Schema Validation
     required_columns = ["patientid", "timestamp", "hr", "ox", "sys", "dia"]
     available_cols = [col for col in required_columns if col in df.columns]
     missing_columns = [col for col in required_columns if col not in df.columns]
@@ -48,13 +39,13 @@ def clean_vitals(input_path="bronze/vitals.csv",
     if not available_cols:
         raise ValueError(f"No required columns found. Available: {list(df.columns)}")
 
-    # Step 4: Rename patientId → patient_id (handle both cases)
+    #Rename patientId → patient_id
     if "patientid" in df.columns:
         df = df.rename(columns={"patientid": "patient_id"})
     elif "patient_id" not in df.columns:
         logger.warning("Neither patientId nor patient_id found")
 
-    # Step 5: Clean patient_id
+    #Clean patient_id
     if "patient_id" in df.columns:
         initial_count = len(df)
         df["patient_id"] = pd.to_numeric(df["patient_id"], errors="coerce")
@@ -64,7 +55,7 @@ def clean_vitals(input_path="bronze/vitals.csv",
         if removed > 0:
             logger.warning(f"Removed {removed} rows with invalid patient_id")
 
-    # Step 6: Convert UNIX timestamp to datetime
+    #Timestamp to datetime
     if "timestamp" in df.columns:
         initial_count = len(df)
         
@@ -93,7 +84,7 @@ def clean_vitals(input_path="bronze/vitals.csv",
         if removed > 0:
             logger.warning(f"Removed {removed} rows with invalid timestamps")
 
-    # Step 7: Clean Heart Rate (hr)
+    #Clean Heart Rate
     if "hr" in df.columns:
         initial_count = len(df)
         df["hr"] = pd.to_numeric(df["hr"], errors="coerce")
@@ -104,7 +95,7 @@ def clean_vitals(input_path="bronze/vitals.csv",
             logger.warning(f"Flagged {removed} rows with unrealistic HR values")
         df = df.dropna(subset=["hr"])
 
-    # Step 8: Clean Oxygen Level (ox)
+    #Clean Oxygen Level
     if "ox" in df.columns:
         initial_count = len(df)
         df["ox"] = pd.to_numeric(df["ox"], errors="coerce")
@@ -115,7 +106,7 @@ def clean_vitals(input_path="bronze/vitals.csv",
             logger.warning(f"Flagged {removed} rows with invalid O2 values")
         df = df.dropna(subset=["ox"])
 
-    # Step 9: Clean Systolic Blood Pressure (sys)
+    #Clean Systolic Blood Pressure
     if "sys" in df.columns:
         initial_count = len(df)
         df["sys"] = pd.to_numeric(df["sys"], errors="coerce")
@@ -126,7 +117,7 @@ def clean_vitals(input_path="bronze/vitals.csv",
             logger.warning(f"Flagged {removed} rows with invalid systolic BP values")
         df = df.dropna(subset=["sys"])
 
-    # Step 10: Clean Diastolic Blood Pressure (dia)
+    #Clean Diastolic Blood Pressure
     if "dia" in df.columns:
         initial_count = len(df)
         df["dia"] = pd.to_numeric(df["dia"], errors="coerce")
@@ -137,21 +128,21 @@ def clean_vitals(input_path="bronze/vitals.csv",
             logger.warning(f"Flagged {removed} rows with invalid diastolic BP values")
         df = df.dropna(subset=["dia"])
 
-    # Step 11: Sort by patient_id and timestamp
+    #Sort by patient_id and timestamp
     if "patient_id" in df.columns and "timestamp" in df.columns:
         df = df.sort_values(["patient_id", "timestamp"]).reset_index(drop=True)
 
-    # Step 12: Select Only Required Columns (drop any extra columns like datetime)
+    # Select Only Required Columns (drop any extra columns like datetime)
     required_output_cols = ["patient_id", "timestamp", "hr", "ox", "sys", "dia"]
     available_output_cols = [col for col in required_output_cols if col in df.columns]
     df = df[available_output_cols]
     logger.info(f"Selected output columns: {available_output_cols}")
 
-    # Step 13: Data Quality Report
+    #Data Quality Report
     logger.info(f"Final shape: {df.shape}")
     logger.info(f"Data quality: {df.notna().sum().to_dict()}")
 
-    # Step 14: Save Clean File
+    #Save Clean File
     os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else ".", exist_ok=True)
     df.to_csv(output_path, index=False)
     logger.info(f"Clean vitals saved to: {output_path}")
