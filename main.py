@@ -85,7 +85,7 @@ def main():
     run_step("GOLD: Detect Anomalies", os.path.join("gold", "detect_anomalies.py"))
 
     # ── 4. VISUALIZATIONS ── Generate plots
-    run_step("VISUALIZATIONS: Generate Plots", os.path.join("visualizations", "per_patient_hr", "generate_plots.py"))
+    run_step("VISUALIZATIONS: Generate Plots", os.path.join("visualizations", "generate_plots.py"))
 
     elapsed = time.time() - start
     logging.info("─" * 50)

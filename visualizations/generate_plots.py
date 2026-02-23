@@ -7,7 +7,7 @@ import matplotlib.gridspec as gridspec
 import seaborn as sns
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR = os.path.dirname(os.path.dirname(SCRIPT_DIR)) # Two levels up to reach project root
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 VITALS_PATH = os.path.join(ROOT_DIR, "silver", "clean_vitals.csv")
 ANOMALIES_PATH = os.path.join(ROOT_DIR, "gold", "anomalies.csv")
